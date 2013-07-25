@@ -1,0 +1,1307 @@
+@font-face {
+    font-family: 'GothamBook';
+    src: local('Gotham Book'), local('Gotham Book'), url('../fonts/Gotham Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fjalla One';
+    src: local('FjallaOne-Regular'), local('FjallaOne-Regular'), url('../fonts/FjallaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNue';
+    src: local('HelveticaNeueLTStd-Lt'), local('HelveticaNeueLTStd-Lt'), url('../fonts/HelveticaNeueLTStd-Lt.otf') format('truetype');
+}
+
+
+html, body{
+    font-family: verdana, sans-serif;
+    background-color: #fff;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #000;
+}
+
+header .wrapper .content p{
+    text-align: center;
+}
+
+.wrapper{
+    width: 980px;   
+    /*background-color: red;*/
+    margin: auto;
+}
+
+nav{
+    background-color: #171716;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 625px;
+    padding: 15px 0 15px 0;
+    margin: auto; 
+
+
+}
+
+nav li{
+    float: left;
+    margin-right: 10px;  
+    margin-left: 10px;
+}
+
+nav a{
+    font-family: 'Fjalla One', sans-serif;
+    color: #EEE;
+    font-size: 19px; 
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    text-decoration: none;
+    background-color: grey;
+    color: #EEE;
+}
+
+.nav_ativada{
+    text-decoration: none;
+    background-color: grey;
+    color: #EEE;
+}
+
+.contato_header{
+    color: gray;
+    font-size: 20px;
+
+}
+
+.contato_header img{
+    height: 30px;
+    width: 30px;
+}
+
+.carosel{   
+    background: url('../img/carosel_bg.png') no-repeat center 0 #bd2029;
+    color: #171716;
+    padding: 50px 0 20px 0;    
+
+}
+
+.controle_carrosel{
+    width: 71px;
+    height: 20px;  
+    margin: 30px auto 0 auto;   
+
+}
+
+.control{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url('../img/sprite.png') no-repeat -169px -221px;
+    cursor: pointer;
+}
+
+.control-active{
+    background-position: -166px -240px;
+}
+
+.manchete h1{
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    font-size: 55px;
+
+}
+
+
+h1 > span{
+    color: #eee;
+}
+
+.link_carosel_container{
+    margin-top: 30px;
+    width: 180px;
+}
+
+.link_carosel_container a:hover{
+    text-decoration: none;
+}
+
+.link_carosel_texto{    
+    padding: 15px;
+    background-color: #171716;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link_carosel_texto:hover{
+    background-color: #fff;
+    color: #171716;
+    text-decoration: none;
+}
+
+.texto-carosel{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.arrow{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.arrow:hover{
+    cursor: pointer;    
+}
+
+
+.left_arrow{
+    left: 0;
+    top:410px;
+    background: url('../img/sprite.png') no-repeat -7px -355px rgba(0, 0, 0, 0.15);
+}
+
+.modal .left_arrow{
+    top: 270px;
+    left: 15px;
+    opacity: 0;
+}
+
+.modal-body:hover .left_arrow{
+    opacity: 0.9;
+}
+
+.right_arrow{
+    right: 0;
+    top: 410px;
+    background: url('../img/sprite.png') no-repeat -86px -353px rgba(0, 0, 0, 0.15);
+}
+
+.modal .right_arrow{
+    top: 270px;
+    right: 15px;
+    opacity: 0;
+}
+
+.modal-body:hover .right_arrow{
+    opacity: 0.9;
+}
+
+.main{
+    padding: 0px 0 150px 0;
+    background: url('../img/pw_maze_white.png');
+}
+
+.top-coluna{
+    background:  #171716;
+    color: #EEE;
+    padding:5px 5px 5px 5px;
+    margin-bottom: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+}
+
+.body-coluna{
+    position: relative;
+}
+
+.coluna-content{
+    height: 200px;
+    width: 100%; 
+}
+
+
+.coluna-background{
+    height: 200px;
+    width: 100%;    
+
+    opacity: 1;
+}
+
+.coluna-bk1{
+    background: url('../img/loja.jpg') no-repeat 0px 0px;
+    background-size:286px 200px;
+}
+
+.coluna-bk2{
+    background: url('../img/helmet.jpg') no-repeat 0px 0px; 
+}
+
+.legenda{
+    background-color: #171716;
+    color: #FFF;
+    position: absolute;
+    top: 125px;
+    opacity: 0;
+    width: 100%;
+    height: 75px;
+
+
+    /*Transição para quando tirar o mouse emcima*/
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+
+}
+
+.legenda-content{
+    padding: 5px;
+}
+
+
+.body-coluna:hover{
+    text-decoration: none;
+}
+
+.body-coluna:hover .legenda{
+    opacity: 0.8;
+}
+
+.contato-localizacao-mapa{
+    position: relative;
+}
+
+.contato-localizacao-mapa:hover .legenda{
+    opacity: 0.8;
+} 
+
+
+
+.news{
+    background:  #bd2029; 
+}
+
+.noticia{    
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
+.noticia img{
+    height: 57px;
+    width: 57px;
+}
+
+
+.noticia:hover{
+    opacity: 0.7;
+
+    /*Transição para quando tirar o mouse emcima*/
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+
+.noticia-foto{   
+    float: left;
+}
+
+.noticia-texto{    
+    float: left;
+    margin-left: 10px;
+
+}
+
+.manchete_noticia{
+    font-size: 14px;    
+    color: #171716;
+    font-weight: 300;
+
+
+}
+
+.data_noticia{
+    font-size: 11px;
+    color: #777;
+}
+
+footer{
+    background: #171716;
+    border-top: 1px solid #080807;
+
+}
+.box-footer-container{
+    padding-top: 50px;
+    width: 660px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.box-footer{     
+    width: 200px;   
+    float: left;
+    margin-left: 30px;
+}
+
+.box-footer:first-child{
+    margin-left: 0px;
+}
+
+.box-footer-top{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.box-footer-content{
+    text-align: center;
+    color: #888;
+}
+
+.box-footer-content-bk{
+    width: 63px;
+    height: 63px;    
+    margin: auto;
+}
+
+.box-footer-content-bk-fb{
+    background: url('../img/sprite.png') no-repeat -70px -704px;
+}
+
+.box-footer-content-bk-msg{
+    background: url('../img/sprite.png') no-repeat -70px -933px;
+}
+
+.menu-footer-container{
+    width: 100%;    
+    background: #383836;
+}
+
+.menu-footer{   
+    width: 520px;
+    margin: auto;
+
+}
+.box-footer-content p{
+    margin: 0;
+}
+.menu-footer ul{
+    padding: 25px 0 25px 0;
+}
+
+.menu-footer li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu-footer a{
+    font-family: 'Fjalla One', sans-serif;
+    color: #EEE;
+    font-size: 15px; 
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-footer a:hover{
+    color: #171716;
+}
+
+.esquerda{
+    float: left;
+}
+
+.direita{
+    float: right;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.triangulo-sem-borda{
+    width: 1px;
+    height: 1px;
+    border: solid 25px transparent;
+    border-bottom: none;
+    border-top: solid 25px #78141a;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.segundo_h1{
+    margin-top: 20px;
+}
+
+.boutique_content, .motos_content, .noticia_content, .contato_content, .servicos_content, .empresa_content{
+    padding-top: 25px;
+    padding-bottom: 70px;
+    min-height: 500px;
+
+}
+
+.boutique-menu-lateral{
+    margin: 70px 0 0 0;
+}
+
+.boutique-menu-lateral a{
+    font-family: 'Fjalla One', sans-serif;
+    color: #222;
+    font-size: 15px;
+}
+
+.boutique-menu-lateral ul{
+
+}
+
+
+.accordion-inner{
+    border-right: 1px solid rgb(221, 221, 221);
+    border-left:  1px solid rgb(221, 221, 221);
+
+}
+
+.titulo_categoria_boutique {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0 0 20px 10px;
+    color: #bd2029;
+    text-transform:capitalize;
+}
+
+
+
+.janela_produtos{
+    border-radius: 4px;
+    min-height: 500px;
+}
+
+.produto{
+    width: 150px;
+    height: 300px;
+    border: 1px solid #DDD;
+    margin: 0 0 20px 10px;
+    float: left;   
+}
+
+.produto_img{
+    margin: 10px 10px 20px 10px;
+    min-height: 171px;
+    max-height: 171px;
+}
+
+.produto_nome{
+    text-align: center;
+    margin: 0 10px 5px 10px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #171716;
+}
+
+.produto_preco{
+    text-align: center;
+    margin: 0 10px 5px 10px;
+    font-family: verdana, sans-serif;
+    color: #171716;
+    font-size: 13px;
+}
+
+.produto:hover{
+    -webkit-box-shadow: 0px 4px 4px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 4px 4px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 4px 4px rgba(50, 50, 50, 0.75);
+    /*Transição para quando tirar o mouse emcima*/
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.consulta_erro{
+    margin-left: 10px;
+}
+
+.img_desc_produto {
+    margin-left: 10px;   
+    height: 447px;
+    width:  447px;
+    border: 1px solid #ddd;
+}
+
+.img_desc_produto img{
+
+    height: 447px;
+    width:  447px;
+}
+
+.desc_produto{
+    margin-left: 10px;
+}
+
+.desc_produto h3{
+    margin-top: 0;
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: 1px solid #DDD; 
+}
+
+.desc_produto h3 > span{
+    color: #BD2029;
+}
+
+.desc_produto p{
+    text-align: justify;
+    height: 346px;   
+}
+
+
+.produto_thumbnail{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.thumbs{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.thumbs img{
+    width: inherit;
+    height: inherit;
+}
+
+.modal{
+    width: 600px;
+}
+
+.modal-body{
+    max-height: 400px;
+}
+
+.modal-body img{
+    max-height: 390px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.pagination ul > li > a{
+    color: #171716;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.pagination ul > li > .pagina_atual{
+    color: #fff; 
+    background: #171716;
+}
+
+.pagination ul > li > .pagina_atual:hover{
+    color: #fff; 
+    background: #171716;
+}
+
+.motos_btn_control{
+    width: 240px;
+    margin: auto;
+}
+
+
+.triangulo-direita{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 125px 0 125px 100px;
+    border-color: transparent transparent transparent #bd2029;   
+    background-color: white;
+    margin-right: 20px;
+}
+
+.triangulo-esquerda{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 125px 100px 125px 0;
+    border-color: transparent #383836 transparent transparent;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.moto_novas_btn{    
+    background: url('../img/back_motos.jpg') no-repeat;    
+    background-size:52% 100%;
+    margin-bottom: 20px;
+}
+
+.motos-texto, .motos-divisor, .motos-img{
+    float: left;
+    color: #171716;
+}
+
+.moto_novas_btn .motos-texto{
+    margin-left: 110px;
+}
+
+.motos-texto, .motos-img{
+    width: 320px;    
+    text-align: justify;
+}
+
+
+
+.moto_semi_btn{    
+    background: #383836 url('../img/back_motos2.jpg') no-repeat;    
+    background-size:52% 100%;
+    margin-bottom: 20px;    
+}
+
+.moto_semi_btn .motos-img{
+    margin-left: 110px;
+}
+
+.motos-texto h1{
+    font-family: 'Fjalla One', sans-serif;
+    color: #171716;
+
+}
+
+.motos-texto span{
+    color: #fff;
+}
+
+
+
+.moto_semi_btn .motos-texto{
+    color: #fff;
+}
+
+/* ---- Motos NOVAS -- */
+
+.titulo_pagina h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+}
+
+.titulo_pagina {
+    margin-bottom: 20px;
+}
+
+.motos_categorias li{
+    display: inline-block;
+}
+
+.motos_categorias_ativa{
+    opacity: 0.6;
+}
+
+.motos_categorias li:hover{
+    opacity: 0.6;
+    /*Transição para quando tirar o mouse emcima*/
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.motos_categorias ul{
+    margin-left: 235px;
+}
+
+.motos_categorias div{
+    width: 120px;
+    height: 252px;
+
+}
+
+.motos_titulo{
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.enduro{
+    background: url('../img/cat1.jpg') no-repeat; 
+}
+
+
+.sport{
+    background: url('../img/cat4.jpg') no-repeat; 
+}
+
+.roadster{
+    background: url('../img/cat2.jpg') no-repeat; 
+}
+
+.tour{
+    background: url('../img/cat3.jpg') no-repeat; 
+}
+
+.motos_lista li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.motos_lista a{
+    text-decoration: none;
+    color: #171716;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+#motos_novas{
+    opacity: 0;
+}
+
+.motos_painel{
+    min-height: 311px;
+}
+
+.cantoneira{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    z-index: 20;
+    background: url('../img/cantoneira.png');
+
+}
+
+.cantoneira a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.cantoneira_texto{
+    margin-top: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    color: #171716;
+    margin: 130px 0 0 70px;
+}
+
+/* ------------------------ */
+
+
+.moto_desc-galeria{
+    margin-bottom: 30px;
+}
+
+.moto_desc-thumbMain{
+    width: 690px;
+    height: 470px;
+    float: left;
+}
+
+.moto_desc-thumbMain img{
+    width: inherit;
+    height:  inherit;
+}
+
+.moto_desc-thumb, .moto_desc-thumb_semi{
+    width: 207px;
+    height: 470px;    
+    float: left;
+    margin-left: 20px;
+
+}
+
+.moto_desc-thumb_semi img{
+    width: inherit;
+    height:  inherit; 
+}
+
+.moto_desc-thumb_semi{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.moto_desc-thumb li, .moto_desc-thumb_semi li{
+    width: 207px;
+    height: 141px;
+    margin-bottom: 23.5px;
+    cursor: pointer;
+}
+
+.moto_desc-thumb li:last-child, .moto_desc-thumb_semi li:last-child{    
+    margin-bottom: 0px;
+}
+
+#moto_desc .titulo_pagina{
+    opacity: 0;
+}
+
+#moto_desc .titulo_pagina, #moto_desc .moto_desc-galeria{
+    opacity: 0;
+}
+
+.lista_dados_moto{
+    font-family: 'Fjalla One', sans-serif;
+    width: 690px;
+    float: left;
+}
+
+.descricao{
+    width: 207px; 
+    font-family: 'Fjalla One', sans-serif;
+    float: left;
+    margin-left: 7px;
+    padding-left: 12px;
+    border-left: 1px solid #ddd;
+    min-height: 480px;
+}
+
+.descricao p{
+    font-family: verdana, sans-serif;
+    text-align:left;
+}
+
+
+/*CSS para semi usadas*/
+
+.motos_semi_lista{
+    font-family: GothamBook;
+}
+
+.motos_semi_manchete{
+
+    margin-bottom: 20px;
+
+}
+
+.motos_semi_manchete_img, .motos_semi_manchete_dados {
+    float: left;
+}
+
+.motos_semi_manchete_img{    
+    margin-left: 100px;
+}
+
+.motos_semi_manchete_img img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.motos_semi_manchete_dados{
+    width: 500px;
+    height: 200px;  
+    margin-left: 20px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    background: #eee;
+}
+
+.motos_semi_manchete_dados h3{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.preco_semiNova{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detalhes_btn_semiNova{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detalhes_btn_semiNova a{
+    text-decoration: none;
+    color: #171716;
+}
+
+#motos_semi{
+    opacity: 0;
+}
+
+/* ---------------------- */
+
+.breadcrumb{
+    padding: 0;
+    background: transparent;
+}
+
+.noticia_content h1{
+    font-family: 'Fjalla One', sans-serif;
+    border-bottom: 1px solid #ddd;
+}
+
+.social-likes{
+    color: #AAA;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.social-likes li{
+    margin-bottom: 10px;
+}
+
+.fb-like-box{
+    margin-top: 50px;
+}
+
+/* sistema incluir noticia */
+
+#editor_controles{
+    width: 542px;
+}
+
+#edicao_post{
+    height: 300px;
+    width: 542px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    border-top: 0px;
+    overflow-y: auto;
+}
+
+/*------------------------------------------*/
+
+.noticia_teaser_main{
+    border-bottom:  1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.noticia_teaser_main-img, .noticia_teaser_main-texto{
+    float: left;
+}
+
+.noticia_teaser_main-img img{
+    height: 200px;
+    width: 200px;
+}
+
+.noticia_teaser_main-texto{
+    width: 420px;
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.noticia_teaser_main-texto h4, .noticia_teaser_lista-manchete h4{
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 0;
+}
+
+.noticia_teaser_lista-manchete h4{
+    color: #BD2029;
+}
+
+.noticia_teaser_main-data, .noticia_teaser_mini-data, .noticia_teaser_lista-data{
+    font-size: 11px;
+    color: #999;
+    margin: 3px 0 3px 0;
+}
+
+.noticia_teaser_mini-content a, .noticia_teaser_main a{
+    color: #333333;
+}
+
+.noticia_teaser_mini-content{
+    margin-bottom: 40px;
+}
+
+.noticia_teaser_mini-img img{
+    height: 144px;
+    width: 144px;
+}
+
+.noticia_teaser_mini-texto h4{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+.noticia_teaser_mini-content .coluna3:hover , .noticia_teaser_main:hover, .noticia_teaser_lista-content:hover{
+    opacity: 0.7;
+
+    /*Transição para quando tirar o mouse emcima*/
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+}
+
+.noticia_content h2{
+    font-family: 'Fjalla One', sans-serif;
+    color: #BD2029;
+    margin-bottom: 20px;
+    font-size: 38.5px;
+
+}
+
+.noticia_teaser_vitrine_produtos .produto{
+    width: 135px;
+    margin-left: 10px;
+}
+
+.noticia_teaser_lista-content{
+    border-bottom:  1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.noticia_teaser_lista a:hover{
+    text-decoration: none;
+}
+
+/*------------------------------*/
+
+.help-inline{
+    font-size: 10px;
+}
+
+.foto-erro-consulta{
+    height: inherit;
+    width: inherit;
+    border: 1px solid #ccc;
+}
+
+/*-----------------------------------------*/
+
+.contato_content{
+    background: url('../img/pw_maze_white.png');   
+
+}
+
+.contato_content h1{
+    font-family: 'Fjalla One', sans-serif;
+    color: #BD2029;
+}
+.contato-conteudo{
+    margin-top: 70px;
+}
+
+.contato-form{
+    width: 512px;
+    float: left;
+}
+
+.contato_content input, .contato_content textarea{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #AAA;
+    border-radius: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 1px 1px 0px inset;
+    width: 500px;
+}
+
+.contato_content  textarea{
+    height: 100px;
+    width: 500px;
+}
+
+.contato-form-input legend{
+    border: 0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    color:#171716;
+    font-size: 15px;
+}
+
+.contato-localizacao{
+    width: 438px;    
+    margin-left: 30px;
+    float: left;
+}
+
+.contato-localizacao-dados{
+    height: 183px;
+    background-color: #171716;
+    margin-bottom: 30px;
+}
+
+.contato-localizacao-dados img{
+    height: 50%;
+    width: 50%;
+}
+
+.contato-localizacao-mapa{
+    height: 183px;    
+}
+
+/*------------------------------------------*/
+
+.servicos-painel{
+    background:#bd2029;
+}
+.servicos-conteudo-container{
+    height: 350px; 
+    background: url('../img/bg-servicos-fundo.png') no-repeat;
+
+}
+
+.servicos_content h1{
+    font-family: 'Fjalla One', sans-serif;
+    color: #BD2029;
+}
+
+.servicos-conteudo{
+    padding-top: 50px;
+    color: #eee;
+    font-family: 'HelveticaNue', sans-serif;
+    line-height: 24px;
+
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.servicos-conteudo h1{
+    color: #171716;
+    font-size: 45px;
+}
+
+.servicos-conteudo img{
+    height: 250px;
+    width: 473px;
+}
+
+/*---------------------------------------*/
+
+.empresa_content{
+    background: url('../img/pw_maze_white.png');   
+}
+
+.empresa_content .wrapper{
+
+}
+
+.empresa_content h1{
+    font-family: 'Fjalla One', sans-serif;
+    color: #BD2029;
+}
+
+.empresa-texto{
+    margin-top: 50px; 
+    background: #fff;
+    padding: 40px 0px 40px 0px;    
+}
+
+.empresa-texto-img_head img{
+    width: 980px;
+    height: 300px;
+    margin: 30px 0 30px 0;
+}
+
+.empresa-texto  h1{
+    font-family: 'Fjalla One', sans-serif;
+    color: #171716;
+    text-align: center;
+}
+
+.empresa-texto-content{
+    width: 800px;
+    margin-left: 80px;
+}
+
+
+.empresa-texto-content p{
+    font-family: 'HelveticaNue', sans-serif;
+    font-size: 22px;
+    color: #171716;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 30px;
+
+}
+
+.empresa_content b{
+    color:#BD2029;
+}
+
+.empresa-texto-content h3{
+    font-family: 'Fjalla One', sans-serif;
+    color: #171716;
+}
+
+.empresa-texto-content-secao{
+
+}
+
+.divisor{
+    margin: 30px 0 0px 0;
+    height: 1px;
+    background: #eee;
+    border-bottom: 1px solid #e2e2e2;
+
+}
+
+.degrade{
+    height: 30px;
+
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #EEEEEE 0%, #FFFFFF 70%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 70%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #EEEEEE 0%, #FFFFFF 70%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EEEEEE), color-stop(0.7, #FFFFFF));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #EEEEEE 0%, #FFFFFF 70%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    margin-bottom: 20px;
+}
+
+.tabela_specs{
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.resultado_contato{
+    color: #BD2029;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.btn_contato{
+    width: 50px;
+    height: 30px;
+    background: #BD2029;
+    color: #fff;
+    padding: 10px 25px 0px 27px;
+    cursor: pointer;
+}
+
+.img_produto_container .popover.right .arrow {
+    top: 37%;
+}
+
+.img_produto_container .popover.right {
+    margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+#slider{
+    width: 920px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;   
+}
+
+.slide{
+    position: absolute;
+    height: 300px;
+    /*controla o tamanho de cada slide. Os slides HERDAM*/
+    overflow: hidden;   
+
+}
+
+.slide1{
+    height: inherit;
+    width: inherit;
+    z-index: 4;
+    opacity: 1;
+
+}
+.slide2{
+    height: inherit;
+    width: inherit;
+    z-index: 3;
+    opacity: 0;
+
+}
+.slide3{
+    height: inherit;
+    width: inherit;
+    z-index: 2;
+    opacity: 0;
+
+}
+.slide4{
+    height: inherit;
+    width: inherit;
+    z-index: 1;
+    opacity: 0;
+}

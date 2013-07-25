@@ -1,0 +1,65 @@
+.carosel{
+    background: url('../img/carosel_bg.png') no-repeat center 0 #bd2029;
+    color: #171716;
+    padding: 60px 0 25px 0;
+}
+
+
+.carosel-content{
+    height: 400px;
+    width: 920px;
+    margin: 0 30px 0 30px;
+    display: relative;
+    overflow: hidden;     
+}
+
+
+.slide1{
+    position: absolute;
+    z-index: 4;
+    height: inherit;
+    width: inherit;
+    opacity:1;
+
+}
+.slide2{
+    position: absolute;
+    z-index: 3;
+    height: inherit;
+    width: inherit;
+    opacity: 0;
+
+}
+
+.slide3{
+    position: absolute;
+    z-index: 2;
+    height: inherit;
+    width: inherit;
+    opacity: 0;
+
+}
+
+.slide4{
+    position: absolute;
+    z-index: 1;
+    height: inherit;
+    width: inherit;  
+    opacity: 0;
+
+}
+
+.slide_text{
+    width: 360px;
+    height: inherit;
+    float: left;
+}
+
+.slide_img{
+    width: 530px;
+
+    margin-left: 30px;
+    float: left;
+    
+
+}

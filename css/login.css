@@ -1,0 +1,33 @@
+/* 
+    Document   : login
+    Created on : 18/03/2013, 17:17:54
+    Author     : Berzuca
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+html,body{
+    background: url('../img/pw_maze_white.png') repeat;
+}
+
+.login_container{
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #bbb;
+    border-radius: 4px;
+    
+}
+
+h1{
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+}

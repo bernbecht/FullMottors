@@ -1,0 +1,99 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Full Mottors - Multimarcas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
+
+
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>        
+        <script type="text/javascript" src="js/transitions.js"></script>
+        <script type="text/javascript" src="js/carosel.js"></script>
+
+
+        <script type="text/javascript" src="js/JqueryPlot/jquery.jqplot.min.js"></script>
+        <script type="text/javascript" src="js/JqueryPlot/plugins/jqplot.barRenderer.min.js"></script>
+        <script type="text/javascript" src="js/JqueryPlot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+        <script type="text/javascript" src="js/JqueryPlot/plugins/jqplot.pointLabels.min.js"></script>
+           
+        <script type="text/javascript" src="js/JqueryPlot/plugins/jqplot.dateAxisRenderer.min.js"></script>
+        <script type="text/javascript" src="js/JqueryPlot/plugins/jqplot.canvasTextRenderer.min.js"></script>
+        <script type="text/javascript" src="js/JqueryPlot/plugins/jqplot.canvasAxisTickRenderer.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.jqplot.min.css" />
+
+
+        <script type="text/javascript">
+            
+            function troca(){
+                $('#troca').click(function(){
+                    var conteudo= $('#chart3');
+                    
+                    $(conteudo).appendTo('#grafico');
+                    
+                });
+            }
+            $(document).ready(function(){
+                
+                troca();
+                
+                var line1 = [['Cup Holder Pinion Bob', 1]];
+ 
+                var plot1 = $.jqplot('chart3', [line1], {
+                    title: 'Concern vs. Occurrance',
+                    series:[{renderer:$.jqplot.BarRenderer}],
+                    axesDefaults: {
+                        tickRenderer: $.jqplot.CanvasAxisTickRenderer ,
+                        tickOptions: {
+                            angle: 30,
+                            fontSize: '10pt'
+                        }
+                    },
+                    axes: {
+                        xaxis: {
+                            renderer: $.jqplot.CategoryAxisRenderer
+                        }
+                    }
+                });
+            });
+     
+        </script>
+
+    </head>
+    <body>
+
+        <div id="chart2" style="opacity:1;">
+            <div id="chart3" style="width:500px; height:300px;"></div>
+        </div>
+
+
+
+        <button id="troca" class="btn btn-info visualizacoes_btn" data-toggle="modal" href="#modal_visualizacoes">Visualizações</button>
+
+
+        <div id="modal_visualizacoes" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Visualizações do Produto</h3>
+            </div>
+            <div class="modal-body">
+                <div id="grafico" style="width:500px; height:300px;"></div>
+
+            </div>
+            <div class="modal-footer">
+                <button  type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Ok</button>
+            </div>
+        </div>
+
+    </body>
+
+
+</html>
+
+
