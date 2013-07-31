@@ -1,5 +1,6 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT']."/new/config.php");
+//include($_SERVER['DOCUMENT_ROOT']."/new/config.php");
+include($_SERVER['DOCUMENT_ROOT']."/FullMottors/config.php");
 ?>
 
 <!DOCTYPE html>
