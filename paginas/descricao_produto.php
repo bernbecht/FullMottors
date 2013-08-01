@@ -1,85 +1,92 @@
-<?php
-require_once '../template/head.php';
-require_once '../classes/CProduto.php';
-require_once '../classes/CImagem.php';
-require_once '../classes/CVisitas.php';
+<!DOCTYPE html>
+<html>
+    <?php
+    require_once '../template/head.php';
+    require_once '../classes/CProduto.php';
+    require_once '../classes/CImagem.php';
+    require_once '../classes/CVisitas.php';
 
-$id_produto = $_GET['produto'];
+    $id_produto = $_GET['produto'];
 
-$produto = new CProduto;
-$imagem = new CImagem;
-$visita = new CVisitas;
+    $produto = new CProduto;
+    $imagem = new CImagem;
+    $visita = new CVisitas;
 
-$consulta = $produto->consultaProduto($id_produto);
+    $consulta = $produto->consultaProduto($id_produto);
 
-$fetch = pg_fetch_object($consulta);
+    $fetch = pg_fetch_object($consulta);
 
-$consultaImg = $imagem->consultaImg($id_produto);
+    $consultaImg = $imagem->consultaImg($id_produto);
 
-$num_rows_img = pg_num_rows($consultaImg);
+    $num_rows_img = pg_num_rows($consultaImg);
 
-$fetchImg = pg_fetch_object($consultaImg);
+    $fetchImg = pg_fetch_object($consultaImg);
 
-$data = date("Y-m-d");
+    $data = date("Y-m-d");
 
-$visita->incluirVisita($id_produto, 1, $data);
+    $visita->incluirVisita($id_produto, 1, $data);
 
-$preco = number_format($fetch->preco, 2, ',', '');
+    $preco = number_format($fetch->preco, 2, ',', '');
 
 
-$par = number_format($fetch->parcelas, 2, '.', '');
-$prazo = $fetch->prazo / $par;
-$prazo = number_format($prazo, 2, ',', '');
+    $par = number_format($fetch->parcelas, 2, '.', '');
+    $prazo = $fetch->prazo / $par;
+    $prazo = number_format($prazo, 2, ',', '');
 
-$output = 'html>
-    <head>
-        <title>%TITLE%</title>';
-$title = "TITLE";
+    /* $output = '<html>
+      <head>
+      <title>%TITLE%</title>';
+      $title = "TITLE";
 
-$output = str_replace('%TITLE%', $title, $output);
-?>
+      $output = str_replace('%TITLE%', $title, $output); */
+    ?>
 
-<div class="boutique_content">
-    <div class="wrapper">
-        <div class="coluna-row">
-            <div class="coluna3 coluna-inicial">
-                <?php
-                require_once '../template/menu_lateral_boutique.php';
-                ?>
+    <body>
+        <?php
+        require_once '../template/header.php';
+        ?>
 
-            </div>
-            <div class="coluna9">
-                <div class="titulo_categoria_boutique">
-                    <h1><?php print $fetch->categoria . " " . $fetch->marca . " " . $fetch->nome ?></h1>
-                </div>
+        <div class="boutique_content">
+            <div class="wrapper">
+                <div class="coluna-row">
+                    <div class="coluna3 coluna-inicial">
+                        <?php
+                        require_once '../template/menu_lateral_boutique.php';
+                        ?>
 
-                <div class="janela_produtos">  
+                    </div>
+                    <div class="coluna9">
+                        <div class="titulo_categoria_boutique">
+                            <h1><?php print $fetch->categoria . " " . $fetch->marca . " " . $fetch->nome ?></h1>
+                        </div>
 
-                    <?php
-                    print ' <div class="coluna8 coluna-inicial">
+                        <div class="janela_produtos">  
+
+                            <?php
+                            print ' <div class="coluna8 coluna-inicial">
                         <div class="img_desc_produto">';
 
-                    if ($num_rows_img > 0) {
-                        print '<img src="../img/boutique/' . $fetchImg->nome_img . '" />';
-                    } else {
-                        print 'Não há imagens do produto';
-                    }
+                            if ($num_rows_img > 0) {
+                                print '<img src="../img/boutique/' . $fetchImg->nome_img . '" />';
+                            } else {
+                                print 'Não há imagens do produto';
+                            }
 
-                    print '</div>
+                            print '</div>
                         <div class="produto_thumbnail">                            
                             <ul class="ul_thumbnail">';
 
-                    if ($num_rows_img > 0) {
-                        do {
-                            print '<li class="thumbs"><img src="../img/boutique/' . $fetchImg->nome_img . '" /></li>';
-                        } while ($fetchImg = pg_fetch_object($consultaImg));
-                    } else {
-                        print 'Não há imagens do produto';
-                    }
+                            if ($num_rows_img > 0) {
+                                do {
+                                    print '<li class="thumbs"><img src="../img/boutique/' . $fetchImg->nome_img . '" /></li>';
+                                } while ($fetchImg = pg_fetch_object($consultaImg));
+                            } else {
+                                print 'Não há imagens do produto';
+                            }
 
-                    print '</ul></div></div>';
+                            print '</ul></div></div>';
 
-                    print '<div class="coluna4">
+                            print '<div class="coluna4">
                         <div class="desc_produto">
                             <h3>Descrição</h3>
 
@@ -98,28 +105,30 @@ $output = str_replace('%TITLE%', $title, $output);
                             <p>' . $fetch->caract . '</p>                            
                         </div>                        
                     </div>';
-                    ?>
+                            ?>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
                     <div class="clear"></div>
                 </div>
             </div>
-            <div class="clear"></div>
+
+            <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel"><?php print $fetch->categoria . " " . $fetch->marca . " " . $fetch->nome ?></h3>
+                </div>
+                <div class="modal-body">
+                    <div id="backBtnCaroselModal" class="arrow left_arrow"></div>
+                    <div id="nextBtnCaroselModal" class="arrow right_arrow"></div>
+                </div>                            
+            </div>
+
         </div>
-    </div>
-
-    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="myModalLabel"><?php print $fetch->categoria . " " . $fetch->marca . " " . $fetch->nome ?></h3>
-        </div>
-        <div class="modal-body">
-            <div id="backBtnCaroselModal" class="arrow left_arrow"></div>
-            <div id="nextBtnCaroselModal" class="arrow right_arrow"></div>
-        </div>                            
-    </div>
-
-</div>
 
 
-<?php
-require_once '../template/footer.php';
-?>
+        <?php
+        require_once '../template/footer.php';
+        ?>
+    </body>
+</html>

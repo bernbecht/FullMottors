@@ -76,7 +76,7 @@ $fetch = pg_fetch_object($consulta);
         require_once '../template/header.php';
         ?>
 
- 
+
         <?php
         print '<div class="noticia_content">
     <div class="wrapper">';
@@ -159,3 +159,6 @@ $fetch = pg_fetch_object($consulta);
         <?php
         require_once '../template/footer.php';
         ?> 
+
+    </body>
+</html>
