@@ -41,7 +41,7 @@ function subirPagina(){
 }
 
 /*Inclui uma noticia por AJAX*/
-function incluiSemiNovaAjax(){    
+function addProductAjax(){    
       
     $('#enviar').click(function(){        
         $('#produto-form').ajaxSubmit( {            
@@ -105,6 +105,8 @@ function controleModalUploadFoto(){
 
 $(document).ready(function(){ 
     controleModalUploadFoto(); 
-    incluiSemiNovaAjax();
+    addProductAjax();
+    
+    alert("opa");
     
 });

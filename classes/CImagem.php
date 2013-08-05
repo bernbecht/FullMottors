@@ -18,7 +18,7 @@ class CImagem {
         // Altura máxima em pixels
         $altura = 1000;
         // Tamanho máximo do arquivo em bytes
-        $tamanho = 1000000;
+        $tamanho = 10000000;
 
         // Verifica se o arquivo é uma imagem
         if (!preg_match("/^image\/(pjpeg|jpeg|png|gif|bmp)$/", $foto["type"])) {
