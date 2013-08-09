@@ -1,9 +1,8 @@
 <?php
 
-
 require_once APP_CLASSES . "/CConexao.php";
 
-class CategoriaDao {
+class CCategoriaDao {
 
     public static function getAll() {
         $conexao = new CConexao();
@@ -34,5 +33,18 @@ class CategoriaDao {
         return $query;
     }
 
+    public static function insertObjectBD($object, $connection) {
+
+        $nome = $object->getNome();
+
+        $sql = "INSERT INTO categoria (nome) 
+                VALUES ('$nome')";
+
+        $query = pg_query($connection, $sql);
+
+        return $query;
+    }
+
 }
+
 ?>
