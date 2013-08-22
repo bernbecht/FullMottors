@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <?php
+    require_once '../config.php';
     require_once '../template/head.php';
     require_once '../classes/CSemi.php';
     require_once '../classes/CImagem.php';

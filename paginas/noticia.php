@@ -1,4 +1,5 @@
 <?php
+require_once '../config.php';
 require_once '../classes/CNoticia.php';
 require_once '../classes/CVisitas.php';
 require_once '../config.php';

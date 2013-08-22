@@ -1,3 +1,7 @@
+<?php
+    include_once 'config.php';
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -66,13 +70,11 @@
                                 <h1>Linha de <span>Motos</span></h1>
                             </div>
                             <div class="texto-carosel">
-                                A Full Mottors trabalha com uma variedade de marcas de motos.           
-                                 A Full Mottors trabalha com uma variedade de marcas de motos.
-                                  A Full Mottors trabalha com uma variedade de marcas de motos.
-                                   A Full Mottors trabalha com uma variedade de marcas de motos.
+                                A <b>Full Mottors</b> é especializada em motos de <b>alta cilindrada</b>.
+                                Na nossa garagem, você encontra motos <b>BMW</b> e <b>Kawasaki 0 KM</b>  e diversas outras <b>semi-novas</b>.
                             </div>
                             <div class="link_carosel_container">
-                                <a href="#" class=""><div class="link_carosel_texto">Conheça as Motos</div></a>
+                                <a href="<?php print $path_paginas."/motos.php"?>" class=""><div class="link_carosel_texto">Conheça as nossas Motos</div></a>
                             </div>
                         </div>
                         <div class="slide_img">
@@ -82,14 +84,15 @@
                     <div class="slide2">
                         <div class="slide_text">
                             <div class="manchete">
-                                <h1><span>Capacetes</span></h1>
+                                <h1><span>Boutique</span></h1>
                                 <h1 class="segundo_h1">e Acessórios</h1>
                             </div>
                             <div class="texto-carosel">
-                                A Full Mottors trabalha com uma variedade de marcas de motos.                                       
+                                Os <b>equipamentos</b> vendidos na nossa loja são <b>reconhecidos mundialmente</b>, utilizados pelos
+                                pilotos do mundial do <b>MotoGP</b> e do <b>WSBK</b>.
                             </div>
                             <div class="link_carosel_container">
-                                <a href="#" class=""><div class="link_carosel_texto">Veja mais</div></a>
+                                <a href="<?php print $path_paginas."/boutique.php"?>" class=""><div class="link_carosel_texto">Veja mais</div></a>
                             </div>
                         </div>
                         <div class="slide_img">
@@ -99,33 +102,18 @@
                     <div class="slide3">
                         <div class="slide_text">
                             <div class="manchete">
-                                <h1>Linha de <span>Motos</span></h1>
+                                <h1>Serviços e </h1>
+                                <h1 class="segundo_h1"><span>Manutenção</span></h1>
                             </div>
                             <div class="texto-carosel">
-                                A Full Mottors trabalha com uma variedade de marcas de motos.                                       
+                                <p>A nossa oficina está preparada para cuidar da sua moto do jeito que ela merece.</p>
                             </div>
                             <div class="link_carosel_container">
-                                <a href="#" class=""><div class="link_carosel_texto">Conheça as Motos</div></a>
+                                <a href="<?php print $path_paginas."/servicos.php"?>" class=""><div class="link_carosel_texto">Conheça os nossos Serviços</div></a>
                             </div>
                         </div>
                         <div class="slide_img">
                             <img src="img/bmw_3.jpg" />
-                        </div>
-                    </div>
-                    <div class="slide4">
-                        <div class="slide_text">
-                            <div class="manchete">
-                                <h1>Linha de <span>Motos</span></h1>
-                            </div>
-                            <div class="texto-carosel">
-                                A Full Mottors trabalha com uma variedade de marcas de motos.                                       
-                            </div>
-                            <div class="link_carosel_container">
-                                <a href="#" class=""><div class="link_carosel_texto">Conheça as Motos</div></a>
-                            </div>
-                        </div>
-                        <div class="slide_img">
-                            <img src="img/bmw_4.jpg" />
                         </div>
                     </div>
                 </div>
@@ -133,15 +121,10 @@
                     <div id="control_carosel-1" class="control control-active"></div>
                     <div id="control_carosel-2" class="control"></div>
                     <div id="control_carosel-3" class="control"></div>
-                    <div id="control_carosel-4" class="control"></div>
-
                 </div> 
             </div>
             <div id="nextBtnCarosel" class="arrow right_arrow"></div>
         </div>
-
-
-
 
 
 
@@ -150,7 +133,7 @@
                 <div class="triangulo-sem-borda"></div>
                 <div class="coluna-row">
                     <div class="coluna4 coluna-inicial">
-                        <a href="#">
+                        <a href="<?php print $path_paginas."/empresa.php"?>">
                             <div class="top-coluna">
                                 Full Mottors
                             </div>
@@ -159,7 +142,7 @@
                                     <div class="coluna-background coluna-bk1"></div>
                                     <div class="legenda">
                                         <div class="legenda-content">
-                                            Conheça os produtos da nossa boutique
+                                            Somos viciados em velocidade. Conheça mais sobre a nossa loja.
                                         </div>
                                     </div>
                                 </div>
@@ -171,7 +154,7 @@
                     </div>
 
                     <div class="coluna4">
-                        <a href="#">
+                        <a href="<?php print $path_paginas."/boutique.php"?>">
                             <div class="top-coluna">
                                 Boutique
                             </div>
@@ -180,7 +163,7 @@
                                     <div class="coluna-background coluna-bk2"></div> 
                                     <div class="legenda">
                                         <div class="legenda-content">
-                                            Conheça os produtos da nossa boutique
+                                            As melhores marcas para a melhor proteção. Veja mais.
                                         </div>
                                     </div>
                                 </div>

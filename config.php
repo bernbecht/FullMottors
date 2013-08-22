@@ -1,9 +1,8 @@
 <?php
 
-//$path = "http://" . $_SERVER['SERVER_NAME'] . '/new/';
 
 /*
- * PATHs PHP
+ * PATHs PHP for REQUIRE and INCLUDE
  */
 
 define("APP_ROOT", realpath(dirname(__FILE__)));
@@ -12,17 +11,18 @@ define("APP_DAO", APP_ROOT . '/DAO/');
 define("APP_CLASSES", APP_ROOT . '/classes/');
 define("APP_IMG", APP_ROOT . '/img/');
 define("APP_SITEMA", APP_ROOT . '/sistema/');
-define ("APP_TEMPLATE",APP_ROOT."/template/");
-
-
-
+define ("APP_TEMPLATE", APP_ROOT . "/template/");
+define ("APP_PAGINAS", APP_ROOT."/paginas/");
 
 /*
- * PATHs JS
+ * PATHs SRC and HREF using PHP
  */
 $path = "http://" . $_SERVER['SERVER_NAME'] . ':8012/FullMottors';
+//TODO: trocar para o padrão
 $path_css = $path . "/css/";
+//TODO: trocar para o padrão
 $path_js = $path . "/js/";
-$path_img = $path."/img/";
+$path_img = $path . "/img";
+$path_paginas = $path . "/paginas";
 ?>
- 
+

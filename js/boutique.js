@@ -135,6 +135,4 @@ function btnPaginacao(){
     
 $(document).ready(function(){        
     getProdutosBoutiqueMenu();
-        
-    alert("boutique");
 });

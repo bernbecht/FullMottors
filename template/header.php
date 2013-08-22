@@ -11,7 +11,7 @@
             <div class="wrapper">
                 <div class="content">
                     <p>
-                        <a href="<?php print $path . 'index.php' ?>"><img src="<?php print $path . 'img/logo3.png' ?>" /></a>
+                        <a href="<?php print $path . '/index.php' ?>"><img src="<?php print $path_img . '/logo3.png' ?>" /></a>
                     </p>
                     <div class="contato_header">
                         <div class="esquerda">
@@ -29,12 +29,12 @@
             <div class="wrapper">
                 <div class="content">
                     <ul class="navegacao">
-                        <li><a id="motos-nav" href="<?php print $path . 'paginas/motos.php' ?>">Motos</a></li>
-                        <li><a id="boutique-nav" href="<?php print $path . 'paginas/boutique.php' ?>">Boutique</a></li>
-                        <li><a id="noticia-nav" href="<?php print $path . 'paginas/noticia_teaser.php' ?>">Notícias</a></li>
-                        <li><a id="servicos-nav" href="<?php print $path . 'paginas/servicos.php' ?>">Serviços</a></li>                        
-                        <li><a id="empresa-nav" href="<?php print $path . 'paginas/empresa.php' ?>">Empresa</a></li>
-                        <li><a id="contato-nav" href="<?php print $path . 'paginas/contato.php' ?>">Contato</a></li>
+                        <li><a id="motos-nav" href="<?php print $path_paginas . '/motos.php' ?>">Motos</a></li>
+                        <li><a id="boutique-nav" href="<?php print $path_paginas . '/boutique.php' ?>">Boutique</a></li>
+                        <li><a id="noticia-nav" href="<?php print $path_paginas . '/noticia_teaser.php' ?>">Notícias</a></li>
+                        <li><a id="servicos-nav" href="<?php print $path_paginas . '/servicos.php' ?>">Serviços</a></li>
+                        <li><a id="empresa-nav" href="<?php print $path_paginas . '/empresa.php' ?>">Empresa</a></li>
+                        <li><a id="contato-nav" href="<?php print $path_paginas . '/contato.php' ?>">Contato</a></li>
                         <div class="clear"></div>
                     </ul>
 

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <?php
+    require_once '../config.php';
     require_once '../template/head.php';
     require_once '../template/header.php';
     ?>
@@ -16,8 +17,7 @@
                         <div class="wrapper">
                             <div class="motos-texto">
                                 <h1>MOTOS <span>0 KM</span></h1>
-                                A FULL MOTTORS é a única loja da cidade que possui os modelos 0 KM das motos BMW. 
-                                <div>Clique aqui e confira o nosso catálogo.</div>
+                                <p>A FULL MOTTORS é a única loja da cidade que possui os modelos 0 KM das motos BMW. Clique aqui e confira o nosso catálogo.</p>
                             </div>
 
                             <div class="motos-divisor">
@@ -46,8 +46,7 @@
 
                             <div class="motos-texto">
                                 <h1><span>MOTOS</span> SEMI-NOVAS</h1>
-
-                                Além dos modelos 0 KM, a FULL MOTTORS possui vários modelos de semi-novas 
+                                <p>Além dos modelos 0 KM, a FULL MOTTORS possui vários modelos de semi-novas</p>
                             </div>
 
                             <div class="clear"></div>

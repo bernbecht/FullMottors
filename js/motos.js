@@ -7,9 +7,6 @@
  */
 
 
-path = location.protocol + "//" + location.host + "/FullMottors/";
-path_img = path+"img/";
-
 
 motos_novas = '<div id="motos_novas">\n\
        <div class="wrapper"> \n\
@@ -36,11 +33,11 @@ motos_novas = '<div id="motos_novas">\n\
               </div>     \n\
            <div class="motos_lista"> \n\
                    <ul>          \n\
-                       <li><a href="'+path+'paginas/motos/r1200gsa.php"><img src="'+path_img+'enduro/r1200gsa.jpg" /><div class="motos_nome">BMW R 1200 GS Adventure</div></a></li>\n\
-                        <li><a href="'+path+'paginas/motos/r1200gs.php"><img src="'+path_img+'enduro/200gs.jpg" /><div class="motos_nome">BMW R 1200 GS</div></a></li>  \n\
-                      <li><a href="'+path+'paginas/motos/f800gs.php"><img src="'+path_img+'enduro/f800gs.jpg" /><div class="motos_nome">BMW F 800 GS</div></a></li>   \n\
-                     <li><a href="'+path+'paginas/motos/g650gs.php"><img src="'+path_img+'enduro/g650.jpg" /><div class="motos_nome">BMW G 650 GS</div></a></li>   \n\
-                     <li><a href="'+path+'paginas/motos/g650gs_sertao.php"><img src="'+path_img+'enduro/GS_sertao.jpg" /><div class="motos_nome">BMW G 650 GS SERTÃO</div></a></li> \n\
+                       <li><a href="'+path_paginas+'/motos/r1200gsa.php"><img src="'+path_img+'/enduro/r1200gsa.jpg" /><div class="motos_nome">BMW R 1200 GS Adventure</div></a></li>\n\
+                        <li><a href="'+path_paginas+'/motos/r1200gs.php"><img src="'+path_img+'/enduro/200gs.jpg" /><div class="motos_nome">BMW R 1200 GS</div></a></li>  \n\
+                      <li><a href="'+path_paginas+'/motos/f800gs.php"><img src="'+path_img+'/enduro/f800gs.jpg" /><div class="motos_nome">BMW F 800 GS</div></a></li>   \n\
+                     <li><a href="'+path_paginas+'/motos/g650gs.php"><img src="'+path_img+'/enduro/g650.jpg" /><div class="motos_nome">BMW G 650 GS</div></a></li>   \n\
+                     <li><a href="'+path_paginas+'/motos/g650gs_sertao.php"><img src="'+path_img+'/enduro/GS_sertao.jpg" /><div class="motos_nome">BMW G 650 GS SERTÃO</div></a></li> \n\
                    </ul> \n\
                </div>  \n\
           </div>     \n\
@@ -49,7 +46,7 @@ motos_novas = '<div id="motos_novas">\n\
 
 /*Função que faz a requisição AJAX para pegar as SEMI*/
 function getMotosSemiNovas(){
-    var url = path+"operacoes/SemiNovas/getSemiNovasAjax.php";     
+    var url = path+"/operacoes/SemiNovas/getSemiNovasAjax.php";
     alert(url); 
     
     $.post(url,{
@@ -279,11 +276,11 @@ function trocaModalidadeMoto(){
 function trocaCategoriaMotoNova(){
     $('.enduro').click(function(){
         var lista_motos = '<ul>          \n\
-                       <li><a href="'+path+'paginas/motos/r1200gsa.php"><img src="'+path_img+'enduro/r1200gsa.jpg" /><div class="motos_nome">BMW R 1200 GS Adventure</div></a></li>\n\
-                        <li><a href="'+path+'paginas/motos/r1200gs.php"><img src="'+path_img+'enduro/200gs.jpg" /><div class="motos_nome">BMW R 1200 GS</div></a></li>  \n\
-                      <li><a href="'+path+'paginas/motos/f800gs.php"><img src="'+path_img+'enduro/f800gs.jpg" /><div class="motos_nome">BMW F 800 GS</div></a></li>   \n\
-                     <li><a href="'+path+'paginas/motos/g650gs.php"><img src="'+path_img+'enduro/g650.jpg" /><div class="motos_nome">BMW G 650 GS</div></a></li>   \n\
-                     <li><a href="'+path+'paginas/motos/g650gs_sertao.php"><img src="'+path_img+'enduro/GS_sertao.jpg" /><div class="motos_nome">BMW G 650 GS SERTÃO</div></a></li> \n\
+                       <li><a href="'+path_paginas+'/motos/r1200gsa.php"><img src="'+path_img+'/enduro/r1200gsa.jpg" /><div class="motos_nome">BMW R 1200 GS Adventure</div></a></li>\n\
+                        <li><a href="'+path_paginas+'/motos/r1200gs.php"><img src="'+path_img+'/enduro/200gs.jpg" /><div class="motos_nome">BMW R 1200 GS</div></a></li>  \n\
+                      <li><a href="'+path_paginas+'/motos/f800gs.php"><img src="'+path_img+'/enduro/f800gs.jpg" /><div class="motos_nome">BMW F 800 GS</div></a></li>   \n\
+                     <li><a href="'+path_paginas+'/motos/g650gs.php"><img src="'+path_img+'/enduro/g650.jpg" /><div class="motos_nome">BMW G 650 GS</div></a></li>   \n\
+                     <li><a href="'+path_paginas+'/motos/g650gs_sertao.php"><img src="'+path_img+'/enduro/GS_sertao.jpg" /><div class="motos_nome">BMW G 650 GS SERTÃO</div></a></li> \n\
                    </ul>';
         
         $('.motos_lista ul').remove();
@@ -297,8 +294,8 @@ function trocaCategoriaMotoNova(){
     
     $('.sport').click(function(){
         var lista_motos = '<ul>          \n\
-              <li><a href="'+path+'paginas/motos/s1000rr.php"><img src="'+path_img+'sport/S1000RR.jpg" /><div class="motos_nome">BMW S 1000 RR</div></a></li> \n\
-                       <li><a href="'+path+'paginas/motos/k1300s.php"><img src="'+path_img+'sport/K1300S.jpg" /><div class="motos_nome">BMW K 1300 S</div></a></li>\n\
+              <li><a href="'+path_paginas+'/motos/s1000rr.php"><img src="'+path_img+'/sport/S1000RR.jpg" /><div class="motos_nome">BMW S 1000 RR</div></a></li> \n\
+                       <li><a href="'+path_paginas+'/motos/k1300s.php"><img src="'+path_img+'/sport/K1300S.jpg" /><div class="motos_nome">BMW K 1300 S</div></a></li>\n\
                    </ul>';
         
         $('.motos_lista ul').remove();
@@ -312,9 +309,9 @@ function trocaCategoriaMotoNova(){
     
     $('.roadster').click(function(){
         var lista_motos = '<ul>          \n\
-                        <li><a href="'+path+'paginas/motos/k1300r.php"><img src="'+path_img+'roadster/k1300.jpg" /><div class="motos_nome">BMW K 1300 R</div></a></li> \n\
-                        <li><a href="#"><img src="'+path_img+'roadster/r1200r.jpg" /><div class="motos_nome">BMW R 1200 R</div></a></li> \n\
-                       <li><a href="'+path+'paginas/motos/f800r.php"><img src="'+path_img+'roadster/f800r.jpg" /><div class="motos_nome">BMW F 800 R</div></a></li>\n\
+                        <li><a href="'+path_paginas+'/motos/k1300r.php"><img src="'+path_img+'/roadster/k1300.jpg" /><div class="motos_nome">BMW K 1300 R</div></a></li> \n\
+                        <li><a href="#"><img src="'+path_img+'/roadster/r1200r.jpg" /><div class="motos_nome">BMW R 1200 R</div></a></li> \n\
+                       <li><a href="'+path_paginas+'/motos/f800r.php"><img src="'+path_img+'/roadster/f800r.jpg" /><div class="motos_nome">BMW F 800 R</div></a></li>\n\
                    </ul>';
         
         $('.motos_lista ul').remove();
@@ -328,8 +325,8 @@ function trocaCategoriaMotoNova(){
     
     $('.tour').click(function(){
         var lista_motos = '<ul>          \n\
-              <li><a href="'+path+'paginas/motos/k1600gtl.php"><img src="'+path_img+'tour/k1600gtl.jpg" /><div class="motos_nome">BMW K 1600 GTL</div></a></li> \n\
-                       <li><a href="'+path+'paginas/motos/k1600gt.php"><img src="'+path_img+'tour/K1600GT.jpg" /><div class="motos_nome">BMW K 1600 GT</div></a></li>\n\
+              <li><a href="'+path_paginas+'/motos/k1600gtl.php"><img src="'+path_img+'/tour/k1600gtl.jpg" /><div class="motos_nome">BMW K 1600 GTL</div></a></li> \n\
+                       <li><a href="'+path_paginas+'/motos/k1600gt.php"><img src="'+path_img+'/tour/K1600GT.jpg" /><div class="motos_nome">BMW K 1600 GT</div></a></li>\n\
                    </ul>';
         
         $('.motos_lista ul').remove();
@@ -343,8 +340,6 @@ function trocaCategoriaMotoNova(){
 }
 
 $(document).ready(function(){
-    alert("Motos.js");
-    
     trocaTelaMotoInicial();
     trocaTelaMotoDescricao();
     thumbnailsMotoDesc();

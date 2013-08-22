@@ -1,7 +1,35 @@
 <?php
-require_once '../../template/head.php';
+require_once '../../config.php';
 ?>
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        BMW F 800 GS - Full Mottors
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:title" content=" BMW F 800 GS - Full Mottors">
+
+
+    <meta name="description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
+    <meta name="og:description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
+    <meta property="og:site_name" content="Full Mottors"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:locale" content="pt_BR">
+
+    <?php
+    require_once APP_TEMPLATE . 'css_scripts.php';
+    ?>
+</head>
+
+<body>
+<?php
+require_once APP_TEMPLATE . 'header.php';
+?>
 <div class="motos_content">
     <div id="moto_desc">
         <div class="wrapper">
@@ -44,209 +72,209 @@ require_once '../../template/head.php';
                         <table class="table table-condensed table-hover ">                         
                                 <tbody>
                                     <tr class="">
-                                        <td class="head">Motor</th>
+                                        <td class="head">Motor</td>
                                         <td class="">&nbsp;</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Tipo</th>
+                                        <td class="">Tipo</td>
                                         <td class="">Motor de 6 cilindros em linha 4 tempos<br>Refrigeração líquida<br>4 válvulas por cilindro</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Diâmetro / curso</th>
+                                        <td class="">Diâmetro / curso</td>
                                         <td class="">72 mm x 67,5 mm</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Cilindrada</th>
+                                        <td class="">Cilindrada</td>
                                         <td class="">1.649 cc</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Potência máxima</th>
+                                        <td class="">Potência máxima</td>
                                         <td class="">160 cv (118 kW) a 7.750 rpm</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Torque máximo (Nm)/RPM</th>
+                                        <td class="">Torque máximo (Nm)/RPM</td>
                                         <td class="">17.8 kgf.m (175 Nm) a 5.250 rpm</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Taxa de compressão</th>
+                                        <td class="">Taxa de compressão</td>
                                         <td class="">12,2 : 1</td>
                                     </tr>
                                     <tr>
-                                        <td>Preparação do combustível / gestão do motor</th>
+                                        <td>Preparação do combustível / gestão do motor</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr class="">
-                                        <td class="">Catalisador</th>
+                                        <td class="">Catalisador</td>
                                         <td class="">3 vias com sonda lambda<br>Norma de gases EU-3</td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
-                                        <td class="head">Desempenho / Consumo de Combustível</th>
+                                        <td class="head">Desempenho / Consumo de Combustível</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Velocidade máxima</th>
+                                        <td>Velocidade máxima</td>
                                         <td>&gt; 200</td>
                                     </tr>
                                     <tr>
-                                        <td>Consumo (90 km/h)</th>
+                                        <td>Consumo (90 km/h)</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Consumo (120 km/h)</th>
+                                        <td>Consumo (120 km/h)</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Combustível</th>
+                                        <td>Combustível</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
-                                        <td class="head">Alternador / Autonomia</th>
+                                        <td class="head">Alternador / Autonomia</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Alternador / Autonomia</th>
+                                        <td>Alternador / Autonomia</td>
                                         <td>580 W / ---</td>
                                     </tr>
                                     <tr>
-                                        <td>Bateria</th>
+                                        <td>Bateria</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
-                                        <td class="head">Transmissão</th>
+                                        <td class="head">Transmissão</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Embreagem</th>
+                                        <td>Embreagem</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Câmbio</th>
+                                        <td>Câmbio</td>
                                         <td>6 marchas</td>
                                     </tr>
                                     <tr>
-                                        <td>Transmissão</th>
+                                        <td>Transmissão</td>
                                         <td>Cardã</td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
-                                        <td class="head">Ciclística / freios</th>
+                                        <td class="head">Ciclística / freios</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Quadro</th>
+                                        <td>Quadro</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Suspensão dianteira</th>
+                                        <td>Suspensão dianteira</td>
                                         <td>BMW Motorrad Duolever com ESA</td>
                                     </tr>
                                     <tr>
-                                        <td>Suspensão traseira</th>
+                                        <td>Suspensão traseira</td>
                                         <td>BMW Motorrad Paralever com ESA, balança traseira monobraço de alumínio</td>
                                     </tr>
                                     <tr>
-                                        <td>Curso da suspensão dianteira / traseira</th>
+                                        <td>Curso da suspensão dianteira / traseira</td>
                                         <td>125mm /135 mm</td>
                                     </tr>
                                     <tr>
-                                        <td>Distância entre eixos</th>
+                                        <td>Distância entre eixos</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Trail</th>
+                                        <td>Trail</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Ângulo da coluna de direção</th>
+                                        <td>Ângulo da coluna de direção</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Rodas</th>
+                                        <td>Rodas</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Roda dianteira</th>
+                                        <td>Roda dianteira</td>
                                         <td>3,50 x 17"</td>
                                     </tr>
                                     <tr>
-                                        <td>Roda traseira</th>
+                                        <td>Roda traseira</td>
                                         <td>6.00 x 17"</td>
                                     </tr>
                                     <tr>
-                                        <td>Pneu dianteiro</th>
+                                        <td>Pneu dianteiro</td>
                                         <td>120/70 - ZR 17</td>
                                     </tr>
                                     <tr>
-                                        <td>Pneu traseiro</th>
+                                        <td>Pneu traseiro</td>
                                         <td>190/55 - ZR 17</td>
                                     </tr>
                                     <tr>
-                                        <td>Freio dianteiro</th>
+                                        <td>Freio dianteiro</td>
                                         <td>Discos duplos flutuantes de 320 mm com pinças de 4 pistões</td>
                                     </tr>
                                     <tr>
-                                        <td>Freio traseiro</th>
+                                        <td>Freio traseiro</td>
                                         <td>Disco simples de 320 mm com pinça flutuante de 2 pistões</td>
                                     </tr>
                                     <tr>
-                                        <td>ABS</th>
+                                        <td>ABS</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
-                                        <td class="head">Dimensões / pesos</th>
+                                        <td class="head">Dimensões / pesos</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Comprimento (mm)</th>
+                                        <td>Comprimento (mm)</td>
                                         <td>2,489mm</td>
                                     </tr>
                                     <tr>
-                                        <td>Largura (mm)</th>
+                                        <td>Largura (mm)</td>
                                         <td>1,000 mm</td>
                                     </tr>
                                     <tr>
-                                        <td>Altura (mm)</th>
+                                        <td>Altura (mm)</td>
                                         <td>1,465 mm</td>
                                     </tr>
                                     <tr>
-                                        <td>Altura do banco (mm)</th>
+                                        <td>Altura do banco (mm)</td>
                                         <td>750 / 780 (opcional)</td>
                                     </tr>
                                     <tr>
-                                        <td>Curvatura das Pernas</th>
+                                        <td>Curvatura das Pernas</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Peso em ordem de marcha <sup>1)</sup></th>
+                                        <td>Peso em ordem de marcha <sup>1)</sup></td>
                                         <td>348 kg<br></td>
                                     </tr>
                                     <tr>
-                                        <td>Peso seca <sup>2)</sup></th>
+                                        <td>Peso seca <sup>2)</sup></td>
                                         <td>321 kg</td>
                                     </tr>
                                     <tr>
-                                        <td>Peso total permitido</th>
+                                        <td>Peso total permitido</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Carga útil (com equipamento de série)</th>
+                                        <td>Carga útil (com equipamento de série)</td>
                                         <td>&nbsp;</td>
                                     </tr>
                                     <tr>
-                                        <td>Capacidade do tanque de combustível</th>
+                                        <td>Capacidade do tanque de combustível</td>
                                         <td>26,5 litros</td>
                                     </tr>
                                     <tr>
-                                        <td>Reserva</th>
+                                        <td>Reserva</td>
                                         <td>4 litros</td>
                                     </tr>
                                 </tbody>                            
@@ -273,3 +301,6 @@ require_once '../../template/head.php';
 <?php
 require_once '../../template/footer.php';
 ?>
+</body>
+<script type="text/javascript" src="<?php print $path_js . 'motos.js' ?>"></script>
+</html>

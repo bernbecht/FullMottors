@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'GothamBook';
-    src: local('Gotham Book'), local('Gotham Book'), url('../fonts/Gotham Book.ttf') format('truetype');
-}
 
 @font-face {
     font-family: 'Fjalla One';
@@ -13,11 +9,19 @@
     src: local('HelveticaNeueLTStd-Lt'), local('HelveticaNeueLTStd-Lt'), url('../fonts/HelveticaNeueLTStd-Lt.otf') format('truetype');
 }
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
 
 html, body{
-    font-family: verdana, sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
     background-color: #fff;
     margin: 0;
+}
+
+h1{
+    line-height: 48px;
 }
 
 ul{
@@ -137,7 +141,8 @@ h1 > span{
 
 .link_carosel_container{
     margin-top: 30px;
-    width: 180px;
+    width: 280px;
+    font-family: verdana;
 }
 
 .link_carosel_container a:hover{
@@ -163,7 +168,10 @@ h1 > span{
 .texto-carosel{
     margin-top: 30px;
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    font-weight: 700;
+
 }
 
 .arrow{
@@ -571,7 +579,8 @@ footer{
 
 .desc_produto p{
     text-align: justify;
-    height: 346px;   
+    height: 346px;
+    overflow: hidden;
 }
 
 
@@ -657,6 +666,17 @@ footer{
     margin-bottom: 20px;
 }
 
+.moto_novas_btn:hover, .moto_semi_btn:hover{
+    opacity: 0.7;
+
+    /*Transição para quando tirar o mouse emcima*/
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 .motos-texto, .motos-divisor, .motos-img{
     float: left;
     color: #171716;
@@ -687,6 +707,10 @@ footer{
     font-family: 'Fjalla One', sans-serif;
     color: #171716;
 
+}
+
+.motos-texto p{
+    font-weight: 700;
 }
 
 .motos-texto span{
@@ -955,9 +979,13 @@ footer{
     border-bottom: 1px solid #ddd;
 }
 
+.post{
+    font-size: 16px;
+}
+
 .social-likes{
     color: #AAA;
-    font-size: 11px;
+    font-size: 13px;
     margin-bottom: 20px;
 }
 .social-likes li{
@@ -1000,10 +1028,14 @@ footer{
     width: 200px;
 }
 
+.noticia_teaser_main-manchete h4{
+    font-size: 24px;
+}
+
 .noticia_teaser_main-texto{
     width: 420px;
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -1017,7 +1049,7 @@ footer{
 }
 
 .noticia_teaser_main-data, .noticia_teaser_mini-data, .noticia_teaser_lista-data{
-    font-size: 11px;
+    font-size: 13px;
     color: #999;
     margin: 3px 0 3px 0;
 }
@@ -1167,11 +1199,10 @@ footer{
 
 .servicos-conteudo{
     padding-top: 50px;
-    color: #eee;
-    font-family: 'HelveticaNue', sans-serif;
-    line-height: 24px;
+    color: #171716;
+    font-weight: normal;
 
-    font-size: 17px;
+    font-size: 16px;
     text-align: justify;
     text-justify: inter-word;
 }

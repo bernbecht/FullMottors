@@ -16,3 +16,4 @@
 <script type="text/javascript" src="<?php print $path_js . 'index.js' ?>"></script>
 <script type="text/javascript" src="<?php print $path_js . 'transitions.js' ?>"></script>
 <script type="text/javascript" src="<?php print $path_js . 'carosel.js' ?>"></script>
+<script type="text/javascript" src="<?php print $path_js . 'common_var.js' ?>"></script>

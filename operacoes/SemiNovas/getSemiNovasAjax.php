@@ -14,7 +14,8 @@
  $consulta = $semi->getSemiNovas();
  
  $num_rows = pg_num_rows($consulta);
- 
+
+
  if($num_rows>0){
      
      echo '<div id="motos_semi">

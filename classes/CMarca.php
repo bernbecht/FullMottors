@@ -5,33 +5,26 @@ class CMarca {
     private $nome;
     private $conexao;
 
-    public function getAllMarcas() {
-        $this->conexao = new CConexao();
-        $this->conexao->novaConexao();
+   public function __construct($id_marca, $nome){
 
-        $sql = "select * 
-               from marca";
+       $this->id_marca = $id_marca;
+       $this->nome = $nome;
+   }
 
-        $query = pg_query($this->conexao->getConnection(), $sql);
-
-        $this->conexao->closeConexao();
-
-        return $query;
+    public function setID($id){
+        $this->id_marca = $id;
     }
 
-    public function getMarcaByID($id) {
-        $this->conexao = new CConexao();
-        $this->conexao->novaConexao();
+    public function getID(){
+        return $this->id_marca;
+    }
 
-        $sql = "select * 
-               from categoria
-               where id_marca=$id";
-        
-        $query = pg_query($this->conexao->getConnection(), $sql);
+    public function setNome($nome){
+        $this->nome = $nome;
+    }
 
-        $this->conexao->closeConexao();
-
-        return $query;
+    public function getNome(){
+        return $this->nome;
     }
 }
 

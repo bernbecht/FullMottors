@@ -39,12 +39,12 @@
         <div class="wrapper">
             <div class="menu-footer">
                 <ul class="">
-                    <li><a href="<?php print $path . 'paginas/motos.php' ?>">Motos</a></li>
-                    <li><a href="<?php print $path . 'paginas/boutique.php' ?>">Boutique</a></li>
-                    <li><a href="<?php print $path . 'paginas/noticia_teaser.php' ?>">Notícias</a></li>
-                    <li><a href="<?php print $path . 'paginas/servicos.php' ?>">Serviços</a></li>                        
-                    <li><a href="<?php print $path . 'paginas/empresa.php' ?>">Empresa</a></li>
-                    <li><a href="<?php print $path . 'paginas/contato.php' ?>">Contato</a></li>
+                    <li><a href="<?php print $path_paginas . '/motos.php' ?>">Motos</a></li>
+                    <li><a href="<?php print $path_paginas . '/boutique.php' ?>">Boutique</a></li>
+                    <li><a href="<?php print $path_paginas . '/noticia_teaser.php' ?>">Notícias</a></li>
+                    <li><a href="<?php print $path_paginas . '/servicos.php' ?>">Serviços</a></li>
+                    <li><a href="<?php print $path_paginas . '/empresa.php' ?>">Empresa</a></li>
+                    <li><a href="<?php print $path_paginas . '/contato.php' ?>">Contato</a></li>
                 </ul>
             </div>
         </div>
