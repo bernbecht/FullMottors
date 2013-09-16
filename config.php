@@ -13,6 +13,7 @@ define("APP_IMG", APP_ROOT . '/img/');
 define("APP_SITEMA", APP_ROOT . '/sistema/');
 define ("APP_TEMPLATE", APP_ROOT . "/template/");
 define ("APP_PAGINAS", APP_ROOT."/paginas/");
+define ("APP_TESTE", APP_ROOT."/teste/");
 
 /*
  * PATHs SRC and HREF using PHP

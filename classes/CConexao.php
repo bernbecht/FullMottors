@@ -3,7 +3,7 @@
 class CConexao {
     /* -- Configurações Bernardo-- */
 
-    /*
+
         protected $Host = 'localhost';
         protected $User = 'postgres';
         protected $Password = 'root';
@@ -11,17 +11,18 @@ class CConexao {
         protected $DbName = 'fmottors';
         protected $Conexao = null;
 
-    */
+
 
     /* -- Config BD REMOTE -- */
 
-
-    protected $Host='pgsql.fmottors.com.br';
-    protected $User='fmottors';
-    protected $Password='fmottors230894';
-    protected $Porta='5432';
-    protected $DbName='fmottors';
-    protected $Conexao=null;
+    /*
+       protected $Host='pgsql.fmottors.com.br';
+       protected $User='fmottors';
+       protected $Password='fmottors230894';
+       protected $Porta='5432';
+       protected $DbName='fmottors';
+       protected $Conexao=null;
+   */
 
     public function __construct() {
         

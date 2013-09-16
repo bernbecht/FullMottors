@@ -2,20 +2,28 @@
 
 require_once APP_DAO . "CCategoriaDao.php";
 require_once APP_DAO . "CMarcaDao.php";
-require_once APP_DAO. "CProdutoDao.php";
+require_once APP_DAO . "CProdutoDao.php";
+require_once APP_DAO . "CImagemDao.php";
 
+require_once APP_CLASSES . "CConexao.php";
 require_once APP_CLASSES . "CCategoria.php";
 require_once APP_CLASSES . "CMarca.php";
+//TODO: Mudar essas classes para a pasta certa no futuro
+require_once "../teste/CProduto.php";
+require_once "../teste/CImagem.php";
 
 define("CLASS_CCATEGORIA", "CCategoria");
 define("CLASS_CMARCA", "CMarca");
 define("CLASS_CPRODUTO", "CProduto");
+define("CLASS_CIMAGEM", "CImagem");
+define("MODALIDADE_PRODUTO", 1);
 
 
-class GenericDao {
+class GenericDao
+{
 
-    public static function getAll($class) {
-
+    public static function getAll($class)
+    {
         $objectArray = FALSE;
 
         switch ($class) {
@@ -39,13 +47,36 @@ class GenericDao {
                 }
                 break;
 
+            case CLASS_CPRODUTO:
+                $result = CProdutoDao::getAll();
+                if (pg_num_rows($result) > 0) {
+                    while ($fetch = pg_fetch_object($result)) {
+                        $object = new CProduto($fetch->id_produto,
+                            $fetch->nome,
+                            $fetch->data,
+                            $fetch->descricao,
+                            $fetch->view_status,
+                            $fetch->lancamento,
+                            $fetch->preco,
+                            $fetch->parcelas,
+                            $fetch->prazo);
+                        $object->setMarca(GenericDao::getByID(CLASS_CMARCA, $fetch->id_marca));
+                        $object->setCategoria(GenericDao::getByID(CLASS_CCATEGORIA, $fetch->id_categoria));
+                        $object->setImagens(GenericDao::getImagemByID($object->getID(), MODALIDADE_PRODUTO));
+
+                        $objectArray[] = $object;
+                    }
+                }
+                break;
+
             default:
                 break;
         }
         return $objectArray;
     }
 
-    public static function getByID($class, $id) {
+    public static function getByID($class, $id)
+    {
 
         $object = FALSE;
 
@@ -66,6 +97,25 @@ class GenericDao {
                 }
                 break;
 
+            case CLASS_CPRODUTO:
+                $result = CProdutoDao::getByID($id);
+                if (pg_num_rows($result) > 0) {
+                    $fetch = pg_fetch_object($result);
+                    $object = new CProduto($fetch->id_produto,
+                        $fetch->nome,
+                        $fetch->data,
+                        $fetch->descricao,
+                        $fetch->view_status,
+                        $fetch->lancamento,
+                        $fetch->preco,
+                        $fetch->parcelas,
+                        $fetch->prazo);
+                }
+                $object->setMarca(GenericDao::getByID(CLASS_CMARCA, $fetch->id_marca));
+                $object->setCategoria(GenericDao::getByID(CLASS_CCATEGORIA, $fetch->id_categoria));
+                $object->setImagens(GenericDao::getImagemByID($object->getID(), MODALIDADE_PRODUTO));
+
+                break;
 
             default:
                 break;
@@ -73,10 +123,13 @@ class GenericDao {
         return $object;
     }
 
-    public static function insertObjectBD($object, $connectionObject) {
+    public static function insertObjectBD($object, $connectionObject)
+    {
         $className = get_class($object);
         $result = FALSE;
         $connection = $connectionObject->getConnection();
+
+        print $connectionObject->verificaConexao();
 
         switch ($className) {
             case CLASS_CCATEGORIA:
@@ -87,11 +140,34 @@ class GenericDao {
                 $result = CMarcaDao::insertObjectBD($object, $connection);
                 break;
 
+            case CLASS_CPRODUTO:
+                $result = CProdutoDao::insertObjectBD($object,$connection);
+                break;
+
+            case CLASS_CIMAGEM:
+                $result = CImagemDao::insertObjectBD($object,$connection);
+                break;
+
             default:
                 break;
         }
 
         return $result;
+    }
+
+
+    public static function getAllImagemByID($id, $modalidade)
+    {
+        $objectArray = FALSE;
+
+        $result = CImagemDao::getAllByID($id, $modalidade);
+        if (pg_num_rows($result) > 0) {
+            while ($fetch = pg_fetch_object($result)) {
+                $object = new CImagem($fetch->id_imagem, $fetch->imagem_path);
+                $objectArray[] = $object;
+            }
+        }
+        return $objectArray;
     }
 
 }
