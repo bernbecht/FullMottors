@@ -17,7 +17,7 @@ define ("APP_PAGINAS", APP_ROOT."/paginas/");
 /*
  * PATHs SRC and HREF using PHP
  */
-$path = "http://" . $_SERVER['SERVER_NAME'] . ':8012/FullMottors';
+$path = "http://" . $_SERVER['SERVER_NAME'] . '/FullMottors';
 //TODO: trocar para o padrão
 $path_css = $path . "/css/";
 //TODO: trocar para o padrão
