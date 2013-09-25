@@ -54,13 +54,13 @@ require_once APP_TEMPLATE . 'header.php';
 
             <div class="moto_desc-galeria">
                 <div class="moto_desc-thumbMain">
-                    <a href="javascript:;"><img src="../../img/motos-desc/K1300R(2).jpg" /></a>
+                    <a href="javascript:;"><img src="../../img/motos-desc/K1300R/K1300R1.jpg" /></a>
                 </div>
                 <div class="moto_desc-thumb">
                     <ul>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300R_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300R(3)_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300R(2)_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300R/k1300R2_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300R/k1300R3_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300R/K1300R1_thumb.jpg" /></a></li>
                         <li></li>
                     </ul>
                 </div> 
@@ -75,7 +75,7 @@ require_once APP_TEMPLATE . 'header.php';
                             <tbody>
                                 <tr class="">
                                     <td class="head">Motor</td>
-                                    <td class="">&nbsp;</td>
+                                    <td class=""></td>
                                 </tr>
                                 <tr class="">
                                     <td class="">Tipo</td>
@@ -113,7 +113,7 @@ require_once APP_TEMPLATE . 'header.php';
                             <tbody>
                                 <tr>
                                     <td class="head">Desempenho / Consumo de Combustível</td>
-                                    <td>&nbsp;</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Velocidade máxima</td>
@@ -135,7 +135,7 @@ require_once APP_TEMPLATE . 'header.php';
                             <tbody>
                                 <tr>
                                     <td class="head">Alternador / Autonomia</td>
-                                    <td>&nbsp;</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Alternador / Autonomia</td>
@@ -149,7 +149,7 @@ require_once APP_TEMPLATE . 'header.php';
                             <tbody>
                                 <tr>
                                     <td class="head">Transmissão</td>
-                                    <td>&nbsp;</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Embreagem</td>
@@ -167,7 +167,7 @@ require_once APP_TEMPLATE . 'header.php';
                             <tbody>
                                 <tr>
                                     <td class="head">Ciclística / freios</td>
-                                    <td>&nbsp;</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Quadro</td>
@@ -233,7 +233,7 @@ require_once APP_TEMPLATE . 'header.php';
                             <tbody>
                                 <tr>
                                     <td class="head">Dimensões / pesos</td>
-                                    <td>&nbsp;</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Comprimento (mm)</td>
@@ -296,7 +296,7 @@ require_once APP_TEMPLATE . 'header.php';
                         válvula de escapa que arrepia a pele. Mas também porque 
                         tudo isso acontece com níveis de consumo de combustível 
                         e emissão do escapamento de que até uma motocicleta 
-                        "sensível" teria orgulho. A</p>
+                        "sensível" teria orgulho.</p>
                 </div>
                 <div class="clear"></div>
             </div>

@@ -52,13 +52,13 @@ require_once APP_TEMPLATE . 'header.php';
 
             <div class="moto_desc-galeria">
                 <div class="moto_desc-thumbMain">
-                    <a href="javascript:;"><img src="../../img/motos-desc/K1600GTL(2).jpg" /></a>
+                    <a href="javascript:;"><img src="../../img/motos-desc/K1600GTL/K1600GTL2.jpg" /></a>
                 </div>
                 <div class="moto_desc-thumb">
                     <ul>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GTL_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GTL(3)_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GTL(2)_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GTL/K1600GTL3_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GTL/K1600GTL1_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GTL/K1600GTL2_thumb.jpg" /></a></li>
                         <li></li>
                     </ul>
                 </div> 
@@ -73,7 +73,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr class="">
                                         <td class="head">Motor</td>
-                                        <td class="">&nbsp;</td>
+                                        <td class=""></td>
                                     </tr>
                                     <tr class="">
                                         <td class="">Tipo</td>
@@ -101,7 +101,7 @@ require_once APP_TEMPLATE . 'header.php';
                                     </tr>
                                     <tr>
                                         <td>Preparação do combustível / gestão do motor</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr class="">
                                         <td class="">Catalisador</td>
@@ -111,7 +111,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr>
                                         <td class="head">Desempenho / Consumo de Combustível</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Velocidade máxima</td>
@@ -119,21 +119,21 @@ require_once APP_TEMPLATE . 'header.php';
                                     </tr>
                                     <tr>
                                         <td>Consumo (90 km/h)</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Consumo (120 km/h)</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Combustível</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
                                         <td class="head">Alternador / Autonomia</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Alternador / Autonomia</td>
@@ -141,17 +141,17 @@ require_once APP_TEMPLATE . 'header.php';
                                     </tr>
                                     <tr>
                                         <td>Bateria</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
                                         <td class="head">Transmissão</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Embreagem</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Câmbio</td>
@@ -165,11 +165,11 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr>
                                         <td class="head">Ciclística / freios</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Quadro</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Suspensão dianteira</td>
@@ -185,19 +185,19 @@ require_once APP_TEMPLATE . 'header.php';
                                     </tr>
                                     <tr>
                                         <td>Distância entre eixos</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Trail</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Ângulo da coluna de direção</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Rodas</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Roda dianteira</td>
@@ -225,13 +225,13 @@ require_once APP_TEMPLATE . 'header.php';
                                     </tr>
                                     <tr>
                                         <td>ABS</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                                 <tbody>
                                     <tr>
                                         <td class="head">Dimensões / pesos</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Comprimento (mm)</td>
@@ -251,7 +251,7 @@ require_once APP_TEMPLATE . 'header.php';
                                     </tr>
                                     <tr>
                                         <td>Curvatura das Pernas</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Peso em ordem de marcha <sup>1)</sup></td>
@@ -263,11 +263,11 @@ require_once APP_TEMPLATE . 'header.php';
                                     </tr>
                                     <tr>
                                         <td>Peso total permitido</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Carga útil (com equipamento de série)</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Capacidade do tanque de combustível</td>

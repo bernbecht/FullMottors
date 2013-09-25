@@ -51,13 +51,13 @@ require_once APP_TEMPLATE . 'header.php';
 
             <div class="moto_desc-galeria">
                 <div class="moto_desc-thumbMain">
-                    <a href="javascript:;"><img src="../../img/motos-desc/R1200GS.jpg" /></a>
+                    <a href="javascript:;"><img src="../../img/motos-desc/R1200GS/R1200GS1.jpg" /></a>
                 </div>
                 <div class="moto_desc-thumb">
                     <ul>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GS(2)_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GS(3)_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GS_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GS/R1200GS2_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GS/R1200GS3_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GS/R1200GS1_thumb.jpg" /></a></li>
                         <li></li>
                     </ul>
                 </div> 
@@ -70,13 +70,13 @@ require_once APP_TEMPLATE . 'header.php';
                     <div class="tabela_specs">
                         <table class="table table-condensed table-hover ">                          
                             <tbody>
-                                <tr class="">
-                                    <td class="head">Motor</td>
-                                    <td class="">&nbsp;</td>
-                                </tr>
+                            <tr class="">
+                                <td class="head">Tipo</td>
+                                <td class=""></td>
+                            </tr>
                                 <tr class="">
                                     <td class="">Tipo</td>
-                                    <td class="">Motor Boxer Bicilíndrico a 4 tempos Refrigerado por ar/óleo 4 válvulas por cilindro, alinhadas radialmente</td>
+                                    <td class="">Motor boxer bicilíndrico de quatro tempos com refrigeração líquida e a ar.</td>
                                 </tr>
                                 <tr>
                                     <td>Diâmetro / curso</td>
@@ -88,73 +88,77 @@ require_once APP_TEMPLATE . 'header.php';
                                 </tr>
                                 <tr class="">
                                     <td class="">Potência máxima</td>
-                                    <td class="">110 cv / 7.750 rpm</td>
+                                    <td class="">1125 hp (92 kW) a 7,750 rpm</td>
                                 </tr>
                                 <tr>
                                     <td>Torque máximo (Nm)/RPM</td>
-                                    <td>120 Nm a 6.000 rpm</td>
+                                    <td>125 Nm a 6,500 rpm</td>
                                 </tr>
                                 <tr class="">
                                     <td class="">Taxa de compressão</td>
-                                    <td class="">12.0 : 1</td>
+                                    <td class="">12.5 : 1</td>
                                 </tr>
                                 <tr class="invertColor">
                                     <td class="invertColor">Preparação do combustível / gestão do motor</td>
-                                    <td class="invertColor">Electronic intake pipe injection / BMS-K+ digital engine management with overrun fuel cut-off, twin spark ignition</td>
+                                    <td class="invertColor">Injeção eletrônica de combustível
+                                        Sistema equipado com módulo + BMS-K</td>
                                 </tr>
                                 <tr>
                                     <td>Catalisador</td>
-                                    <td>3 vias com sonda Lambda<br>(Norma de gases EU-3)</td>
+                                    <td>Esta motocicleta atende ao Programa de Controle de Poluição do Ar
+                                        por Motocicletas e Veículos Similares - PROMOT (Estabelecido pelas
+                                        Resoluções n°297 de 26/02/2002 e n°342 de
+                                        25/09/2003 do Conselho Nacional do Meio Ambiente – CONAMA).</td>
                                 </tr>
                             </tbody>
                             <tbody>
-                                <tr>
-                                    <td class="head">Desempenho / Consumo de Combustível</td>
-                                    <td>&nbsp;</td>
-                                </tr>
+                            <tr>
+                                <td class="head">Desempenho / Consumo de Combustível</td>
+                                <td></td>
+                            </tr>
                                 <tr>
                                     <td>Velocidade máxima</td>
                                     <td>&gt; 200 km/h</td>
                                 </tr>
                                 <tr>
                                     <td>Consumo (90 km/h)</td>
-                                    <td>23,3 km/l</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Consumo (120 km/h)</td>
-                                    <td>18,2 km/l</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Combustível</td>
-                                    <td>Unleaded super and premium, octane number 95-98 (RON) (knock sensor; rated output at 98 RON); optional extra 91 (RON) available</td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                             <tbody>
-                                <tr>
-                                    <td class="head">Alternador / Autonomia</td>
-                                    <td>&nbsp;</td>
-                                </tr>
+                            <tr>
+                                <td class="head">Alternador / Autonomia</td>
+                                <td></td>
+                            </tr>
                                 <tr>
                                     <td>Alternador / Autonomia</td>
-                                    <td>720 W / ~ 365 km</td>
+                                    <td>Gerador de 580 watts trifásico (potência máxima)</td>
                                 </tr>
                                 <tr>
                                     <td>Bateria</td>
-                                    <td>12 V / 14 Ah, maintenance-free</td>
+                                    <td>12 V/11,8 Ah, livre de manutenção.</td>
                                 </tr>
                             </tbody>
                             <tbody>
-                                <tr>
-                                    <td class="head">Transmissão</td>
-                                    <td>&nbsp;</td>
-                                </tr>
+                            <tr>
+                                <td class="head">Transmissão</td>
+                                <td></td>
+                            </tr>
                                 <tr>
                                     <td>Embreagem</td>
-                                    <td>Single dry plate clutch, hydraulically operated</td>
+                                    <td>Multidisco em banho de óleo com função antideslizante operada hidraulicamente</td>
                                 </tr>
                                 <tr>
                                     <td>Câmbio</td>
-                                    <td>6 marchas</td>
+                                    <td>Câmbio de seis marchas com dentes helicoidais</td>
                                 </tr>
                                 <tr>
                                     <td>Transmissão</td>
@@ -162,21 +166,24 @@ require_once APP_TEMPLATE . 'header.php';
                                 </tr>
                             </tbody>
                             <tbody>
-                                <tr>
-                                    <td class="head">Ciclística / freios</td>
-                                    <td>&nbsp;</td>
-                                </tr>
+                            <tr>
+                                <td class="head">Ciclística / freios</td>
+                                <td></td>
+                            </tr>
                                 <tr>
                                     <td>Quadro</td>
-                                    <td>Two-section frame consisting of front and rear sections, load- bearing engine-gearbox unit </td>
+                                    <td>Quadro multitubular separável tipo treliça</td>
                                 </tr>
                                 <tr>
                                     <td>Suspensão dianteira</td>
-                                    <td>BMW Motorrad Telelever com ESA</td>
+                                    <td>BMW Motorrad Telelever com sistema de amortecimento central e bengala equipada
+                                        com cilindros internos de 37 mm de diâmetro</td>
                                 </tr>
                                 <tr>
                                     <td>Suspensão traseira</td>
-                                    <td>BMW Motorrad Paralever com ESA, balança traseira monobraço de alumínio</td>
+                                    <td>Monobraço oscilante de alumínio equipado com sistema BMW Motorrad Paralever
+                                        com sistema hidráulico de ajuste contínuo de pré-carga da mola e retorno do
+                                        amortecedor (Pacote Premium)</td>
                                 </tr>
                                 <tr>
                                     <td>Curso da suspensão dianteira / traseira</td>
@@ -188,85 +195,87 @@ require_once APP_TEMPLATE . 'header.php';
                                 </tr>
                                 <tr>
                                     <td>Trail</td>
-                                    <td>101 mm</td>
+                                    <td>99.6 mm</td>
                                 </tr>
                                 <tr>
                                     <td>Ângulo da coluna de direção</td>
-                                    <td>64.3°</td>
+                                    <td>64.5°</td>
                                 </tr>
                                 <tr>
                                     <td>Rodas</td>
-                                    <td>Cast aluminium wheels</td>
+                                    <td>Rodas de Liga Leve (Pacote Sport) e Rodas Raiadas (Pacote Premium)</td>
                                 </tr>
                                 <tr>
                                     <td>Roda dianteira</td>
-                                    <td>2.50 x 19"</td>
+                                    <td>3.00 x 19"</td>
                                 </tr>
                                 <tr>
                                     <td>Roda traseira</td>
-                                    <td>4.00 x 17"</td>
+                                    <td>4.50 x 17"</td>
                                 </tr>
                                 <tr>
                                     <td>Pneu dianteiro</td>
-                                    <td>110/80 R 19 </td>
+                                    <td>1120/70 R 19 </td>
                                 </tr>
                                 <tr>
                                     <td>Pneu traseiro</td>
-                                    <td>150/70 R 17</td>
+                                    <td>120/60 R 17</td>
                                 </tr>
                                 <tr>
                                     <td>Freio dianteiro</td>
-                                    <td> Discos duplos flutuantes de 305mm com pinças de 4 pistões</td>
+                                    <td>Discos duplos flutuantes com diâmetro de 305 mm e pinça radial equipada com
+                                        quatro pistões</td>
                                 </tr>
                                 <tr>
                                     <td>Freio traseiro</td>
-                                    <td>Disco simples de 265mm com pinça flutuante de 2 pistões</td>
+                                    <td>Disco único flutuante com diâmetro de 276 mm e pinça equipada com dois pistões</td>
                                 </tr>
                                 <tr>
                                     <td>ABS</td>
-                                    <td>Optional extra: BMW Motorrad Integral ABS (part-integral), can be switched off</td>
+                                    <td>Item de série ajustável de acordo com o modo de condução e com possibilidade de
+                                        desativação integral ou parcial</td>
                                 </tr>
                             </tbody>
                             <tbody>
-                                <tr>
-                                    <td class="head">Dimensões / pesos</td>
-                                    <td>&nbsp;</td>
-                                </tr>
+                            <tr>
+                                <td class="head">Dimensões / pesos</td>
+                                <td></td>
+                            </tr>
                                 <tr>
                                     <td>Comprimento (mm)</td>
-                                    <td>2,210 mm</td>
+                                    <td>2,207 mm</td>
                                 </tr>
                                 <tr>
                                     <td>Largura (mm)</td>
-                                    <td>935 mm</td>
+                                    <td>952,5 mm</td>
                                 </tr>
                                 <tr>
                                     <td>Altura (mm)</td>
-                                    <td>1,450 mm</td>
+                                    <td>1,412 mm</td>
                                 </tr>
                                 <tr>
                                     <td>Altura do banco (mm)</td>
-                                    <td>850 mm / 870 mm (opcional)</td>
+                                    <td>850/870 mm (banco baixo: 820/840 mm)</td>
                                 </tr>
                                 <tr>
                                     <td>Curvatura das Pernas</td>
-                                    <td>1,890 / 1,940 mm (low seat 1,820 mm, lowered suspension 1,760 mm)</td>
+                                    <td>1870/1910 mm (banco baixo: 1820/1860 mm)</td>
                                 </tr>
                                 <tr>
                                     <td>Peso em ordem de marcha <sup>1)</sup></td>
-                                    <td>229 kg</td>
+                                    <td>238 kg</td>
                                 </tr>
                                 <tr>
                                     <td>Peso seca <sup>2)</sup></td>
-                                    <td>203 kg</td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <td>Peso total permitido</td>
-                                    <td>440 kg</td>
+                                    <td>450 kg</td>
                                 </tr>
                                 <tr>
                                     <td>Carga útil (com equipamento de série)</td>
-                                    <td>206 kg</td>
+                                    <td>2012 kg</td>
                                 </tr>
                                 <tr>
                                     <td>Capacidade do tanque de combustível</td>

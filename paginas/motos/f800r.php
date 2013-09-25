@@ -82,13 +82,13 @@ require_once APP_TEMPLATE . 'header.php';
 
             <div class="moto_desc-galeria">
                 <div class="moto_desc-thumbMain">
-                    <a href="javascript:;"><img src="../../img/motos-desc/F800R(2).jpg" /></a>
+                    <a href="javascript:;"><img src="../../img/motos-desc/F800R/F800R1.jpg" /></a>
                 </div>
                 <div class="moto_desc-thumb">
                     <ul>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/F800R(3)_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/F800R_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/F800R(2)_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/F800R/F800R2_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/F800R/F800R3_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/F800R/F800R1_thumb.jpg" /></a></li>
                         <li></li>
                     </ul>
                 </div> 
@@ -103,7 +103,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr class="">
                                         <td class="head">Motor</td>
-                                        <td class="">&nbsp;</td>
+                                        <td class=""></td>
                                     </tr>
                                     <tr class="">
                                         <td class="">Tipo</td>
@@ -141,7 +141,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr>
                                         <td class="head">Desempenho / Consumo de Combustível</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Velocidade máxima</td>
@@ -163,7 +163,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr>
                                         <td class="head">Alternador / Autonomia</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Alternador / Autonomia</td>
@@ -177,7 +177,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr>
                                         <td class="head">Transmissão</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Embreagem</td>
@@ -195,7 +195,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr>
                                         <td class="head">Ciclística / freios</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Quadro</td>
@@ -261,7 +261,7 @@ require_once APP_TEMPLATE . 'header.php';
                                 <tbody>
                                     <tr>
                                         <td class="head">Dimensões / pesos</td>
-                                        <td>&nbsp;</td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <td>Comprimento (mm)</td>
