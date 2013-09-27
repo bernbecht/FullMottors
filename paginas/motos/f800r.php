@@ -6,15 +6,15 @@ require_once '../../config.php';
 
 <head>
     <title>
-        BMW F 800 GS - Full Mottors
+        BMW F 800 R - Full Mottors
     </title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta property="og:title" content=" BMW F 800 GS - Full Mottors">
+    <meta property="og:title" content=" BMW F 800 R - Full Mottors">
 
 
-    <meta name="description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
-    <meta name="og:description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
+    <meta name="description" content="Confira a BMW F 800 R 0 Km na Full Mottors - Multimarcas"/>
+    <meta name="og:description" content="Confira a BMW F 800 R 0 Km na Full Mottors - Multimarcas"/>
     <meta property="og:site_name" content="Full Mottors"/>
     <meta property="og:type" content="article"/>
     <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
@@ -35,15 +35,15 @@ require_once APP_TEMPLATE . 'header.php';
 
     <head>
         <title>
-            BMW F 800 GS - Full Mottors
+            BMW F 800 R - Full Mottors
         </title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta property="og:title" content=" BMW F 800 GS - Full Mottors">
+        <meta property="og:title" content=" BMW F 800 R - Full Mottors">
 
 
-        <meta name="description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
-        <meta name="og:description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
+        <meta name="description" content="Confira a BMW F 800 R 0 Km na Full Mottors - Multimarcas"/>
+        <meta name="og:description" content="Confira a BMW F 800 R 0 Km na Full Mottors - Multimarcas"/>
         <meta property="og:site_name" content="Full Mottors"/>
         <meta property="og:type" content="article"/>
         <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>

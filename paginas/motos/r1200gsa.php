@@ -6,15 +6,15 @@ require_once '../../config.php';
 
     <head>
         <title>
-            BMW F 800 GS - Full Mottors
+            BMW R 1200 GS ADVENTURE - Full Mottors
         </title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta property="og:title" content=" BMW F 800 GS - Full Mottors">
+        <meta property="og:title" content=" BMW R 1200 GS ADVENTURE - Full Mottors">
 
 
-        <meta name="description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
-        <meta name="og:description" content="Confira a BMW F 800 GS 0 Km na Full Mottors - Multimarcas"/>
+        <meta name="description" content="Confira a R 1200 GS ADVENTURE 0 Km na Full Mottors - Multimarcas"/>
+        <meta name="og:description" content="Confira a R 1200 GS ADVENTURE 0 Km na Full Mottors - Multimarcas"/>
         <meta property="og:site_name" content="Full Mottors"/>
         <meta property="og:type" content="article"/>
         <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
@@ -56,8 +56,8 @@ require_once APP_TEMPLATE . 'header.php';
                 </div>
                 <div class="moto_desc-thumb">
                     <ul>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA3_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA1_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA3_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA2_thumb.jpg" /></a></li>
                         <li></li>
                     </ul>

@@ -294,6 +294,7 @@ function trocaCategoriaMotoNova(){
     
     $('.sport').click(function(){
         var lista_motos = '<ul>          \n\
+              <li><a href="'+path_paginas+'/motos/hp4.php"><img src="'+path_img+'/sport/hp4.jpg" /><div class="motos_nome">BMW HP4</div></a></li>\n\
               <li><a href="'+path_paginas+'/motos/s1000rr.php"><img src="'+path_img+'/sport/S1000RR.jpg" /><div class="motos_nome">BMW S 1000 RR</div></a></li> \n\
                        <li><a href="'+path_paginas+'/motos/k1300s.php"><img src="'+path_img+'/sport/K1300S.jpg" /><div class="motos_nome">BMW K 1300 S</div></a></li>\n\
                    </ul>';
@@ -310,7 +311,7 @@ function trocaCategoriaMotoNova(){
     $('.roadster').click(function(){
         var lista_motos = '<ul>          \n\
                         <li><a href="'+path_paginas+'/motos/k1300r.php"><img src="'+path_img+'/roadster/k1300.jpg" /><div class="motos_nome">BMW K 1300 R</div></a></li> \n\
-                        <li><a href="#"><img src="'+path_img+'/roadster/r1200r.jpg" /><div class="motos_nome">BMW R 1200 R</div></a></li> \n\
+                        <li><a href="'+path_paginas+'/motos/r1200r.php"><img src="'+path_img+'/roadster/r1200r.jpg" /><div class="motos_nome">BMW R 1200 R</div></a></li> \n\
                        <li><a href="'+path_paginas+'/motos/f800r.php"><img src="'+path_img+'/roadster/f800r.jpg" /><div class="motos_nome">BMW F 800 R</div></a></li>\n\
                    </ul>';
         
