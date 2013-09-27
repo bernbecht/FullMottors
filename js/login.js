@@ -18,7 +18,7 @@ function loginAjax(){
                     .appendTo('.erro_login');
                 }
                 else{                   
-                    window.location = "http://localhost:8012/FullMottors/sistema/main_sistema.php";
+                    window.location = path_sistema+"/main_sistema.php";
 
 
                 }

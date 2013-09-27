@@ -1,28 +1,30 @@
 <?php
+require_once 'config.php';
 session_start();
  if (isset($_SESSION['usuario']))
-    header("location:http://localhost:8012/FullMottors/sistema/main_sistema.php");
-?>
+    header("location:".$path_sistema."/main_sistema.php");?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Full Mottors - Multimarcas</title>
+        <title>Full Mottors - CMS</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css/bootstrap.css"/>
         <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
         <link rel="stylesheet" href="css/scaffolding.css"/>
-        <link rel="stylesheet" href="css/index_1.css"/>  
-        <link rel="stylesheet" href="css/carosel_1.css"/>  
-        <link rel="stylesheet" href="css/login.css"/>  
+        <link rel="stylesheet" href="css/index_1.css"/>
+        <link rel="stylesheet" href="css/carosel_1.css"/>
+        <link rel="stylesheet" href="css/login.css"/>
 
 
 
         <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>        
+        <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/transitions.js"></script>
         <script type="text/javascript" src="js/jquery_form.js"></script>
         <script type="text/javascript" src="js/login.js"></script>
+        <script type="text/javascript" src="js/common_var.js"></script>
+
     </head>
     <body>        
         <div class="login_container">

@@ -10,3 +10,4 @@ path_paginas = path + "/paginas";
 path_css = path + "/css";
 path_js = path + "/js";
 path_template = path + "/template";
+path_sistema = path + "/sistema"
