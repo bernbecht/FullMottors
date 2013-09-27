@@ -47,13 +47,13 @@ motos_novas = '<div id="motos_novas">\n\
 /*Função que faz a requisição AJAX para pegar as SEMI*/
 function getMotosSemiNovas(){
     var url = path+"/operacoes/SemiNovas/getSemiNovasAjax.php";
-    alert(url); 
+    //alert(url);
     
     $.post(url,{
         
         },function(data){
             
-            alert(data);
+            //alert(data);
             
             if(data ==1){
                 $('.motos_content').children().first().remove(); 
