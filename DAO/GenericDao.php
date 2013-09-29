@@ -62,7 +62,7 @@ class GenericDao
                             $fetch->prazo);
                         $object->setMarca(GenericDao::getByID(CLASS_CMARCA, $fetch->id_marca));
                         $object->setCategoria(GenericDao::getByID(CLASS_CCATEGORIA, $fetch->id_categoria));
-                        $object->setImagens(GenericDao::getImagemByID($object->getID(), MODALIDADE_PRODUTO));
+                        $object->setImagens(GenericDao::getAllImagemByID($object->getID(), MODALIDADE_PRODUTO));
 
                         $objectArray[] = $object;
                     }
@@ -113,7 +113,7 @@ class GenericDao
                 }
                 $object->setMarca(GenericDao::getByID(CLASS_CMARCA, $fetch->id_marca));
                 $object->setCategoria(GenericDao::getByID(CLASS_CCATEGORIA, $fetch->id_categoria));
-                $object->setImagens(GenericDao::getImagemByID($object->getID(), MODALIDADE_PRODUTO));
+                $object->setImagens(GenericDao::getAllImagemByID($object->getID(), MODALIDADE_PRODUTO));
 
                 break;
 
