@@ -39,12 +39,12 @@ require_once APP_TEMPLATE . 'header.php';
                 <h1> BMW G 650 GS </h1>
 
                 <ul class="breadcrumb">
-                    <li><a class="retorna_0km" href="javascript:;">Motos 0 KM</a> <span class="divider">/</span></li>                 
+                    <li><a class="retorna_0km" href="<?php echo $path_paginas.'/motos_novas.php'?>">Motos 0 KM</a> <span class="divider">/</span></li>
                     <li class="active">BMW G 650 GS</li>
                 </ul>
 
                 <div id="btn_troca_para_semi" class="cantoneira">
-                    <a href="javascript:;">
+                    <a href="<?php echo $path_paginas.'/motos_seminovas.php'?>">
                         <div class="cantoneira_texto">
                             CONHEÇA AS<br /> SEMI-NOVAS
                         </div>

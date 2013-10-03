@@ -13,7 +13,7 @@
         <div class="motos_content">
             <div id="moto_modalidade_control">
                 <div class="moto_novas_btn">
-                    <a href="javascript:;">
+                    <a href="<?php echo $path_paginas.'/motos_novas.php'?>">
                         <div class="wrapper">
                             <div class="motos-texto">
                                 <h1>MOTOS <span>0 KM</span></h1>
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="moto_semi_btn">
-                    <a href="javascript:;">
+                    <a href="<?php echo $path_paginas.'/motos_seminovas.php'?>">
                         <div class="wrapper">
                             <div class="motos-img">
                                 <img src="../img/bmw_1.jpg" />
@@ -45,8 +45,8 @@
                             </div>
 
                             <div class="motos-texto">
-                                <h1><span>MOTOS</span> SEMI-NOVAS</h1>
-                                <p>Além dos modelos 0 KM, a FULL MOTTORS possui vários modelos de semi-novas</p>
+                                <h1><span class="text_color_black">MOTOS </span><span class="text_color_white">SEMI-NOVAS</span></h1>
+                                <p>Também contamos com vários modelos semi-novos de várias marcas. Clique aqui e conheça as motos na nossa garagem.</p>
                             </div>
 
                             <div class="clear"></div>

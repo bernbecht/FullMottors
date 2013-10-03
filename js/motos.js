@@ -2,7 +2,13 @@
 /*
  *  FILE'S DESCRIPTION
  *  ------------------
- *  Scripts para a página /paginas/motos.php 
+ *  Scripts para a página /paginas/motos.php
+ *
+ *  Note 30-09-2013
+ *  ---------------
+ *
+ *  - The features used for the navigation by AJAX are disabled
+ *  - Check the document.ready to see which functions are disable
  *  
  */
 
@@ -341,9 +347,21 @@ function trocaCategoriaMotoNova(){
 }
 
 $(document).ready(function(){
-    trocaTelaMotoInicial();
+
+    /*
+    * Desabilitado pela nova funcionalidade de navegaçao
+    */
+
+    //trocaTelaMotoInicial();
     trocaTelaMotoDescricao();
     thumbnailsMotoDesc();
-    controleUrlMotoDesc();
-    trocaModalidadeMoto();
+    //controleUrlMotoDesc();
+    //trocaModalidadeMoto();
+    trocaCategoriaMotoNova();
+    setTimeout(function(){
+        $('#motos_novas').transition({
+            opacity : 1
+        },'500');
+    },500);
+
 });

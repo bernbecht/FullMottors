@@ -11,6 +11,19 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
 
+
+.text_color_red{
+    color: #bd2029;
+}
+
+.text_color_white{
+    color: #eee;
+}
+
+.text_color_black{
+    color: #171716
+}
+
 html, body{
 
     font-family: 'Open Sans', sans-serif;
@@ -140,6 +153,12 @@ h1 > span{
 }
 
 .link_carosel_container{
+    margin-top: 30px;
+    width: 280px;
+    font-family: verdana;
+}
+
+.link_carosel_container_small{
     margin-top: 30px;
     width: 280px;
     font-family: verdana;
@@ -307,6 +326,7 @@ h1 > span{
     border-bottom: 1px solid #CCC;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    position: relative;
 
 }
 
@@ -329,11 +349,15 @@ h1 > span{
 
 .noticia-foto{   
     float: left;
+    position: relative;
+    width: 20%;
 }
 
 .noticia-texto{    
     float: left;
     margin-left: 10px;
+    position: relative;
+    width: 75%;
 
 }
 
@@ -341,8 +365,16 @@ h1 > span{
     font-size: 14px;    
     color: #171716;
     font-weight: 300;
+    position: relative;
+    width: 100%;
+}
 
-
+.manchete_noticia p{
+    text-overflow: ellipsis; /* will make [...] at the end */
+    white-space: nowrap; /* paragraph to one line */
+    overflow:hidden; /* older browsers */
+    position: relative;
+    width: 100%;
 }
 
 .data_noticia{
@@ -581,6 +613,7 @@ footer{
     text-align: justify;
     height: 346px;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -688,10 +721,8 @@ footer{
 
 .motos-texto, .motos-img{
     width: 320px;    
-    text-align: justify;
+    text-align: left;
 }
-
-
 
 .moto_semi_btn{    
     background: #383836 url('../img/back_motos2.jpg') no-repeat;    
@@ -711,10 +742,6 @@ footer{
 
 .motos-texto p{
     font-weight: 700;
-}
-
-.motos-texto span{
-    color: #fff;
 }
 
 
@@ -1335,4 +1362,11 @@ footer{
 
 .img_produto_container .popover.right {
     margin-top: 20px;
+}
+
+.load_image{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
 }
