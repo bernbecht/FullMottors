@@ -89,7 +89,7 @@ require_once APP_TEMPLATE . 'header.php';
                         <li><a href="javascript:;"><img src="../../img/motos-desc/F800R/F800R2_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/F800R/F800R3_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/F800R/F800R1_thumb.jpg" /></a></li>
-                        <li></li>
+
                     </ul>
                 </div> 
                 <div class="clear"></div>

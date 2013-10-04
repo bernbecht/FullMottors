@@ -878,10 +878,12 @@ footer{
 }
 
 .moto_desc-thumb, .moto_desc-thumb_semi{
-    width: 207px;
-    height: 470px;    
+    width: 225px;
+    height: 470px;
     float: left;
     margin-left: 20px;
+    overflow-y: scroll;
+    overflow-x: visible;
 
 }
 

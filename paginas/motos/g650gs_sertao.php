@@ -62,7 +62,7 @@ require_once APP_TEMPLATE . 'header.php';
                         <li><a href="javascript:;"><img src="../../img/motos-desc/gssertao/gssertao2_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/gssertao/gssertao3_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/gssertao/gssertao1_thumb.jpg" /></a></li>
-                        <li></li>
+
                     </ul>
                 </div> 
                 <div class="clear"></div>

@@ -59,7 +59,7 @@ require_once APP_TEMPLATE . 'header.php';
                         <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT3_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT2_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT1_thumb.jpg" /></a></li>
-                        <li></li>
+
                     </ul>
                 </div> 
                 <div class="clear"></div>

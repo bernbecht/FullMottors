@@ -358,6 +358,7 @@ $(document).ready(function(){
     //controleUrlMotoDesc();
     //trocaModalidadeMoto();
     trocaCategoriaMotoNova();
+
     setTimeout(function(){
         $('#motos_novas').transition({
             opacity : 1

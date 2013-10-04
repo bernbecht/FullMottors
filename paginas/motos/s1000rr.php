@@ -56,9 +56,9 @@ require_once APP_TEMPLATE . 'header.php';
                 <div class="moto_desc-thumb">
                     <ul>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/S1000RR/S1000RR2_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/S1000RR/S1000RR1_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/S1000RR/S1000RR3_thumb.jpg" /></a></li>
-                        <li></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/S1000RR/S1000RR4_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/S1000RR/S1000RR1_thumb.jpg" /></a></li>
                     </ul>
                 </div> 
                 <div class="clear"></div>
