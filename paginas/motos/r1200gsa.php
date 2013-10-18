@@ -58,7 +58,6 @@ require_once APP_TEMPLATE . 'header.php';
                     <ul>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA1_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA3_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA4_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/R1200GSA/R1200GSA2_thumb.jpg" /></a></li>
                     </ul>
                 </div> 
