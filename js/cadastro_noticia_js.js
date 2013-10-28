@@ -48,7 +48,7 @@ function incluiNoticiaAjax(){
                 }
             }
            
-        }); 
+        });
         
     });
 }

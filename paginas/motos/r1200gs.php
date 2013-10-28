@@ -41,7 +41,7 @@ require_once APP_TEMPLATE . 'header.php';
                 </ul>
 
                 <div id="btn_troca_para_semi" class="cantoneira">
-                    <a href="j<?php echo $path_paginas.'/motos_seminovas.php'?>">
+                    <a href="<?php echo $path_paginas.'/motos_seminovas.php'?>">
                         <div class="cantoneira_texto">
                             CONHEÇA AS<br /> SEMI-NOVAS
                         </div>

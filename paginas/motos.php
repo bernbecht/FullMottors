@@ -3,7 +3,6 @@
     <?php
     require_once '../config.php';
     require_once '../template/head.php';
-    require_once '../template/header.php';
     ?>
     <body>
         <?php
@@ -17,7 +16,8 @@
                         <div class="wrapper">
                             <div class="motos-texto">
                                 <h1>MOTOS <span>0 KM</span></h1>
-                                <p>A FULL MOTTORS é a única loja da cidade que possui os modelos 0 KM das motos BMW. Clique aqui e confira o nosso catálogo.</p>
+                                <p>A Full Mottors é especializada em motos de alta cilindrada.
+                                    Aqui você encontra toda a linha da BMW e Kawasaki</p>
                             </div>
 
                             <div class="motos-divisor">

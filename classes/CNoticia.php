@@ -9,7 +9,7 @@ class CNoticia {
         //$conexao = $conexao1->novaConexao();
 
         $incluir = pg_query($conexao, "INSERT INTO NOTICIA(post, manchete, data)
-            VALUES('$post',
+            VALUES($post,
                 '$manchete',
                 '$data')RETURNING id_noticia");
 

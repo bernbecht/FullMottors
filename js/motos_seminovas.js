@@ -52,7 +52,7 @@ $(document).ready(function(){
     getMotosSemiNovas();
 
     setTimeout(function(){
-        $('#motos_novas').transition({
+        $('#motos_semi').transition({
             opacity : 1
         },'500');
     },500);

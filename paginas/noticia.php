@@ -2,7 +2,6 @@
 require_once '../config.php';
 require_once '../classes/CNoticia.php';
 require_once '../classes/CVisitas.php';
-require_once '../config.php';
 
 $id = $_GET['id'];
 
@@ -26,40 +25,27 @@ $fetch = pg_fetch_object($consulta);
 
 <!DOCTYPE html>
 <html>
+
+
     <head>
         <title>
-            <?php
-            if ($num_rows > 0) {
-                $title = $fetch->manchete;
-                print "Full Mottors - " . $fetch->manchete;
-            } else {
-                $title = "Full Mottors - Notícias";
-                print "Full Mottors - Notícias";
-            }
-            ?>
+            <?php print $fetch->manchete.'|Full Mottors'?>
         </title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta property="og:title" content="<?php print $title; ?>">
+        <meta property="og:title" content=" Boutique- Full Mottors">
 
-        <?php
-        if ($num_rows > 0) {
-            $description = substr($fetch->post, 0, 99) . "... Leia mais no site.";
-        } else {
-            $description = "As notícias que fazem você ficar por dentro das altas cilindradas.";
-        }
-        ?>
 
-        <meta name="description" content="<?php print $description; ?>" />
-        <meta name="og:description" content="<?php print $description; ?>" />               
-        <meta property="og:site_name" content="Full Mottors" />
-        <meta property="og:type" content="article" />  
-        <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png" />  
+        <meta name="description" content="Confira os melhores equipamentos para a sua moto."/>
+        <meta name="og:description" content="Confira os melhores equipamentos para a sua moto."/>
+        <meta property="og:site_name" content="Full Mottors"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
         <meta property="og:locale" content="pt_BR">
 
         <?php
-        require_once '../template/css_scripts.php';
-        ?>        
+        require_once APP_TEMPLATE . 'css_scripts.php';
+        ?>
     </head>
 
     <body>

@@ -56,8 +56,6 @@
                     }
                     ?>
 
-
-
                     <div class="noticia_teaser_mini-content">
 
                         <?php
@@ -99,9 +97,7 @@
                         <div class="clear"></div>
                     </div>
 
-
                     <div class="noticia_teaser_lista">
-
                         <?php
                         if ($num_rows > 5) {
                             while ($fetch = pg_fetch_object($consulta)) {
@@ -120,16 +116,14 @@
                             }
                         }
                         ?>
-
                     </div>
                 </div>
 
+                <!-- TODO: Menu lateral com Produtos só quando a Boutique for lançada
                 <div class="coluna4">
-
                     <div class="top-coluna news">
                         Lançamentos Boutique
                     </div>
-
                     <div class="noticia_teaser_vitrine_produtos">
                         <?php
                         if (pg_num_rows($lancamentos) > 0) {
@@ -152,12 +146,8 @@
                         }
                         ?>
                     </div>
-
-                </div>
-
+                </div>-->
                 <div class="clear"></div>
-
-
             </div>
         </div>
 

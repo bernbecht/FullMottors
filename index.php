@@ -55,8 +55,7 @@ require_once APP_TEMPLATE.'header.php';
                     <div class="slide2">
                         <div class="slide_text">
                             <div class="manchete">
-                                <h1><span>Boutique</span></h1>
-                                <h1 class="segundo_h1">e Acessórios</h1>
+                                <h1><span>Boutique</span><br>e Acessórios</h1>
                             </div>
                             <div class="texto-carosel">
                                 Os <b>equipamentos</b> vendidos na nossa loja são <b>reconhecidos mundialmente</b>, utilizados pelos
@@ -73,8 +72,7 @@ require_once APP_TEMPLATE.'header.php';
                     <div class="slide3">
                         <div class="slide_text">
                             <div class="manchete">
-                                <h1>Serviços e </h1>
-                                <h1 class="segundo_h1"><span>Manutenção</span></h1>
+                                <h1>Serviços e <span>Manutenção</span></h1>
                             </div>
                             <div class="texto-carosel">
                                 <p>A nossa oficina está preparada para cuidar da sua moto do jeito que ela merece.</p>

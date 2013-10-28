@@ -1,33 +1,52 @@
+<?php
+require_once '../config.php';
+require_once '../classes/CSemi.php';
+require_once '../classes/CImagem.php';
+require_once '../classes/CVisitas.php';
+
+$id = $_GET['id'];
+
+$semi = new CSemi;
+$img = new CImagem;
+$visita = new CVisitas;
+
+$data = date("Y-m-d");
+
+$visita->incluirVisita($id, 3, $data);
+
+
+$consulta = $semi->getSemiNovasById($id);
+
+$consultaImg = $img->consultaImgGenerico($id, 3, 2);
+
+$fetch = pg_fetch_object($consulta);
+
+$fetchImg = pg_fetch_object($consultaImg);
+
+$preco = number_format($fetch->preco, 2, ',', '');
+?>
 <!DOCTYPE html>
 <html>
+<head>
+    <title>
+        <?php print mb_strtoupper($fetch->marca) . ' ' . mb_strtoupper($fetch->modelo) . ' ' . mb_strtoupper($fetch->cor) . ' ' . mb_strtoupper($fetch->ano) ?>
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta property="og:title" content=" <?php print mb_strtoupper($fetch->marca) . ' ' . mb_strtoupper($fetch->modelo) . ' ' . mb_strtoupper($fetch->cor) . ' ' . mb_strtoupper($fetch->ano) ?>">
+
+
+    <meta name="description" content="Confira as motos semi-novas da Full Mottors - Multimarcas"/>
+    <meta name="og:description" content="Confira as motos semi-novas da Full Mottors - Multimarcas"/>
+    <meta property="og:site_name" content="Full Mottors"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:locale" content="pt_BR">
+
     <?php
-    require_once '../config.php';
-    require_once '../template/head.php';
-    require_once '../classes/CSemi.php';
-    require_once '../classes/CImagem.php';
-    require_once '../classes/CVisitas.php';
-
-    $id = $_GET['id'];
-
-    $semi = new CSemi;
-    $img = new CImagem;
-    $visita = new CVisitas;
-
-    $data = date("Y-m-d");
-
-    $visita->incluirVisita($id, 3, $data);
-
-
-    $consulta = $semi->getSemiNovasById($id);
-
-    $consultaImg = $img->consultaImgGenerico($id, 3, 2);
-
-    $fetch = pg_fetch_object($consulta);
-
-    $fetchImg = pg_fetch_object($consultaImg);
-
-    $preco = number_format($fetch->preco, 2, ',', '');
+    require_once APP_TEMPLATE . 'css_scripts.php';
     ?>
+</head>
     <body>
         <?php
         require_once '../template/header.php';
@@ -164,4 +183,5 @@
         require_once '../template/footer.php';
         ?>
     </body>
+    <script type="text/javascript" src="<?php print $path_js . 'motos.js' ?>"></script>
 </html>

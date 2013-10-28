@@ -164,7 +164,7 @@ $(document).ready(function(){
     mudaImgCaroselModal();
     ajustaNoticiaTeaserMainText();
     trocarAbaSubnav();
-    trocaTitle();
+    //trocaTitle();
     
 });
 

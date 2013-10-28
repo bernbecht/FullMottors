@@ -11,11 +11,11 @@ $lancamentos = $produto->consutaRecentes(8);
 
 <head>
     <title>
-        Boutique - Full Mottors
+        Boutique |Full Mottors
     </title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta property="og:title" content=" Boutique- Full Mottors">
+    <meta property="og:title" content=" Boutique |Full Mottors">
 
 
     <meta name="description" content="Confira os melhores equipamentos para a sua moto."/>
@@ -35,60 +35,17 @@ $lancamentos = $produto->consutaRecentes(8);
 require_once APP_TEMPLATE.'header.php';
 ?>
 
-<div class="boutique_content">
+<div class="boutique_content under_construction_page">
     <div class="wrapper">
         <div class="coluna-row">
-            <div class="coluna3 coluna-inicial">
-                <?php
-                require_once '../template/menu_lateral_boutique.php';
-                ?>
-
-            </div>
-            <div class="coluna9">
-                <div class="titulo_categoria_boutique">
-                    <h1 >Lançamentos</h1>
-                </div>
-
-                <div class="janela_produtos">
-
-                    <?php
-                    if (pg_num_rows($lancamentos) > 0) {
-
-                        while ($fetch_lancamentos = pg_fetch_object($lancamentos)) {
-                            $preco = number_format($fetch_lancamentos->preco, 2, ',', '');
-                            $par = number_format($fetch_lancamentos->parcelas, 2, '.', '');
-                            $prazo = $fetch_lancamentos->prazo / $par;
-                            $prazo = number_format($prazo, 2, ',', '');
-
-                            echo '<a href="descricao_produto.php?produto=' . $fetch_lancamentos->id_produto . '">
-                                            <div class="produto">
-                                                <div class="produto_img">
-                                                    <img src="../img/boutique/' . $fetch_lancamentos->nome_img . '" />
-                                                </div>
-                                                <div class="produto_nome">
-                                                ' . $fetch_lancamentos->nome . '
-                                                </div>
-                                                <div class="produto_preco">
-                                                R$ ' . $preco . '
-                                                </div>
-                                                <div class="produto_preco">
-                                                ou ' . $fetch_lancamentos->parcelas . "x R$ " . $prazo . '
-                                                </div>
-
-                                            </div>
-                                        </a>';
-                        };
-                    } else {
-                        print '<div class="consulta_erro">Não há itens no momento.</div>';
-                    }
-                    ?>
-
-
-
-                    <div class="clear"></div>
+            <div class="coluna12 coluna-inicial">
+                <div class="">
+                    <h1>Boutique e Acessórios</h1>
+                    <p>Desculpe, mas esta parte está em construção. <br>Mas você conferir as
+                        <a href="<?php print $path_paginas.'/motos.php'?>">motos da nossa loja
+                        </a> ou <a href="<?php print $path_paginas.'/contato.php'?>">mandar um Oi para nós.</a></p>
                 </div>
             </div>
-            <div class="clear"></div>
         </div>
     </div>
 </div>
