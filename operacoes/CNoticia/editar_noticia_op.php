@@ -1,7 +1,7 @@
 <?php
 
 //não mostrar erros de banco
-//ini_set('display_errors', 0);
+ini_set('display_errors', 0);
 
 require_once '../../classes/CNoticia.php';
 
@@ -47,7 +47,7 @@ if (count($erro) > 0) {
 
     $noticia = new CNoticia;
 
-    $incluir = $noticia->editarNoticia($id, $post, $manchete);
+    $incluir = $noticia->editarNoticia($id, pg_escape_string(stripslashes($post)), pg_escape_string(htmlspecialchars(stripslashes($manchete))));
 
     if ($incluir != false && $miniatura_modificada == 1) {
 

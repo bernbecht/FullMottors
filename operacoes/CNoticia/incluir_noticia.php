@@ -43,7 +43,7 @@ if (count($erro) > 0) {
 
     $noticia = new CNoticia;
 
-    $incluir = $noticia->incluirNoticia($conexao, $post, $manchete, $data);
+    $incluir = $noticia->incluirNoticia($conexao, pg_escape_string(stripslashes($post)), pg_escape_string(htmlspecialchars(stripslashes($manchete))), $data);
 
     $id_noticia = $incluir;
 

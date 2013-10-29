@@ -97,37 +97,37 @@ function editaNoticia(){
     $('#enviar').click(function(){        
         var id = $('#id').val();
         var post = $('#edicao_post').html();
-        
-        $('#noticia_form').ajaxSubmit( {             
+
+        $('#noticia_form').ajaxSubmit( {
             data: {
                 id:id,
                 post:post
             },
-            
+
             beforeSubmit: function() {
-                
+
             },
             success: function(data) {
                 $('.erro_incluir').children().first().remove();
-               
+
                 //alert(data);
-                
-                if(data != 1){                   
-                  
+
+                if(data != 1){
+
                     $('<div class="alert alert-error fade in"><button type="button" class="close" data-dismiss="alert">×</button>'+data+'</div>').appendTo('.erro_incluir');
                 }
                 else{
-                    
+
                     $('<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert">×</button>Notícia editada com sucesso</div>').appendTo('.erro_incluir');
-                    
+
                     setTimeout(function(){
-                        
-                        document.location.reload(true);            
-                    },800);  
-                    
+
+                        document.location.reload(true);
+                    },800);
+
                 }
-            }           
-        }); 
+            }
+        });
     });
 }
 

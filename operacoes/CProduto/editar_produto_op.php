@@ -126,7 +126,7 @@ if (count($erro) != 0) {
     $produto = new CProduto;
 
     //produto vai retornar a id do produto recem inserido no BD
-    $incluir = $produto->editarProduto($conexao, $n, $m, $desc, $d, $p, $c, $caract, $id, $prazo, $parcelas);
+    $incluir = $produto->editarProduto($conexao, $n, $m, pg_escape_string(htmlspecialchars(stripslashes($desc))), $d, $p, $c, pg_escape_string(htmlspecialchars(stripslashes($caract))), $id, $prazo, $parcelas);
 
     if (!$incluir) {
         $db_error[0] = pg_last_error($conexao);

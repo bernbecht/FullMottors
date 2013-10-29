@@ -184,7 +184,7 @@ if (count($erro) != 0) {
     $db_error = null;
 
     //produto vai retornar a id do produto recem inserido no BD
-    $incluir = $moto->editarSemi($id, $marca, $modelo, $ano, $cilindradas, $transmissao, $partida, $refrigeracao, $esa, $ascs, $rdc, $bc, $observacao, $bolsas, $motor, $potencia, $cor, $km, $estilo, $preco);
+    $incluir = $moto->editarSemi($id, $marca, $modelo, $ano, $cilindradas, $transmissao, $partida, $refrigeracao, $esa, $ascs, $rdc, $bc, pg_escape_string(htmlspecialchars(stripslashes($observacao))), $bolsas, $motor, $potencia, $cor, $km, $estilo, $preco);
 
     if (!$incluir) {
         //$db_error[0] = pg_last_error($conexao);
