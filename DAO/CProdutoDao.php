@@ -1,8 +1,8 @@
 <?php
 
 require_once APP_CLASSES . "/CConexao.php";
-require_once APP_TESTE. "/CProduto.php";
-require_once APP_TESTE. "/Utils.php";
+require_once APP_CLASSES . "/CProduto.php";
+require_once APP_CLASSES . "/CUtils.php";
 
 class CProdutoDao {
 
@@ -11,13 +11,14 @@ class CProdutoDao {
         $nome = $object->getNome();
         $data = $object->getData();
         $descricao = $object->getDescricao();
-        $view_status = Utils::booleanPostgresTranslater($object->getViewStatus());
-        $lancamento = Utils::booleanPostgresTranslater($object->getLancamento());
+        $view_status = CUtils::booleanPostgresTranslater($object->getViewStatus());
+        $lancamento = CUtils::booleanPostgresTranslater($object->getLancamento());
         $preco = $object->getPreco();
         $parcelas = $object->getParcelas();
         $prazo = $object->getPrazo();
         $id_categoria = $object->getCategoria()->getID();
         $id_marca = $object->getMarca()->getID();
+        $id_img_cover = $object->getImgCover()->getID();
 
         $sql = "INSERT INTO produto (nome,
                     data,
@@ -28,7 +29,8 @@ class CProdutoDao {
                     id_marca,
                     prazo,
                     parcelas,
-                    lancamento)
+                    lancamento,
+                    id_img)
                 VALUES('$nome',
                         '$data',
                         '$descricao',
@@ -38,13 +40,12 @@ class CProdutoDao {
                         $id_marca,
                         $prazo,
                         $parcelas,
-                        '$lancamento')";
+                        '$lancamento',
+                        $id_img_cover)";
 
         $query = pg_query($connection, $sql);
 
         return $query;
-
-
     }
 
     public static function getByID($id){

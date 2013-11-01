@@ -8,8 +8,8 @@
  */
 
 require_once APP_CLASSES . "/CConexao.php";
-require_once APP_TESTE. "/CImagem.php";
-require_once APP_TESTE. "/Utils.php";
+require_once APP_CLASSES . "CImagem.php";
+require_once APP_CLASSES . "CUtils.php";
 
 class CImagemDao{
 
@@ -19,11 +19,42 @@ class CImagemDao{
         $conexao->novaConexao();
 
         $sql = "select *
-                from imagem
+                from img
                 inner join objeto_imagem
-                on imagem.id_imagem = objeto_imagem.id_imagem
+                on img.id_imagem = objeto_imagem.id_imagem
                 and objeto_imagem.id_objeto = $id
                 and objeto_imagem.modalidade = $modalidade";
+
+        $query = pg_query($conexao->getConnection(), $sql);
+
+        $conexao->closeConexao();
+
+        return $query;
+    }
+
+    public static function getAll()
+    {
+        $conexao = new CConexao();
+        $conexao->novaConexao();
+
+        $sql = "select *
+                from img";
+
+        $query = pg_query($conexao->getConnection(), $sql);
+
+        $conexao->closeConexao();
+
+        return $query;
+    }
+
+    public static function getByID($id)
+    {
+        $conexao = new CConexao();
+        $conexao->novaConexao();
+
+        $sql = "select *
+                from img
+                where id_img = $id ";
 
         $query = pg_query($conexao->getConnection(), $sql);
 
@@ -35,7 +66,7 @@ class CImagemDao{
     public static function insertObjectBD($object, $connection){
 
         $imagem_path = $object->getPathImagem();
-        $sql = "INSERT INTO imagem (imagem_path) VALUES ('$imagem_path');";
+        $sql = "INSERT INTO img (img_path) VALUES ('$imagem_path');";
 
         $query = pg_query($connection, $sql);
 

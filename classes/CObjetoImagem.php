@@ -11,13 +11,13 @@ class CObjetoImagem
 {
     protected $id_imagem,
         $id_objeto,
-        $modalidade;
+        $type;
 
-    public function __construct($id_img, $id_obj, $modalidade)
+    public function __construct($id_img, $id_obj, $type)
     {
         $this->id_imagem = $id_img;
         $this->id_objeto = $id_obj;
-        $this->modalidade = $modalidade;
+        $this->type = $type;
     }
 
     public function setIdImg($id)
@@ -40,13 +40,13 @@ class CObjetoImagem
         return $this->id_objeto;
     }
 
-    public function setModalidade($modalidade)
+    public function setType($type)
     {
-        $this->modalidade = $modalidade;
+        $this->type = $type;
     }
 
-    public function getModalidade()
+    public function getType()
     {
-        return $this->modalidade;
+        return $this->type;
     }
 }

@@ -5,10 +5,10 @@ class CConexao {
 
 
         protected $Host = 'localhost';
-        protected $User = 'postgres';
+        protected $User = 'Berhell';
         protected $Password = 'root';
         protected $Porta = '5432';
-        protected $DbName = 'fmottors';
+        protected $DbName = 'fullmottors';
         protected $Conexao = null;
 
 
@@ -34,7 +34,7 @@ class CConexao {
 
     public function novaConexao() {
 
-        $this->Conexao = @pg_connect("host='" . $this->Host .
+        $this->Conexao = pg_connect("host='" . $this->Host .
                         "' user='" . $this->User .
                         "' password='" . $this->Password .
                         "'port='" . $this->Porta
@@ -55,7 +55,8 @@ class CConexao {
 
     public function closeConexao() {
 
-        @pg_close($this->Conexao);
+        pg_close($this->Conexao);
+        $this->Conexao = null;
     }
     
     public function getConnection(){

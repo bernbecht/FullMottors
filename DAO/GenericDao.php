@@ -8,9 +8,8 @@ require_once APP_DAO . "CImagemDao.php";
 require_once APP_CLASSES . "CConexao.php";
 require_once APP_CLASSES . "CCategoria.php";
 require_once APP_CLASSES . "CMarca.php";
-//TODO: Mudar essas classes para a pasta certa no futuro
-require_once "../teste/CProduto.php";
-require_once "../teste/CImagem.php";
+require_once APP_CLASSES . "CProduto.php";
+require_once APP_CLASSES . "CImagem.php";
 
 define("CLASS_CCATEGORIA", "CCategoria");
 define("CLASS_CMARCA", "CMarca");
@@ -69,6 +68,16 @@ class GenericDao
                 }
                 break;
 
+            case CLASS_CIMAGEM:
+                $result = CImagemDao::getAll();
+                if (pg_num_rows($result) > 0) {
+                    while ($fetch = pg_fetch_object($result)) {
+                        $object = new CImagem($fetch->id_img, $fetch->img_path);
+                        $objectArray[] = $object;
+                    }
+                }
+                break;
+
             default:
                 break;
         }
@@ -77,7 +86,6 @@ class GenericDao
 
     public static function getByID($class, $id)
     {
-
         $object = FALSE;
 
         switch ($class) {
@@ -117,6 +125,15 @@ class GenericDao
 
                 break;
 
+            case CLASS_CIMAGEM:
+                $result = CImagemDao::getByID($id);
+                if (pg_num_rows($result) > 0) {
+                    $fetch = pg_fetch_object($result);
+                    $object = new CImagem($fetch->id_img, $fetch->img_path);
+                }
+
+            break;
+
             default:
                 break;
         }
@@ -129,7 +146,9 @@ class GenericDao
         $result = FALSE;
         $connection = $connectionObject->getConnection();
 
+        //TODO: Remover esses print
         print $connectionObject->verificaConexao();
+        print $connection;
 
         switch ($className) {
             case CLASS_CCATEGORIA:

@@ -1,6 +1,6 @@
 <?php
 
-require_once APP_CLASSES . "/CConexao.php";
+require_once APP_CLASSES . "CConexao.php";
 
 class CCategoriaDao {
 
@@ -44,6 +44,7 @@ class CCategoriaDao {
 
         return $query;
     }
+
 
 }
 

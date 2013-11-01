@@ -1,6 +1,6 @@
 <?php
 
-require_once APP_CLASSES . "/CConexao.php";
+require_once APP_CLASSES . "CConexao.php";
 
 class CMarcaDao {
 
