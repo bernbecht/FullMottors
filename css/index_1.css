@@ -1178,6 +1178,8 @@ footer{
 .contato_content  textarea{
     height: 100px;
     width: 500px;
+    max-height: 100px;
+    max-width: 500px;
 }
 
 .contato-form-input legend{

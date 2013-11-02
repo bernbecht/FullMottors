@@ -25,7 +25,7 @@ require_once '../config.php';
 </head>
     <body>
         <?php
-        require_once '../template/header.php';
+        require_once APP_TEMPLATE . 'header.php';
         ?>
         <div class="servicos_content">
             <div class="wrapper">

@@ -1,12 +1,31 @@
+<?php
+require_once '../config.php';
+?>
 <!DOCTYPE html>
 <html>
+<head>
+    <title>
+        Empresa |Full Mottors
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta name="description" content="A Full Mottors é uma loja especializada em motos de alta cilindrada e equipamentos."/>
+    <meta property="og:title" content=" Empresa |Full Mottors">
+    <meta name="og:description" content="A Full Mottors é uma loja especializada em motos de alta cilindrada e equipamentos."/>
+    <meta property="og:site_name" content="Full Mottors"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:locale" content="pt_BR">
+
     <?php
-    require_once '../config.php';
-    require_once '../template/head.php'
+    require_once APP_TEMPLATE . 'css_scripts.php';
     ?>
+</head>
     <body>
         <?php
-        require_once '../template/header.php';
+        require_once APP_TEMPLATE . 'header.php';
         ?>
 
         <div class="empresa_content">
@@ -41,7 +60,7 @@
                             </div>
 
                             <div class="coluna5">
-                                <img src="../img/bmw_3.jpg" />
+                                <img src="<?php print $path_img . '/foto-fachada.jpg' ?>" />
                             </div>
 
                             <div class="clear"></div> 
