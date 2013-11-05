@@ -1,24 +1,49 @@
+<?php
+require_once '../config.php';
+require_once APP_CLASSES . 'CProduto.php';
+require_once APP_CLASSES . 'CNoticia.php';
+
+$noticia = new CNoticia;
+$consulta = $noticia->getNoticiasRecentes(10);
+$num_rows = pg_num_rows($consulta);
+
+setlocale(LC_ALL, "pt_BR", "pt_BR.iso-8859-1", "pt_BR.utf-8", "portuguese");
+date_default_timezone_set('America/Sao_Paulo');
+
+/*
+ * Funcionalidades de Produto Desligadas enquanto não houve Boutique
+ */
+
+/*
+$produto = new CProduto;
+$lancamentos = $produto->consutaRecentes(4);
+*/
+
+?>
+
 <!DOCTYPE html>
 <html>
+<head>
+    <title>
+        Notícias | Full Mottors
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta name="description" content="A Full Mottors é uma loja especializada em motos de alta cilindrada e equipamentos."/>
+    <meta property="og:title" content=" Motos|Full Mottors">
+    <meta name="og:description" content="A Full Mottors é uma loja especializada em motos de alta cilindrada e equipamentos."/>
+    <meta property="og:site_name" content="Full Mottors"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:locale" content="pt_BR">
+
     <?php
-    require_once '../config.php';
-    require_once '../template/head.php';
-    require_once '../classes/CProduto.php';
-    require_once '../classes/CNoticia.php';
-
-    $produto = new CProduto;
-
-    $noticia = new CNoticia;
-
-    $lancamentos = $produto->consutaRecentes(4);
-
-    $consulta = $noticia->getNoticiasRecentes(10);
-
-    $num_rows = pg_num_rows($consulta);
-
-    setlocale(LC_ALL, "pt_BR", "pt_BR.iso-8859-1", "pt_BR.utf-8", "portuguese");
-    date_default_timezone_set('America/Sao_Paulo');
+    require_once APP_TEMPLATE . 'css_scripts.php';
     ?>
+</head>
+
     <body>
         <?php
         require_once '../template/header.php';
@@ -152,7 +177,8 @@
         </div>
 
         <?php
-        require_once '../template/footer.php';
+        require_once APP_TEMPLATE . 'footer.php';
         ?>
     </body>
+<script type="text/javascript" src="<?php print $path_js . 'noticia_teaser.js' ?>"></script>
 </html>

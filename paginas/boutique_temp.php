@@ -11,7 +11,7 @@ $lancamentos = $produto->consutaRecentes(8);
 
 <head>
     <title>
-        Boutique |Full Mottors
+        Boutique | Full Mottors
     </title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

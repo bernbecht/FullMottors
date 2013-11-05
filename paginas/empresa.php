@@ -5,7 +5,7 @@ require_once '../config.php';
 <html>
 <head>
     <title>
-        Empresa |Full Mottors
+        Empresa | Full Mottors
     </title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

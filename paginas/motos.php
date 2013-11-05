@@ -1,9 +1,29 @@
+<?php
+require_once '../config.php';
+?>
 <!DOCTYPE html>
 <html>
+<head>
+    <title>
+        Motos | Full Mottors
+    </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta name="description" content="A Full Mottors é uma loja especializada em motos de alta cilindrada e equipamentos."/>
+    <meta property="og:title" content=" Motos|Full Mottors">
+    <meta name="og:description" content="A Full Mottors é uma loja especializada em motos de alta cilindrada e equipamentos."/>
+    <meta property="og:site_name" content="Full Mottors"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:locale" content="pt_BR">
+
     <?php
-    require_once '../config.php';
-    require_once '../template/head.php';
+    require_once APP_TEMPLATE . 'css_scripts.php';
     ?>
+</head>
+
     <body>
         <?php
         require_once '../template/header.php';
@@ -59,7 +79,7 @@
         </div>
 
         <?php
-        require_once '../template/footer.php';
+        require_once APP_TEMPLATE . 'footer.php';
         ?>
 
 

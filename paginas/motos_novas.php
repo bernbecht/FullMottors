@@ -5,7 +5,7 @@
 <html>
 <head>
     <title>
-          Motos 0 KM - Full Mottors
+          Motos 0 KM | Full Mottors
     </title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

@@ -1,7 +1,7 @@
 <?php
 require_once '../config.php';
-require_once '../classes/CNoticia.php';
-require_once '../classes/CVisitas.php';
+require_once APP_CLASSES . 'CNoticia.php';
+require_once APP_CLASSES . 'CVisitas.php';
 
 $id = $_GET['id'];
 
@@ -29,7 +29,7 @@ $fetch = pg_fetch_object($consulta);
 
     <head>
         <title>
-            <?php print $fetch->manchete.'|Full Mottors'?>
+            <?php print $fetch->manchete.' | Full Mottors'?>
         </title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
