@@ -20,7 +20,7 @@ include_once 'config.php';
           content="A Full Mottors é uma loja especializada em motos de alta cilindrada e equipamentos."/>
     <meta property="og:site_name" content="Full Mottors"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:image" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
     <meta property="og:locale" content="pt_BR"/>
 
     <?php

@@ -40,7 +40,7 @@ $preco = number_format($fetch->preco, 2, ',', '');
     <meta name="og:description" content="Confira as motos semi-novas da Full Mottors - Multimarcas"/>
     <meta property="og:site_name" content="Full Mottors"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:image" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
     <meta property="og:locale" content="pt_BR">
 
     <?php

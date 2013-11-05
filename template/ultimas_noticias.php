@@ -22,7 +22,7 @@ $num_rows_recentes = pg_num_rows($consulta);
                 print "<div class='noticia'>
             <a href='$path_paginas/noticia.php?id=$fetch->id_noticia'>
                 <div class='noticia-foto'>
-                    <img src='$fetch->nome_img' />
+                    <img src='$path_img/noticias/$fetch->nome_img' />
                 </div>
 
                 <div class='noticia-texto'>

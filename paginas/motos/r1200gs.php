@@ -17,8 +17,8 @@ require_once '../../config.php';
         <meta name="og:description" content="Confira a BMW R 1200 GS 0 Km na Full Mottors - Multimarcas"/>
         <meta property="og:site_name" content="Full Mottors"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
-        <meta property="og:locale" content="pt_BR">
+        <meta property="og:image" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+s        <meta property="og:locale" content="pt_BR">
 
         <?php
         require_once APP_TEMPLATE . 'css_scripts.php';

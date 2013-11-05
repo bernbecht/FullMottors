@@ -22,7 +22,7 @@ $lancamentos = $produto->consutaRecentes(8);
     <meta name="og:description" content="Confira os melhores equipamentos para a sua moto."/>
     <meta property="og:site_name" content="Full Mottors"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:image" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
     <meta property="og:locale" content="pt_BR">
 
     <?php

@@ -17,7 +17,7 @@ require_once '../../config.php';
     <meta name="og:description" content="Confira a BMW S 1000 RR 0 Km na Full Mottors - Multimarcas"/>
     <meta property="og:site_name" content="Full Mottors"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:img" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
+    <meta property="og:image" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
     <meta property="og:locale" content="pt_BR">
 
     <?php
