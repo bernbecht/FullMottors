@@ -284,6 +284,7 @@ function trocaCategoriaMotoNova(){
         var lista_motos = '<ul>          \n\
                        <li><a href="'+path_paginas+'/motos/r1200gsa.php"><img src="'+path_img+'/enduro/r1200gsa.jpg" /><div class="motos_nome">BMW R 1200 GS Adventure</div></a></li>\n\
                         <li><a href="'+path_paginas+'/motos/r1200gs.php"><img src="'+path_img+'/enduro/r1200gs.jpg" /><div class="motos_nome">BMW R 1200 GS</div></a></li>  \n\
+                        <li><a href="'+path_paginas+'/motos/f800gsa.php"><img src="'+path_img+'/enduro/f800gsa.jpg" /><div class="motos_nome">BMW F 800 GS Adventure</div></a></li>   \n\
                       <li><a href="'+path_paginas+'/motos/f800gs.php"><img src="'+path_img+'/enduro/f800gs.jpg" /><div class="motos_nome">BMW F 800 GS</div></a></li>   \n\
                      <li><a href="'+path_paginas+'/motos/g650gs.php"><img src="'+path_img+'/enduro/g650.jpg" /><div class="motos_nome">BMW G 650 GS</div></a></li>   \n\
                      <li><a href="'+path_paginas+'/motos/g650gs_sertao.php"><img src="'+path_img+'/enduro/GS_sertao.jpg" /><div class="motos_nome">BMW G 650 GS SERTÃO</div></a></li> \n\
