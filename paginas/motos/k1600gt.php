@@ -52,13 +52,13 @@ require_once APP_TEMPLATE . 'header.php';
 
             <div class="moto_desc-galeria">
                 <div class="moto_desc-thumbMain">
-                    <a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT3.jpg" /></a>
+                    <a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT2.jpg" /></a>
                 </div>
                 <div class="moto_desc-thumb">
                     <ul>
+                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT1_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT3_thumb.jpg" /></a></li>
                         <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT2_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1600GT/K1600GT1_thumb.jpg" /></a></li>
 
                     </ul>
                 </div> 

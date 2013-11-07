@@ -31,4 +31,4 @@ This is the branch which the improvement of the CMS is being done. The tasks are
 
 ## Database:
 
-  - Postgre SQL 9.3
+    - Postgres 9.3

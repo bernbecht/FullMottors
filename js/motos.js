@@ -283,7 +283,7 @@ function trocaCategoriaMotoNova(){
     $('.enduro').click(function(){
         var lista_motos = '<ul>          \n\
                        <li><a href="'+path_paginas+'/motos/r1200gsa.php"><img src="'+path_img+'/enduro/r1200gsa.jpg" /><div class="motos_nome">BMW R 1200 GS Adventure</div></a></li>\n\
-                        <li><a href="'+path_paginas+'/motos/r1200gs.php"><img src="'+path_img+'/enduro/200gs.jpg" /><div class="motos_nome">BMW R 1200 GS</div></a></li>  \n\
+                        <li><a href="'+path_paginas+'/motos/r1200gs.php"><img src="'+path_img+'/enduro/r1200gs.jpg" /><div class="motos_nome">BMW R 1200 GS</div></a></li>  \n\
                       <li><a href="'+path_paginas+'/motos/f800gs.php"><img src="'+path_img+'/enduro/f800gs.jpg" /><div class="motos_nome">BMW F 800 GS</div></a></li>   \n\
                      <li><a href="'+path_paginas+'/motos/g650gs.php"><img src="'+path_img+'/enduro/g650.jpg" /><div class="motos_nome">BMW G 650 GS</div></a></li>   \n\
                      <li><a href="'+path_paginas+'/motos/g650gs_sertao.php"><img src="'+path_img+'/enduro/GS_sertao.jpg" /><div class="motos_nome">BMW G 650 GS SERTÃO</div></a></li> \n\
@@ -334,6 +334,7 @@ function trocaCategoriaMotoNova(){
         var lista_motos = '<ul>          \n\
               <li><a href="'+path_paginas+'/motos/k1600gtl.php"><img src="'+path_img+'/tour/k1600gtl.jpg" /><div class="motos_nome">BMW K 1600 GTL</div></a></li> \n\
                        <li><a href="'+path_paginas+'/motos/k1600gt.php"><img src="'+path_img+'/tour/K1600GT.jpg" /><div class="motos_nome">BMW K 1600 GT</div></a></li>\n\
+                       \n <li><a href="'+path_paginas+'/motos/r1200rt.php"><img src="'+path_img+'/tour/r1200rt.jpg" /><div class="motos_nome">BMW R 1200 RT</div></a></li>\n\
                    </ul>';
         
         $('.motos_lista ul').remove();

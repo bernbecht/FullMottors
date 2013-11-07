@@ -36,8 +36,8 @@ require_once '../config.php';
                         <div class="wrapper">
                             <div class="motos-texto">
                                 <h1>MOTOS <span>0 KM</span></h1>
-                                <p>A Full Mottors é especializada em motos de alta cilindrada.
-                                    Aqui você encontra toda a linha da BMW e Kawasaki</p>
+                                <p>A Full Mottors é especializada em motos de alta cilindrada. Aqui você
+                                    encontra toda a linha da BMW e em breve Kawasaki</p>
                             </div>
 
                             <div class="motos-divisor">
