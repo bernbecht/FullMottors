@@ -54,13 +54,13 @@ require_once APP_TEMPLATE . 'header.php';
 
 <div class="moto_desc-galeria">
     <div class="moto_desc-thumbMain">
-        <a href="javascript:;"><img src="../../img/motos-desc/f800gs/f800gs1.jpg"/></a>
+        <a href="javascript:;"><img src="../../img/motos-desc/f800gsa/f800gsa2.jpg"/></a>
     </div>
     <div class="moto_desc-thumb">
         <ul>
-            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/f800gs/f800gs2_thumb.jpg' ?>"/></a></li>
-            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/f800gs/f800gs3_thumb.jpg' ?>"/></a></li>
-            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/f800gs/f800gs1_thumb.jpg' ?>"/></a></li>
+            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/f800gsa/f800gsa1_thumb.jpg' ?>"/></a></li>
+            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/f800gsa/f800gsa3_thumb.jpg' ?>"/></a></li>
+            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/f800gsa/f800gsa2_thumb.jpg' ?>"/></a></li>
 
         </ul>
     </div>
@@ -75,210 +75,210 @@ require_once APP_TEMPLATE . 'header.php';
 <table class="table table-condensed table-hover ">
 <tbody>
 <tr class="">
-    <td class="head">Motor</td>
-    <td class=""></td>
+    <th class="head">Engine</th>
+    <td class="">&nbsp;</td>
 </tr>
 <tr class="">
-    <td class="">Tipo</td>
-    <td class="">Bicilíndrico a 4 tempos<br>Refrigeração líquida<br>4 válvulas por cilindro</td>
+    <th class="">Type</th>
+    <td class="">Water-cooled 4-stroke in-line two-cylinder engine, four valves per cylinder, two overhead camshafts, dry sump lubrication</td>
 </tr>
 <tr class="">
-    <td class="">Diâmetro / curso</td>
+    <th class="">Bore x stroke</th>
     <td class="">82 mm x 75.6 mm</td>
 </tr>
 <tr class="">
-    <td class="">Cilindrada</td>
-    <td class="">798 cc</td>
+    <th class="">Capacity</th>
+    <td class="">798 cc<br></td>
 </tr>
 <tr class="">
-    <td class="">Potência máxima</td>
-    <td class="">85 cv / 7.500 rpm</td>
+    <th class="">Rated output</th>
+    <td class="">63 kW (85 hp) at 7,500 rpm <br>possible reduction: 35 kW (48 hp) at 7,000 rpm</td>
 </tr>
 <tr class="">
-    <td class="">Torque máximo (Nm)/RPM</td>
-    <td class="">83 Nm a 5.750 rpm</td>
+    <th class="">Max. torque</th>
+    <td class="">83 Nm at 5,750 rpm <br>possible reduction: 63 Nm at 4,000 rpm</td>
 </tr>
 <tr class="">
-    <td class="">Taxa de compressão</td>
+    <th class="">Compression ratio</th>
     <td class="">12.0 : 1</td>
 </tr>
-<tr class="invertColor">
-    <td class="invertColor">Preparação do combustível / gestão do motor</td>
-    <td class="invertColor">Electronic intake pipe injection / digital engine management (BMS-K+)</td>
-</tr>
 <tr class="">
-    <td class="">Catalisador</td>
-    <td class="">3 vias com sonda Lambda<br>(Norma de gases EU-3)</td>
+    <th class="">Mixture control / engine management</th>
+    <td class="">Electronic intake pipe injection, digital engine management (BMS-K+)</td>
+</tr>
+<tr>
+    <th>Emission control</th>
+    <td>Closed-loop 3-way catalytic converter / emission standard EU-3<br></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-    <td class="head">Desempenho / Consumo de Combustível</td>
-    <td></td>
+    <th class="head">Performance / fuel consumption</th>
+    <td>&nbsp;</td>
 </tr>
 <tr>
-    <td>Velocidade máxima</td>
-    <td>&gt; 200 km/h</td>
+    <th>Maximum speed</th>
+    <td>193 km/h</td>
 </tr>
 <tr>
-    <td>Consumo (90 km/h)</td>
-    <td></td>
+    <th>Fuel consumption per 100 km at constant 90 km/h</th>
+    <td>4.3 l</td>
 </tr>
 <tr>
-    <td>Consumo (120 km/h)</td>
-    <td></td>
+    <th>Fuel consumption per 100 km at constant 120 km/h</th>
+    <td>5.7 l</td>
 </tr>
 <tr>
-    <td>Combustível</td>
-    <td>Unleaded super, minimum octane rating 95 (RON); optional extra 91 (RON) available</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-    <td class="head">Alternador / Autonomia</td>
-    <td></td>
-</tr>
-<tr>
-    <td>Alternador / Autonomia</td>
-    <td>400 W / ~ 305 km</td>
-</tr>
-<tr>
-    <td>Bateria</td>
-    <td>12 V / 14 Ah, maintenance-free</td>
+    <th>Fuel type</th>
+    <td>Unleaded super, minimum octane rating 95 (RON); optional extra 91 (RON) available<br></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-    <td class="head">Transmissão</td>
-    <td></td>
+    <th class="head">Electrical system</th>
+    <td>&nbsp;</td>
 </tr>
 <tr>
-    <td>Embreagem</td>
-    <td>Multiple-disc clutch in oil bath, mechanically operated</td>
+    <th>Alternator</th>
+    <td>three-phase alternator 400 W (rated power)<br></td>
 </tr>
 <tr>
-    <td>Câmbio</td>
-    <td>6 marchas</td>
-</tr>
-<tr>
-    <td>Transmissão</td>
-    <td>Corrente O-Ring sem emenda</td>
+    <th>Battery</th>
+    <td>12 V / 14 Ah, maintenance-free<br></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-    <td class="head">Ciclística / freios</td>
-    <td></td>
+    <th class="head">Power transmission</th>
+    <td>&nbsp;</td>
 </tr>
 <tr>
-    <td>Quadro</td>
-    <td>Tubular steel space frame, load-bearing engine</td>
+    <th>Clutch</th>
+    <td>Multiple-disc clutch in oil bath, mechanically operated<br></td>
 </tr>
 <tr>
-    <td>Suspensão dianteira</td>
-    <td>Garfo telescópico invertido de 45mm de diâmetro</td>
+    <th>Gearbox</th>
+    <td>Constant mesh 6-speed gearbox integrated into crankcase<br></td>
 </tr>
 <tr>
-    <td>Suspensão traseira</td>
-    <td>Balança traseira de alumínio com amortecedor centralizado</td>
+    <th>Drive</th>
+    <td>Endless O-ring chain with shock damping in rear wheel hub<br></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+    <th class="head">Chassis / brakes</th>
+    <td>&nbsp;</td>
 </tr>
 <tr>
-    <td>Curso da suspensão dianteira / traseira</td>
-    <td>230 mm / 215 mm</td>
+    <th>Frame</th>
+    <td>Tubular steel space frame, load-bearing engine<br></td>
 </tr>
 <tr>
-    <td>Distância entre eixos</td>
-    <td>1,578 mm</td>
+    <th>Front wheel location / suspension</th>
+    <td>Upside-down telescopic fork, Ø 43 mm<br></td>
 </tr>
 <tr>
-    <td>Trail</td>
+    <th>Rear wheel location / suspension</th>
+    <td>Cast aluminium dual swing arm, WAD strut (travel related damping), spring pre-load hydraulically adjustable, rebound damping adjustable<br></td>
+</tr>
+<tr>
+    <th>Suspension travel front / rear</th>
+    <td>230 mm / 215 mm<br></td>
+</tr>
+<tr>
+    <th>Wheelbase</th>
+    <td>1,578 mm<br></td>
+</tr>
+<tr>
+    <th>Castor</th>
     <td>117 mm</td>
 </tr>
 <tr>
-    <td>Ângulo da coluna de direção</td>
+    <th>Steering head angle</th>
     <td>64°</td>
 </tr>
 <tr>
-    <td>Rodas</td>
-    <td>Wire spoke wheels</td>
+    <th>Wheels</th>
+    <td>Wire spoke wheels<br></td>
 </tr>
 <tr>
-    <td>Roda dianteira</td>
-    <td>2.15 x 21"</td>
+    <th>Rim, front</th>
+    <td>2.15 x 21"<br></td>
 </tr>
 <tr>
-    <td>Roda traseira</td>
-    <td>4.25 x 17"</td>
+    <th>Rim, rear</th>
+    <td>4.25 x 17"<br></td>
 </tr>
 <tr>
-    <td>Pneu dianteiro</td>
-    <td>90/90 - 21 54V</td>
+    <th>Tyres, front</th>
+    <td>90/90 - 21 54V<br></td>
 </tr>
 <tr>
-    <td>Pneu traseiro</td>
+    <th>Tyres, rear</th>
     <td>150/70 - 17 69V</td>
 </tr>
 <tr>
-    <td>Freio dianteiro</td>
-    <td>Disco duplo flutuante de 300mm com pinça flutuante de 2 pistões</td>
+    <th>Brake, front</th>
+    <td>Dual disc, floating brake discs, diameter 300 mm, double-piston floating calipers, ABS<br></td>
 </tr>
 <tr>
-    <td>Freio traseiro</td>
-    <td>Disco simples de 265mm com pinça flutuante de 1 pistão</td>
+    <th>Brake, rear</th>
+    <td>Single disc, diameter 265 mm, single-piston floating caliper, ABS<br></td>
 </tr>
 <tr>
-    <td>ABS</td>
-    <td>Optional extra: BMW Motorrad ABS (can be switched off)</td>
+    <th>ABS</th>
+    <td>BMW Motorrad ABS<br></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-    <td class="head">Dimensões / pesos</td>
-    <td></td>
+    <th class="head">Dimensions / weights</th>
+    <td>&nbsp;</td>
 </tr>
 <tr>
-    <td>Comprimento (mm)</td>
-    <td>2.320 mm</td>
+    <th>Length</th>
+    <td>2.305 mm</td>
 </tr>
 <tr>
-    <td>Largura (mm)</td>
-    <td>945 mm</td>
+    <th>Width (incl. mirrors)</th>
+    <td>925 mm</td>
 </tr>
 <tr>
-    <td>Altura (mm)</td>
-    <td>1.350 mm</td>
+    <th>Height (excl. mirrors)</th>
+    <td>1.450 mm</td>
 </tr>
 <tr>
-    <td>Altura do banco (mm)</td>
-    <td>880 mm / 850 mm (opcional)<br>assento Rallye : 920 mm<br>assento comfort 895 mm</td>
+    <th>Seat height,  unladen weight</th>
+    <td>890 mm (860 mm low seat)<br></td>
 </tr>
 <tr>
-    <td>Curvatura das Pernas</td>
-    <td>1,930 mm (low seat: 1,880 mm, Rallye seat: 1,990 mm, comfort seat: 1,960 mm)</td>
+    <th>Inner leg curve,  unladen weight</th>
+    <td>1.960 mm (1.920 mm low seat)<br></td>
 </tr>
 <tr>
-    <td>Peso em ordem de marcha <sup>1)</sup></td>
-    <td>207 kg</td>
+    <th>Unladen weight, road ready, fully fuelled <sup>1)</sup></th>
+    <td>229 kg</td>
 </tr>
 <tr>
-    <td>Peso seca <sup>2)</sup></td>
-    <td>185 kg</td>
+    <th>Dry weight</th>
+    <td>&nbsp;</td>
 </tr>
 <tr>
-    <td>Peso total permitido</td>
-    <td>443 kg</td>
+    <th>Permitted total weight</th>
+    <td>454 kg<br></td>
 </tr>
 <tr>
-    <td>Carga útil (com equipamento de série)</td>
-    <td>236 kg</td>
+    <th>Payload (with standard equipment)</th>
+    <td>225 kg</td>
 </tr>
 <tr>
-    <td>Capacidade do tanque de combustível</td>
-    <td>16 litros</td>
+    <th>Usable tank volume</th>
+    <td>24l</td>
 </tr>
 <tr>
-    <td>Reserva</td>
-    <td>4 litros</td>
+    <th>Reserve</th>
+    <td>ca. 4,0 l<br></td>
 </tr>
 </tbody>
 </table>
@@ -288,13 +288,10 @@ require_once APP_TEMPLATE . 'header.php';
 <div class="descricao">
     <h3>Visão Geral</h3>
 
-    <p>Uma motocicleta enduro como nenhuma outra já feita
-        pela BMW Motorrad: uma máquina de 800 cc com 85 hp
-        e torque de 83 Nm pesando não mais do que 200 kg!
-        O controle do motor moderno com consumo de combustível
-        altamente econômico, mas também com grande prazer de
-        pilotar e poderoso controle do som: realmente é
-        impossível não se apaixonar! </p>
+    <p>Não importa a viagem, não importa qual terreno - com a F 800 GS você domina qualquer aventura.
+        Esta travel enduro foi criada para verdadeiros aventureiros, para aqueles que nenhum destino
+        é muito longe ou querem conquistar as trilhas do mundo. F 800 GS Adventure: a companheira confiável
+        e robusta para aventuras sem limites. </p>
 </div>
 <div class="clear"></div>
 </div>

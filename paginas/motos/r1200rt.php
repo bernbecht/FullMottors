@@ -289,10 +289,10 @@ require_once APP_TEMPLATE . 'header.php';
 <div class="descricao">
     <h3>Visão Geral</h3>
 
-    <p>Increased comfort for a greater sense of thrill. A motorcycle that defined the classic touring bike segment has
-        now reached the next stage of evolution: the new BMW R 1200 RT. With its light handling, the R 1200 RT makes
-        it possible to enjoy what is most important: riding through the landscape. Whether on your own or with a
-        passenger: the new R 1200 RT is all about comfortable, relaxed riding on every tour. </p>
+    <p>Maior conforto para um grande sentimento de emoção. A motocicleta que definiu o segmento classic
+        touring agora alcançou o próximo estágio da evolução: a nova BMW R 1200 RT. Com a seu controle de luz,
+        a R 1200 RT faz possível desfrutar do que é mais importante: pilotar pela paisagem. Sozinho ou com
+        passageiro: a nova BMW R 1200 RT proporciona uma pilotagem confortável e relaxada em cada passeio.</p>
 </div>
 <div class="clear"></div>
 </div>
