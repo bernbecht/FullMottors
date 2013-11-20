@@ -57,7 +57,7 @@ $preco = number_format($fetch->preco, 2, ',', '');
                     <div class="titulo_pagina">
                         <h1><?php print mb_strtoupper($fetch->marca) . ' ' . mb_strtoupper($fetch->modelo) . ' ' . mb_strtoupper($fetch->cor) . ' ' . mb_strtoupper($fetch->ano) ?></h1> 
                         <ul class="breadcrumb">
-                            <li><a class="retorna_semi" href="javascript:;">Motos Semi-Novas</a> <span class="divider">/</span></li>                 
+                            <li><a class="retorna_semi" href="<?php echo $path_paginas.'/motos_seminovas.php'?>">Motos Semi-Novas</a> <span class="divider">/</span></li>
                             <li class="active"><?php print mb_strtoupper($fetch->marca) . ' ' . mb_strtoupper($fetch->modelo) ?></li>
                         </ul>
 
