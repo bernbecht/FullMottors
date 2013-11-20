@@ -28,11 +28,11 @@ $fetch = pg_fetch_object($consulta);
     </title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta property="og:title" content=" Boutique- Full Mottors">
+    <meta property="og:title" content="  <?php print $fetch->manchete  ?>">
 
 
-    <meta name="description" content="Confira os melhores equipamentos para a sua moto."/>
-    <meta name="og:description" content="Confira os melhores equipamentos para a sua moto."/>
+    <meta name="description" content="Notícia sobre <?php print substr($fetch->manchete,0,40)?>"/>
+    <meta name="og:description" content="Continue lendo aqui."/>
     <meta property="og:site_name" content="Full Mottors"/>
     <meta property="og:type" content="article"/>
     <meta property="og:image" content="http://www.fmottors.com.br/new/img/logo_mini.png"/>
