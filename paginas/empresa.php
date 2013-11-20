@@ -84,7 +84,7 @@ require_once '../config.php';
                             <div class="coluna7 coluna-inicial">
                                 <h3>NOSSA <b>BOUTIQUE</b></h3>
                              Os equipamentos vendidos em nossa loja sã reconhecidos mundialmente,
-                                marcas famosas utilizadas pelos diversos pilotos do mundial MotoGP e WSBK.
+                                marcas famosas utilizadas pelos diversos pilotos do mundial <b>MotoGP</b> e <b>WSBK</b>.
                             </div>
 
                             <div class="coluna5">
@@ -105,7 +105,7 @@ require_once '../config.php';
 
                             <div class="coluna7 ">
                                 <h3>NOSSA <b>OFICINA</b></h3>
-                                Uma oficina multimarcas, disponibilizando uma grande variedade de
+                                Uma <b>oficina multimarcas</b>, disponibilizando uma grande variedade de
                                 serviços - desde a aparência até a performance - utilizando da mais alta tecnologia presente no
                                 mercado.
                             </div>                    
