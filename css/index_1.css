@@ -1390,8 +1390,14 @@ footer{
 
 .brand_stripe-content{
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
+
+.brand_stripe ul{
+    OPACITY: 0.3;
+}
+
 .brand_stripe ul li{
     float: left;
+    margin-right: 20px;
 }

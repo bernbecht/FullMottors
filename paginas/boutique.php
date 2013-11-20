@@ -1,6 +1,6 @@
 <?php
 require_once '../config.php';
-require_once APP_CLASSES.'CProduto.php';
+require_once APP_CLASSES . 'CProduto.php';
 
 $produto = new CProduto;
 $lancamentos = $produto->consutaRecentes(8);
@@ -32,7 +32,7 @@ $lancamentos = $produto->consutaRecentes(8);
 
 <body>
 <?php
-require_once APP_TEMPLATE.'header.php';
+require_once APP_TEMPLATE . 'header.php';
 ?>
 
 <div class="boutique_content under_construction_page">
@@ -41,31 +41,32 @@ require_once APP_TEMPLATE.'header.php';
             <div class="coluna12 coluna-inicial">
                 <div class="">
                     <h1>Boutique e Acessórios</h1>
+
                     <p>Desculpe, mas esta parte está em construção. <br>Mas você conferir as
-                        <a href="<?php print $path_paginas.'/motos.php'?>">motos da nossa loja
-                        </a> ou <a href="<?php print $path_paginas.'/contato.php'?>">mandar um Oi para nós.</a></p>
+                        <a href="<?php print $path_paginas . '/motos.php' ?>">motos da nossa loja
+                        </a> ou <a href="<?php print $path_paginas . '/contato.php' ?>">mandar um Oi para nós.</a></p>
                 </div>
             </div>
+            <div class="clear"></div>
         </div>
     </div>
     <div class='brand_stripe'>
-        <div class="wrapper">
-            <div class='brand_stripe-content'>
-                <ul>
-                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
-                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
-                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
-                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
-                </ul>
-            </div>
+        <div class='brand_stripe-content'>
+            <ul>
+                <li><img src='<?php print $path_img . '/alpinestar_logo.png' ?>'/></li>
+                <li><img src='<?php print $path_img . '/tutto_bw_logo.png' ?>'/></li>
+                <li><img src='<?php print $path_img . '/arai_logo.png' ?>'/></li>
+                <li><img src='<?php print $path_img . '/mormaii_logo.png' ?>'/></li>
+            </ul>
 
         </div>
+        <div class="clear"></div>
     </div>
 </div>
 
 
 <?php
-require_once APP_TEMPLATE.'footer.php';
+require_once APP_TEMPLATE . 'footer.php';
 ?>
 </body>
 <script type="text/javascript" src="<?php print $path_js . 'boutique.js' ?>"></script>
