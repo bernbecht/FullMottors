@@ -9,7 +9,7 @@ class CNoticia {
         //$conexao = $conexao1->novaConexao();
 
         $incluir = pg_query($conexao, "INSERT INTO NOTICIA(post, manchete, data)
-            VALUES($post,
+            VALUES('$post',
                 '$manchete',
                 '$data')RETURNING id_noticia");
 
@@ -44,10 +44,7 @@ class CNoticia {
 
         $incluir = pg_query($conexao, "select * 
                 from noticia
-                inner join img
-                on id_noticia = img.id_produto
-                and img.funcao_img = 1
-                order by data desc 
+                order by data desc
                 limit $limit");
 
         $conexao1->closeConexao();

@@ -48,7 +48,9 @@ require_once APP_TEMPLATE . 'carosel.php';
                     </div>
                     <div class="body-coluna">
                         <div class="coluna-content">
-                            <div class="coluna-background coluna-bk1"></div>
+                            <div class="coluna-background coluna-bk1">
+                                <img src='<?php print $path_img . "/home_loja.jpg" ?>'/>
+                            </div>
                             <div class="legenda">
                                 <div class="legenda-content">
                                     Somos viciados em velocidade. Conheça mais sobre a nossa loja.
@@ -63,16 +65,18 @@ require_once APP_TEMPLATE . 'carosel.php';
             </div>
 
             <div class="coluna4">
-                <a href="<?php print $path_paginas . "/boutique.php" ?>">
+                <a href="<?php print $path_paginas . "/motos.php" ?>">
                     <div class="top-coluna">
-                        Boutique
+                        Linha de Motos
                     </div>
                     <div class="body-coluna">
                         <div class="coluna-content">
-                            <div class="coluna-background coluna-bk2"></div>
+                            <div class="coluna-background coluna-bk2">
+                                <img src='<?php print $path_img . "/home_motos_link.jpg" ?>'/>
+                            </div>
                             <div class="legenda">
                                 <div class="legenda-content">
-                                    As melhores marcas para a melhor proteção. Em breve catálogo online.
+                                   Confira as motos BMW 0 KM e semi-novas na nossa garagem.
                                 </div>
                             </div>
                         </div>

@@ -36,7 +36,8 @@ function enviaEmail(){
         var email = $('#email-input').val(),
         nome = $('#nome-input').val(),
         msg = $('#mensagem-input').val(),
-        assunto = $('#assunto-input').val();
+        assunto = $('#assunto-input').val(),
+        msg_erro = 'Oi, para mandar uma mensagem para nós:<br />';
             
         var mandar = 0,
         erro= '',
@@ -48,27 +49,27 @@ function enviaEmail(){
         
         if(nome.length <=1){
             mandar =1;
-            erro= "Escreva o seu nome <br />";
+            erro= "- Escreva o seu nome; <br />";
         } 
         
         if(email.length <=5){
             mandar =1;
-            erro+= "E-mail inválido <br />";
+            erro+= "- Informe um e-mail válido; <br />";
         }
         
         if(assunto.length <=1){
             mandar =1;
-            erro+= "Escreva um assunto<br />";
+            erro+= "- Nos diga o assunto da sua mensagem;<br />";
         }
             
         
         if(msg.length <=1){
             mandar =1;
-            erro+= "Escreva uma mensagem<br />";
+            erro+= "- Escreva a sua mensagem.<br />";
         }
         
         if(mandar==1){
-            var erro_alert = '<div class="alert alert-danger">'+erro+'<div/>';
+            var erro_alert = '<div class="alert alert-danger">'+msg_erro+erro+'<div/>';
             $(erro_alert).appendTo('.erro_form');
         }
             

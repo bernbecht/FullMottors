@@ -1,9 +1,12 @@
 <?php
 require_once APP_CLASSES . 'CNoticia.php';
+require_once APP_CLASSES . 'CImagem.php';
 
 $noticia = new CNoticia;
+$img = new CImagem;
 
 $consulta = $noticia->getNoticiasRecentes(3);
+$consulta_img = $img->getImgNoticiasRecentes(3);
 
 $num_rows_recentes = pg_num_rows($consulta);
 ?>
@@ -14,6 +17,7 @@ $num_rows_recentes = pg_num_rows($consulta);
         <?php
         if ($num_rows_recentes>0){
             while($fetch = pg_fetch_object($consulta)){
+                $fetch_img = pg_fetch_object($consulta_img);
                 setlocale(LC_ALL, "pt_BR", "pt_BR.iso-8859-1", "pt_BR.utf-8", "portuguese");
                 date_default_timezone_set('America/Sao_Paulo');
                 $date = $fetch->data;
@@ -22,7 +26,7 @@ $num_rows_recentes = pg_num_rows($consulta);
                 print "<div class='noticia'>
             <a href='$path_paginas/noticia.php?id=$fetch->id_noticia'>
                 <div class='noticia-foto'>
-                    <img src='$path_img/noticias/$fetch->nome_img' />
+                    <img src='$path_img/noticias/$fetch_img->nome_img' />
                 </div>
 
                 <div class='noticia-texto'>

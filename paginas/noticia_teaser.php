@@ -2,8 +2,12 @@
 require_once '../config.php';
 require_once APP_CLASSES . 'CProduto.php';
 require_once APP_CLASSES . 'CNoticia.php';
+require_once APP_CLASSES . 'CImagem.php';
+
 
 $noticia = new CNoticia;
+$img = new CImagem();
+$consulta_img = $img->getImgNoticiasRecentes(10);
 $consulta = $noticia->getNoticiasRecentes(10);
 $num_rows = pg_num_rows($consulta);
 
@@ -56,6 +60,7 @@ $lancamentos = $produto->consutaRecentes(4);
                     <?php
                     if ($num_rows > 0) {
 
+                        $fetchImg = pg_fetch_object($consulta_img);
                         $fetch = pg_fetch_object($consulta);
 
                         $date = $fetch->data;
@@ -64,7 +69,7 @@ $lancamentos = $produto->consutaRecentes(4);
                         print '<div class="noticia_teaser_main"> 
                 <a href="noticia.php?id=' . $fetch->id_noticia . '">
                     <div class="noticia_teaser_main-img">
-                        <img src="../img/noticias/' . $fetch->nome_img . '" />
+                        <img src="../img/noticias/' . $fetchImg->nome_img . '" />
                     </div>
                     <div class="noticia_teaser_main-texto">
                         <div class="noticia_teaser_main-manchete">
@@ -88,8 +93,8 @@ $lancamentos = $produto->consutaRecentes(4);
 
                             $i = 0;
 
-                            while ($i < 4) {
-                                $fetch = pg_fetch_object($consulta);
+                            while ($i < 4 && $fetch = pg_fetch_object($consulta)) {
+                                $fetchImg = pg_fetch_object($consulta_img);
 
                                 if ($i == 0) {
                                     $classe = 'coluna-inicial';
@@ -103,7 +108,7 @@ $lancamentos = $produto->consutaRecentes(4);
                                 print ' <a href="noticia.php?id=' . $fetch->id_noticia . '">
                     <div class="coluna3 ' . $classe . '">
                         <div class="noticia_teaser_mini-img">
-                            <img src="../img/noticias/' . $fetch->nome_img . '" />
+                            <img src="../img/noticias/' . $fetchImg->nome_img . '" />
                         </div>
                         <div class="noticia_teaser_mini-texto">
                             <div class="noticia_teaser_mini-manchete">

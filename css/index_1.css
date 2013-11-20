@@ -1387,3 +1387,11 @@ footer{
 .under_construction_page p{
     margin-top: 25px;
 }
+
+.brand_stripe-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.brand_stripe ul li{
+    float: left;
+}

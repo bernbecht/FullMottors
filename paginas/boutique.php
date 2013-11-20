@@ -48,6 +48,19 @@ require_once APP_TEMPLATE.'header.php';
             </div>
         </div>
     </div>
+    <div class='brand_stripe'>
+        <div class="wrapper">
+            <div class='brand_stripe-content'>
+                <ul>
+                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
+                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
+                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
+                    <li><img src='../img/boutique/brand/alpinestar_logo.png' /></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 

@@ -1,7 +1,7 @@
 <?php
 
 //não mostrar erros de banco
-ini_set('display_errors', 0);
+//ini_set('display_errors', 0);
 
 require_once '../../classes/CNoticia.php';
 

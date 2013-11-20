@@ -309,6 +309,24 @@ class CImagem {
         return $incluir;
     }
 
+    public function getImgNoticiasRecentes($limit) {
+
+        $conexao1 = new CConexao;
+        $conexao = $conexao1->novaConexao();
+
+        $incluir = pg_query($conexao, "select *
+                from noticia
+                inner join img
+                on id_noticia = img.id_produto
+                and img.funcao_img = 1
+                order by data desc
+                limit $limit");
+
+        $conexao1->closeConexao();
+
+        return $incluir;
+    }
+
 }
 
 ?>

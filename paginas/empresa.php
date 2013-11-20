@@ -37,18 +37,11 @@ require_once '../config.php';
                         <h1> <b>FULL</b> MOTTORS - VICIADOS EM <b>VELOCIDADE</b></h1>
 
                         <div class="empresa-texto-img_head">
-                            <img src="../img/bmw_3.jpg" />
+                            <img src="<?php print $path_img . '/empresa_logo.jpg' ?>" />
                         </div>
-                    </div>            
+                    </div>
 
                     <div class="empresa-texto-content">
-                        <p>
-                            A <b>Full Mottors</b>, inaugurada em
-                            Setembro de 2012 , traz para Ponta Grossa e região um 
-                            <b>novo conceito</b> em loja de motos, acessórios, 
-                            equipamentos e manutenção. 
-                        </p>
-
                         <div class="empresa-texto-content-secao">
                             <div class="coluna7 coluna-inicial">
                                 <h3>NOSSA <b>LOJA</b></h3>
@@ -60,7 +53,7 @@ require_once '../config.php';
                             </div>
 
                             <div class="coluna5">
-                                <img src="<?php print $path_img . '/foto-fachada.jpg' ?>" />
+                                <img src="<?php print $path_img . '/empresa_fachada.jpg' ?>" />
                             </div>
 
                             <div class="clear"></div> 
@@ -72,16 +65,13 @@ require_once '../config.php';
                         <div class="empresa-texto-content-secao empresa-texto-content-secao-impar">
 
                             <div class="coluna5 coluna-inicial">
-                                <img src="../img/bmw_3.jpg" />
+                                <img src="<?php print $path_img . '/empresa_motos.jpg' ?>" />
                             </div>
 
                             <div class="coluna7 ">
                                 <h3>NOSSAS <b>MOTOS</b></h3>
-                                A <b>Full Mottors</b> foi inaugurada em
-                                Setembro de 2012 , é uma empresa que 
-                                traz para Ponta Grossa e região um 
-                                <b>novo conceito</b> em loja de motos, acessórios, 
-                                equipamentos e manutenção. 
+                                A <b>Full Mottors</b> é especializada em motos de alta cilindrada. Na nossa
+                                garagem você encontra motos BMW, Kawasaki e diversas outras grandes marcas.
                             </div>
 
                             <div class="clear"></div> 
@@ -93,15 +83,12 @@ require_once '../config.php';
                         <div class="empresa-texto-content-secao">
                             <div class="coluna7 coluna-inicial">
                                 <h3>NOSSA <b>BOUTIQUE</b></h3>
-                                A <b>Full Mottors</b> foi inaugurada em
-                                Setembro de 2012 , é uma empresa que 
-                                traz para Ponta Grossa e região um 
-                                <b>novo conceito</b> em loja de motos, acessórios, 
-                                equipamentos e manutenção. 
+                             Os equipamentos vendidos em nossa loja sã reconhecidos mundialmente,
+                                marcas famosas utilizadas pelos diversos pilotos do mundial MotoGP e WSBK.
                             </div>
 
                             <div class="coluna5">
-                                <img src="../img/bmw_3.jpg" />
+                                <img src="<?php print $path_img . '/empresa_boutique.jpg' ?>" />
                             </div>
 
                             <div class="clear"></div> 
@@ -113,22 +100,18 @@ require_once '../config.php';
                         <div class="empresa-texto-content-secao">
 
                             <div class="coluna5 coluna-inicial">
-                                <img src="../img/bmw_3.jpg" />
+                                <img src="<?php print $path_img . '/empresa_oficina.jpg' ?>" />
                             </div>
 
                             <div class="coluna7 ">
                                 <h3>NOSSA <b>OFICINA</b></h3>
-                                A <b>Full Mottors</b> foi inaugurada em
-                                Setembro de 2012 , é uma empresa que 
-                                traz para Ponta Grossa e região um 
-                                <b>novo conceito</b> em loja de motos, acessórios, 
-                                equipamentos e manutenção. 
+                                Uma oficina multimarcas, disponibilizando uma grande variedade de
+                                serviços - desde a aparência até a performance - utilizando da mais alta tecnologia presente no
+                                mercado.
                             </div>                    
 
                             <div class="clear"></div> 
-                        </div>  
-
-
+                        </div>
 
                     </div>
                 </div>
