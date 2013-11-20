@@ -58,9 +58,8 @@ require_once APP_TEMPLATE . 'header.php';
                 <li><img src='<?php print $path_img . '/arai_logo.png' ?>'/></li>
                 <li><img src='<?php print $path_img . '/mormaii_logo.png' ?>'/></li>
             </ul>
-
+            <div class="clear"></div>
         </div>
-        <div class="clear"></div>
     </div>
 </div>
 
