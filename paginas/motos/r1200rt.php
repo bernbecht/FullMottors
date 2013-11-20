@@ -54,13 +54,13 @@ require_once APP_TEMPLATE . 'header.php';
 
 <div class="moto_desc-galeria">
     <div class="moto_desc-thumbMain">
-        <a href="javascript:;"><img src="../../img//motos-desc/r1200rt/r1200rt1.jpg"/></a>
+        <a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/r1200rt/r1200rt2.jpg' ?>"/></a>
     </div>
     <div class="moto_desc-thumb">
         <ul>
-            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/r1200rt/r1200rt2_thumb.jpg' ?>"/></a></li>
-            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/r1200rt/r1200rt3_thumb.jpg' ?>"/></a></li>
             <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/r1200rt/r1200rt1_thumb.jpg' ?>"/></a></li>
+            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/r1200rt/r1200rt3_thumb.jpg' ?>"/></a></li>
+            <li><a href="javascript:;"><img src="<?php print $path_img.'/motos-desc/r1200rt/r1200rt2_thumb.jpg' ?>"/></a></li>
 
         </ul>
     </div>

@@ -5,18 +5,14 @@
             <div class="slide1">
                 <div class="slide_text">
                     <div class="manchete">
-                        <h1>Linha de <span>Motos</span></h1>
+                        <h1>Sorteio de <span>Natal</span></h1>
                     </div>
                     <div class="texto-carosel">
-                        A <b>Full Mottors</b> é especializada em motos de <b>alta cilindrada</b>.
-                        Na nossa garagem, você encontra motos <b>BMW</b> e <b>Kawasaki 0 KM</b>  e diversas outras <b>semi-novas</b>.
-                    </div>
-                    <div class="link_carosel_container">
-                        <a href="<?php print $path_paginas."/motos.php"?>" class=""><div class="link_carosel_texto">Conheça as nossas Motos</div></a>
-                    </div>
+                        Compre, concorra e ganhe prêmios para turbinar a sua corrida.
+                    </div> o
                 </div>
                 <div class="slide_img">
-                    <img src="img/bmw_1.jpg" />
+                    <img src="<?php print $path_img."/carosel1.jpg"?>" />
                 </div>
             </div>
             <div class="slide2">

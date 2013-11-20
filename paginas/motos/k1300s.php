@@ -52,13 +52,13 @@ require_once APP_TEMPLATE . 'header.php';
 
             <div class="moto_desc-galeria">
                 <div class="moto_desc-thumbMain">
-                    <a href="javascript:;"><img src="../../img/motos-desc/K1300S/K1300S1.jpg" /></a>
+                    <a href="javascript:;"><img src="<?php echo $path_img.'/motos-desc/k1300s/k1300s1.jpg'?>" /></a>
                 </div>
                 <div class="moto_desc-thumb">
                     <ul>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300S/K1300S2_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300S/K1300S1_thumb.jpg" /></a></li>
-                        <li><a href="javascript:;"><img src="../../img/motos-desc/K1300S/K1300S3_thumb.jpg" /></a></li>
+                        <li><a href="javascript:;"><img src="<?php echo $path_img.'/motos-desc/k1300s/k1300s2_thumb.jpg'?>" /></a></li>
+                        <li><a href="javascript:;"><img src="<?php echo $path_img.'/motos-desc/k1300s/k1300s3_thumb.jpg'?>" /></a></li>
+                        <li><a href="javascript:;"><img src="<?php echo $path_img.'/motos-desc/k1300s/k1300s1_thumb.jpg'?>" /></a></li>
 
                     </ul>
                 </div> 

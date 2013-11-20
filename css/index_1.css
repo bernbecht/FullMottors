@@ -33,7 +33,7 @@ html, body{
     margin: 0;
 }
 
-h1{
+h1,h2,h3,h4,h5,h6,h7{
     line-height: normal;
 }
 
@@ -1064,7 +1064,7 @@ footer{
     width: 420px;
     margin-left: 10px;
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
 }
 
 .noticia_teaser_main-texto h4, .noticia_teaser_lista-manchete h4{
@@ -1074,6 +1074,7 @@ footer{
 
 .noticia_teaser_lista-manchete h4{
     color: #BD2029;
+    text-align: left;
 }
 
 .noticia_teaser_main-data, .noticia_teaser_mini-data, .noticia_teaser_lista-data{
