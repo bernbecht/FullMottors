@@ -42,7 +42,7 @@ require_once APP_TEMPLATE . 'header.php';
                 <div class="">
                     <h1>Boutique e Acessórios</h1>
 
-                    <p>Desculpe, mas esta parte está em construção. <br>Mas você conferir as
+                    <p>Desculpe, mas esta parte está em construção. <br>Mas você pode dar uma olhada nas
                         <a href="<?php print $path_paginas . '/motos.php' ?>">motos da nossa loja
                         </a> ou <a href="<?php print $path_paginas . '/contato.php' ?>">mandar um Oi para nós.</a></p>
                 </div>

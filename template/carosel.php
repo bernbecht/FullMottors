@@ -5,11 +5,15 @@
             <div class="slide1">
                 <div class="slide_text">
                     <div class="manchete">
-                        <h1>Sorteio de <span>Natal</span></h1>
+                        <h1><span>Promoção de </span>Natal</h1>
                     </div>
                     <div class="texto-carosel">
-                        Compre, concorra e ganhe prêmios para turbinar a sua corrida.
-                    </div> o
+                        <p>A cada R$250,00 em compras na nossa Boutique, você concorre à prêmios
+                        para turbinar a sua corrida. Não fique para trás e confira a nossa Boutique.</p>
+                    </div>
+                    <div class="link_carosel_container">
+                        <a href="<?php print $path_paginas."/boutique.php"?>" class=""><div class="link_carosel_texto">Em breve catálogo online</div></a>
+                    </div>
                 </div>
                 <div class="slide_img">
                     <img src="<?php print $path_img."/carosel1.jpg"?>" />
@@ -18,34 +22,38 @@
             <div class="slide2">
                 <div class="slide_text">
                     <div class="manchete">
-                        <h1><span>Boutique</span><br>e Acessórios</h1>
+                        <h1><span>Feirão</span><br>Kawasaki</h1>
                     </div>
                     <div class="texto-carosel">
-                        Os <b>equipamentos</b> vendidos na nossa loja são <b>reconhecidos mundialmente</b>, utilizados pelos
-                        pilotos do mundial do <b>MotoGP</b> e do <b>WSBK</b>.
+                        <p>Agora a Kawasaki Ninja 650 2012 sai por R$22.900,00 + frete. É a sua chance de trocar a sua
+                        moto e estreiar no mundo das altas cilindradas. Consulte também a nossa linha BMW e as nossas motos
+                            semi-novas.</p>
                     </div>
                     <div class="link_carosel_container">
-                        <a href="<?php print $path_paginas."/boutique.php"?>" class=""><div class="link_carosel_texto">Em Breve Catálogo Online</div></a>
+                        <a href="<?php print $path_paginas."/motos.php"?>" class=""><div class="link_carosel_texto">Conheça nossas motos</div></a>
                     </div>
                 </div>
                 <div class="slide_img">
-                    <img src="img/bmw_2.jpg" />
+                    <img src="<?php print $path_img."/carosel2.jpg"?>" />
                 </div>
             </div>
             <div class="slide3">
                 <div class="slide_text">
                     <div class="manchete">
-                        <h1>Serviços e <span>Manutenção</span></h1>
+                        <h1><span>BMW</span></br>F800 R 2014</h1>
                     </div>
                     <div class="texto-carosel">
-                        <p>A nossa oficina está preparada para cuidar da sua moto do jeito que ela merece.</p>
+                        <p>Definitivamente esta é a geração mais quente de roadsters desde a BMW K 1300 R.
+                            Uma combinação de pura diversão e adequabilidade excelente para o uso do
+                            dia a dia.</p>
                     </div>
                     <div class="link_carosel_container">
-                        <a href="<?php print $path_paginas."/servicos.php"?>" class=""><div class="link_carosel_texto">Em Breve Catálogo Online</div></a>
+                        <a href="<?php print $path_paginas."/motos/f800r.php"?>" class=""><div class="link_carosel_texto">Descubra mais sobre esta moto</div></a>
+
                     </div>
                 </div>
                 <div class="slide_img">
-                    <img src="img/bmw_3.jpg" />
+                    <img src="<?php print $path_img."/carosel3.jpg"?>" />
                 </div>
             </div>
         </div>
