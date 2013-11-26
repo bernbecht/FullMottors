@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9303edd4-bc9c-4a1d-b653-83481f7ed223" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/CCategoriaDao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/CMarcaDao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/CProdutoDao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/GenericDao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CCategoria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CConexao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CEmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CImagem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CMarca.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CNoticia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CProduto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CSemi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CUsuario.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CVisitas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/class.phpmailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/class.pop3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/class.smtp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/building.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/carosel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/carosel_1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/index_1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/jquery.jqplot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/scaffolding.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sistema.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/fmottorsDB-30-10-13.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FjallaOne-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/HelveticaNeueLTStd-Lt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/alpinestar_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/arai_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back_motos.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back_motos2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-servicos-fundo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-servicos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bmw_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bmw_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bmw_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cantoneira.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_boutique.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_fachada.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_motos.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_oficina.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/GS_sertao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/f700gs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/f800gs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/f800gsa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/g650.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/r1200gs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/r1200gs_racing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/r1200gsa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home_loja.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home_motos_link.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/load.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo_mini.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo_pq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mapa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mormaii_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/G650GS1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/G650GS1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp41_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp42_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp43_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/K1300R3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/K1300R3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/k1300s1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/k1300s1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/K1600GT3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/K1600GT3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs4_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/r1200gsa1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/r1200gsa1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr1_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr2_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr3_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr4_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nicEditorIcons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pw_maze_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/f800r.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/gs6502.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/k1300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/r1200r.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/servicos.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sport/K1300S.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sport/S1000RR.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sport/hp4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/K1600GT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/f800gt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/k1600gtl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/r1200rt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tutto_bw_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tutto_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app_common_functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/boutique.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/cadastro_noticia_js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/cadastro_produto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/cadastro_semi-nova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/carosel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/common_var.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/contato.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/grafico.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/motos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/motos_seminovas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/nicEdit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noticia_teaser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noticias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/produtos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/seminovas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/transitions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Boutique/getProdutoAjax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CImagem/excluir_foto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CNoticia/editar_noticia_op.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CNoticia/getImagensModalCadastroNoticiaAjax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CNoticia/incluir_noticia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CProduto/editar_produto_op.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CProduto/incluir_produto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CSemi/editar_seminova_op.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CSemi/incluir_seminova.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Contato/enviarEmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Noticia/getNoticia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/SemiNovas/getSemiNovasAjax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/conta_visitas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/excluirSeminova.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/login_op.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/viewNoticiaOp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/viewProdutoOp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/boutique.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/boutique_temp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/contato.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/descricao_produto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/empresa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/f800gs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/f800gsa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/f800r.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/g650gs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/g650gs_sertao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/hp4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1300r.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1300s.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1600gt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1600gtl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200gs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200gsa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200r.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200rt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/s1000rr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos_novas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos_semi_desc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos_seminovas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/noticia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/noticia_teaser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/servicos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/cadastro_noticia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/cadastro_produtos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/cadastro_seminova.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/editar_noticia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/editar_produto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/editar_seminova.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/main_sistema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/view_noticias.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/view_produtos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/view_seminova.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/carosel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/css_scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/footer_sistema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/head.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/head_sistema.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/menu_lateral_boutique.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/template/ultimas_noticias.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testaConexao.php" afterPath="" />
+    </list>
+    <list id="1e0fba96-3ec7-4e64-aecb-f8b604ed70fe" name="Revert: Começo da opçao excluir seminova (3b7f52b)" comment="" />
+    <ignored path="FullMottors.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509383196" ignored="false" />
+    <file path="/boutique.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385128956969" ignored="false" />
+    <file path="/header.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1379515974746" ignored="false" />
+    <file path="/testaConexao.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1379516720745" ignored="false" />
+    <file path="/r1200gs.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383684581354" ignored="false" />
+    <file path="/f800gs.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380820996868" ignored="false" />
+    <file path="/k1300r.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380112206741" ignored="false" />
+    <file path="/k1600gtl.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380112867289" ignored="false" />
+    <file path="/g650gs_sertao.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380113269818" ignored="false" />
+    <file path="/r1200r.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380214131815" ignored="false" />
+    <file path="/r1200gsa.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380213173919" ignored="false" />
+    <file path="/motos.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383851197747" ignored="false" />
+    <file path="/hp4.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380214512150" ignored="false" />
+    <file path="/.gitignore" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380274089239" ignored="false" />
+    <file path="/cookie_test.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380273763551" ignored="false" />
+    <file path="/cookie.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380274314235" ignored="false" />
+    <file path="/login.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380290514173" ignored="false" />
+    <file path="/common_var.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380289549891" ignored="false" />
+    <file path="/login.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380290742906" ignored="false" />
+    <file path="/config.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380290717933" ignored="false" />
+    <file path="/GenericDao.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383322623252" ignored="false" />
+    <file path="/motos.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383677953020" ignored="false" />
+    <file path="/motos_novas.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383844742150" ignored="false" />
+    <file path="/motos_seminovas.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1382806167504" ignored="false" />
+    <file path="/motos_seminovas.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380821622283" ignored="false" />
+    <file path="/index_1.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385478622245" ignored="false" />
+    <file path="/index.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384903169940" ignored="false" />
+    <file path="/README.md" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383836541698" ignored="false" />
+    <file path="/s1000rr.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380911293042" ignored="false" />
+    <file path="/head.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1380915096164" ignored="false" />
+    <file path="/motos_semi_desc.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1382808107432" ignored="false" />
+    <file path="/servicos.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1382966423986" ignored="false" />
+    <file path="/noticia.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384910497498" ignored="false" />
+    <file path="/cadastro_noticia_js.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1382969775780" ignored="false" />
+    <file path="/noticia_teaser.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384903187507" ignored="false" />
+    <file path="/noticias.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383068612958" ignored="false" />
+    <file path="/editar_noticia_op.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383069913817" ignored="false" />
+    <file path="/incluir_produto.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383070397376" ignored="false" />
+    <file path="/editar_produto_op.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383070432047" ignored="false" />
+    <file path="/incluir_seminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383070456462" ignored="false" />
+    <file path="/editar_seminova_op.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383070471530" ignored="false" />
+    <file path="/insert_categoria.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383238518387" ignored="false" />
+    <file path="/get_categoria.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383238758330" ignored="false" />
+    <file path="/insert_marca.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383239398896" ignored="false" />
+    <file path="/get_marca.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383242100052" ignored="false" />
+    <file path="/CImagemDao.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383324416320" ignored="false" />
+    <file path="/insert_imagem.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383240574576" ignored="false" />
+    <file path="/get_imagem.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383242128424" ignored="false" />
+    <file path="/CProduto.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383325595651" ignored="false" />
+    <file path="/insert_produto.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383324909187" ignored="false" />
+    <file path="/Utils.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383321406660" ignored="false" />
+    <file path="/CProdutoDao.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383325344943" ignored="false" />
+    <file path="/CMarcaDao.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383324318625" ignored="false" />
+    <file path="/CConexao.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383324665609" ignored="false" />
+    <file path="/a.dummy" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383325135376" ignored="false" />
+    <file path="/CUtils.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383325350210" ignored="false" />
+    <file path="/empresa.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384906657944" ignored="false" />
+    <file path="/ultimas_noticias.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384890760145" ignored="false" />
+    <file path="/HTML Fragment (ultimas_noticias.php:416).html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383662236556" ignored="false" />
+    <file path="/index.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383664258164" ignored="false" />
+    <file path="/css_scripts.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383678077914" ignored="false" />
+    <file path="/app_common_functions.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383677775959" ignored="false" />
+    <file path="/carosel.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385129331135" ignored="false" />
+    <file path="/index_teste.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383679298603" ignored="false" />
+    <file path="/contato.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383680069935" ignored="false" />
+    <file path="/k1300s.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384953107189" ignored="false" />
+    <file path="/r1200rt.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1383847576195" ignored="false" />
+    <file path="/f800gsa.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384164099522" ignored="false" />
+    <file path="/contato.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384167039155" ignored="false" />
+    <file path="/CImagem.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385494794240" ignored="false" />
+    <file path="/viewNoticiaOp.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384885242902" ignored="false" />
+    <file path="/CNoticia.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1384905029242" ignored="false" />
+    <file path="/view_seminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385479036719" ignored="false" />
+    <file path="/viewSeminovaOp.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385495149949" ignored="false" />
+    <file path="/editar_seminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385493014605" ignored="false" />
+    <file path="/seminovas.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385493130261" ignored="false" />
+    <file path="/sistema.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385478779680" ignored="false" />
+    <file path="/excluirSeminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385494573816" ignored="false" />
+    <file path="/CSemi.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385483715838" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FilesJ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448871" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shCoreDefault.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448871" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-canvasOverlay-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448871" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-markerRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448871" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-pyramidRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448871" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralL.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448871" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.categoryAxisRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448871" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Classes.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-BezierCurveRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/usage.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/dashedLines.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shCore.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsC.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/cursor-highlighter.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shCore.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesM.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/MIT-LICENSE-txt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/data-renderers.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesB.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shCoreDefault.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralI.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsN.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-canvasGridRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-bubbleRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448872" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/example.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.mekkoRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/css/ui-lightness/jquery-ui.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-themeEngine-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Properties.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.ohlcRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/dashboardWidget.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesT.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/rotated-tick-labels.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesU.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-cursor-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/css/ui-lightness/jquery-ui-1.9pre.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.json2.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralN.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralU.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralY.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/line-charts.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-dragable-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsG.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/js/jquery.effects.blind.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/sistema/view_seminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-trendline-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shThemeDefault.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralX.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-shapeRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jsondata.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/General.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.dragable.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/bubbleChart.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/yahooData.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/bezierCurve.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsS.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/pieTest.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralP.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-axisTickRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.dateAxisRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/fillBetweenLines.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-logAxisRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/optionsTutorial-txt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralS.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp.print.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-shadowRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.trendline.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesR.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shAutoloader.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.cursor.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jquery.jqplot.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shCore.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-canvasAxisLabelRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-lineRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/axisScalingForceTickAt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-linearAxisRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_pyramid_by_age.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/changes-txt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesI.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/examples.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_pyramid_by_age.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidAxisRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/candlestick-charts.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-canvasAxisTickRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/waterfall.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.categoryAxisRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqPlotOptions-txt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448874" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsQ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/HooksE.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralD.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-barRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-donutRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/HooksP.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/colorpicker/jquery.colorpicker.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralE.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-pyramidAxisRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralV.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_area2.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesO.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Properties6.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsR.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.mekkoAxisRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasTextRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_lorenz.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-core-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-pyramidGridRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesE.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/changes.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasAxisTickRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/copyright.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesN.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/bar-charts.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesY.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/colorpicker/index.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasOverlay.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shBrushJScript.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Properties3.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-ciParser-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pieRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/General5.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448875" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/HooksJ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/pieTest2.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/css/smoothness/jquery-ui.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesL.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/zoomProxy.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jquery.jqplot.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jquery.jqplot.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesX.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/multipleBarColors.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jqPlotOptions.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralT.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.funnelRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/rotatedTickLabelsZoom.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.meterGaugeRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.BezierCurveRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_pyramid.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasAxisTickRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidGridRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-funnelRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/General3.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/gpl-2-0-txt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasAxisLabelRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/bandedLine.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_pdf.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.dateAxisRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Properties4.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.BezierCurveRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/js/jquery.effects.core.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/dateAxisRenderer.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/usage-txt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.bubbleRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.blockRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.logAxisRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/styles/main.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsM.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448876" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shBrushJScript.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesG.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesZ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.highlighter.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasAxisLabelRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.blockRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesH.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.highlighter.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/zooming.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.ohlcRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-toImage-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.enhancedLegendRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-dateAxisRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-meterGaugeRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pointLabels.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.ciParser.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/nav.inc" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesT.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsI.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/axisLabelsRotatedText.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/dateAxisLogAxisZooming.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralA.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-highlighter-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Files.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.mobile.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasOverlay.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/bubble-plots.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralR.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqPlotCssStyling-txt.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesD.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jquery.jqplot.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/candlestick.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralJ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.dragable.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/axisLabelTests.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralW.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/canvas-overlay.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/General2.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.bubbleRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/css/smoothness/jquery-ui.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/MIT-LICENSE.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesV.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.donutRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesL.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-mekkoRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-ohlcRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralC.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448877" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-categoryAxisRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448878" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralZ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448878" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/yahooData.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsD.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/NoResults.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/quintiles.json" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.canvasTextRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralG.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/styles/1.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/smoothedLine.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/gpl-2.0.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.json2.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesSymbols.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-pieRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/styles/2.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesW.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/pieTest4.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/index.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.mekkoRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesG.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_engel.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/area.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Properties2.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-enhancedLegendRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-blockRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shBrushXml.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448885" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/General4.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Properties5.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralB.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/css/ui-lightness/jquery-ui-1.9pre.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/zoomOptions.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.mobile.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.enhancedLegendRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesH.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/General7.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pointLabels.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-pointLabels-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/customHighlighterCursorTrendline.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shBrushXml.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/examples.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/theming.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/example.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/README.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralQ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/waterfall2.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralF.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesP.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/optionsTutorial.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448886" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Functions.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesA.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralM.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.ciParser.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/point-labels.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/mekkoCharts.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesV.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.barRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-mekkoAxisRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jquery.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/hiddenPlotsInTabs.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.logAxisRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralH.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesS.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsZ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jquery.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/javascript/main.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.funnelRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/barTest.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/barLineAnimated.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/jqPlotCssStyling.txt" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/Hooks.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pieRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/javascript/searchdata.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/pie-donut-charts.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralSymbols.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_pyramid2.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesS.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/HooksA.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/ClassesJ.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_quintiles.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.trendline.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesF.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/index/General6.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/css/ui-lightness/jquery-ui.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/meterGauge.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shThemejqPlot.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_cdf.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/zoom1.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.meterGaugeRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/blockPlot.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448889" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.donutRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.mekkoAxisRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.barRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/kcp_area.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/resizablePlot.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesC.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/date-axes.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesD.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shThemeDefault.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/selectorSyntax.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shThemejqPlot.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/colorpicker/jquery.colorpicker.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralO.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/js/jquery-ui.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/topbanner.inc" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/excanvas.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-axisLabelRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/ages.json" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shAutoloader.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesA.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/excanvas.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-divTitleRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/operacoes/CSemi/incluir_seminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.cursor.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shCore.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidGridRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidAxisRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="FullMottors" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="-" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/paginas/motos/r1200rt.php" />
+        <option value="$PROJECT_DIR$/paginas/boutique.php" />
+        <option value="$PROJECT_DIR$/template/carosel.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/css/index_1.css" />
+        <option value="$PROJECT_DIR$/template/head_sistema.php" />
+        <option value="$PROJECT_DIR$/classes/CSemi.php" />
+        <option value="$PROJECT_DIR$/operacoes/CSemi/incluir_seminova.php" />
+        <option value="$PROJECT_DIR$/operacoes/SemiNovas/excluirSeminova.php" />
+        <option value="$PROJECT_DIR$/sistema/editar_seminova.php" />
+        <option value="$PROJECT_DIR$/operacoes/Sistema/excluirSeminova.php" />
+        <option value="$PROJECT_DIR$/sistema/view_seminova.php" />
+        <option value="$PROJECT_DIR$/css/sistema.css" />
+        <option value="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" />
+        <option value="$PROJECT_DIR$/classes/CImagem.php" />
+        <option value="$PROJECT_DIR$/js/seminovas.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="790" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullMottors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="136" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="138" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="136" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="936" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="936" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="141" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="138" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig" serverName="FullMottors" serverId="818973c0-c99e-43d8-9756-46103e261fe9" uploadOnCheckin="818973c0-c99e-43d8-9756-46103e261fe9">
+    <servers>
+      <server id="818973c0-c99e-43d8-9756-46103e261fe9">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="e5d5429e-1bc3-4a79-bb61-9c945da60ee1">
+        <serverdata />
+      </server>
+    </servers>
+    <option name="myUploadOnCheckinName" value="FullMottors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/paginas/motos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/operacoes/Sistema" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/img/motos-desc/r1200rt" />
+      <recent name="$PROJECT_DIR$/img/motos-desc/k1600gt" />
+      <recent name="$PROJECT_DIR$/img/motos-desc/k1300s" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="818973c0-c99e-43d8-9756-46103e261fe9" server_name="FullMottors">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9303edd4-bc9c-4a1d-b653-83481f7ed223" name="Default" comment="" />
+      <changelist id="1e0fba96-3ec7-4e64-aecb-f8b604ed70fe" name="Revert: Começo da opçao excluir seminova (3b7f52b)" comment="" />
+      <created>1379509486729</created>
+      <updated>1379509486729</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ajuste de config.php">
+      <created>1379670382124</created>
+      <updated>1379670382124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revisão texto das motos&#10;&#10;Revisão das fotos">
+      <created>1380113635425</created>
+      <updated>1380113635425</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revisão dos thumbs das motos&#10;Revisão title e metas das motos&#10;Criação da página da HP4 e da R1200R">
+      <created>1380271974559</created>
+      <updated>1380271974559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="gitignore">
+      <created>1380274108108</created>
+      <updated>1380274108108</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pasta de Operações que não estava constando no projeto">
+      <created>1380274807557</created>
+      <updated>1380274807557</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Retirada de alerts">
+      <created>1380275031452</created>
+      <updated>1380275031452</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ajuste do login e dos seus paths">
+      <created>1380297978640</created>
+      <updated>1380297978640</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajuste do nome do método">
+      <created>1380473030161</created>
+      <updated>1380473030161</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[A0016] MOTOS - Arrumar Title e meta de cada moto&#10;[A0015] MOTOS - Colocar a primeira imagem com a moto da mesma cor do thumb&#10;[A0017] DESIGN - Arrumar foto empresa para menor na main pagina&#10;[A0021] Retirar as imagens com o símbolo da Motorrad&#10;[A0018] Arrumar Navegaçao das motos&#10;&#10;- Crição de README&#10;&#10;&#10;">
+      <created>1380821844582</created>
+      <updated>1380821844582</updated>
+    </task>
+    <task id="LOCAL-00010" summary="- Modificação do restante das fotos BMW&#10;&#10;- Scroll para mais de 3 fotos para descrição de fotos&#10;&#10;">
+      <created>1380912208581</created>
+      <updated>1380912208581</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Title template HEAD">
+      <created>1380915166036</created>
+      <updated>1380915166036</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[BUG] Images of r1200gs and r1200gsa corrected">
+      <created>1382054436887</created>
+      <updated>1382054436887</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[A0021] Substituir texto de chamada das motos 0 KM em MOTOS&#10;&#10;[A0022] Retirar página de BOUTIQUE e criar a página de EM BREVE&#10;&#10;[A0023] Mudar a figura da página SERVIÇOS&#10;&#10;[A0024] Inserir uma notícia com a foto que ele mandou">
+      <created>1382983595584</created>
+      <updated>1382983595584</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[A0026] BUG: Problema para inserir uma imagem no corpo da noticia.&#10;&#10;Resolvido por POG.&#10;&#10;Entre o AJAX até o PHP, a string se suja com backslahes, sem motivo aparente. A solução foi retirar as backslashes com função PHP stripslashes ANTES de inserir o post no server.&#10;&#10;Também foi usado função PHP htmlspecialchars para converter caracteres especiais como double quotes para não interferir no código da página.&#10;&#10;Adicionou-se também pg_escape_string para segurança.">
+      <created>1383070541799</created>
+      <updated>1383070541799</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[0017] Teste insert e get Marca&#10;[0018]Teste insert e get Imagem&#10;[0019] Teste insert e get produto&#10;[0020] Ajuste no fechamento de conexao em CConexao.php&#10;[0021] Migraçao das classes que estavam em teste para os diretorios finais">
+      <created>1383325977931</created>
+      <updated>1383325977931</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[A0026] Inserir foto de fachada na seçao EMPRESA e ajuste de CSS para TEXTAREA em CONTATO">
+      <created>1383401926493</created>
+      <updated>1383401926493</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[A0020] Criar mecanismo de busca das noticias na main pagina&#10;&#10;- Correção TITLE das páginas;&#10;- Desacoplamento do INDEX.JS para outros arquivos&#10;&#10;">
+      <created>1383680949023</created>
+      <updated>1383680949023</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[A0029] Otimizacao para FACEBOOK">
+      <created>1383684725389</created>
+      <updated>1383684725389</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[A0029] Arrumar texto MOTOS&#10;[A0030] Retirar modelo PRATA da K1600 GT&#10;[A0031] Incluir nova cor na K1699 GTL&#10;[A0032] Trocar miniatura da R 1200 R&#10;[A0033] Retirar cor VERMELHO K 1300 S&#10;[A0034] Mudar cores da R 1200 GS&#10;[A0035] Arrumar foto com ruido da R 1200 GS&#10;[A0036] Adicionar nova moto F 800 GS adventure&#10;[A0037] Adicionar nova moto R 1200 RT adventure&#10;&#10;&#10;&#10;&#10;&#10;">
+      <created>1383850077220</created>
+      <updated>1383850077220</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Ajuste do JS para a tela MOTOS 0 KM com F 800 GSA&#10;&#10;&#10;">
+      <created>1383851248236</created>
+      <updated>1383851248236</updated>
+    </task>
+    <task id="LOCAL-00021" summary="&#10;[A0036] Adicionar nova moto F 800 GS adventure&#10;[A0038] Traduçao da VISAO GERAL R 1200 RT e F 800 GSA">
+      <created>1384165162226</created>
+      <updated>1384165162226</updated>
+    </task>
+    <task id="LOCAL-00022" summary="- Texto EMPRESA&#10;- FOTO EMPRESA&#10;- BUG INSERIR NOTICIA&#10;- CORREÇAO NOTICIAS RECENTES - SEM IMAGEMCARREGA DO MESMO JEITO&#10;- CORREÇAO PÁGINA DE NOTICIA">
+      <created>1384905945638</created>
+      <updated>1384905945638</updated>
+    </task>
+    <task id="LOCAL-00023" summary="- Link de retorno motos seminovas descriçao">
+      <created>1384906481097</created>
+      <updated>1384906481097</updated>
+    </task>
+    <task id="LOCAL-00024" summary="- Decoraçoes em vermelho no texto da EMPRESA">
+      <created>1384906732241</created>
+      <updated>1384906732241</updated>
+    </task>
+    <task id="LOCAL-00025" summary="- Boutique Brands">
+      <created>1384908670014</created>
+      <updated>1384908670014</updated>
+    </task>
+    <task id="LOCAL-00026" summary="- Boutique Brands">
+      <created>1384909149374</created>
+      <updated>1384909149374</updated>
+    </task>
+    <task id="LOCAL-00027" summary="- Noticia META">
+      <created>1384910576679</created>
+      <updated>1384910576679</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[A0041] Troca imagens RT&#10;[A0040] Mudar foto errada GT&#10;[A0038] Mudar fotos RR&#10;[A0037] Mudar fotos S 1300 R">
+      <created>1384959295318</created>
+      <updated>1384959295318</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[A0042] Inserir Banners Carosel">
+      <created>1385132640950</created>
+      <updated>1385132640951</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Começo da opçao excluir seminova">
+      <created>1385508926550</created>
+      <updated>1385508926550</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="790" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31791046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24533716" sideWeight="0.67164177" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24246772" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738096" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Começo da opçao excluir seminova" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Pasta de Operações que não estava constando no projeto" />
+    <MESSAGE value="Retirada de alerts" />
+    <MESSAGE value="Ajuste do login e dos seus paths" />
+    <MESSAGE value="Ajuste do nome do método" />
+    <MESSAGE value="[A0016] MOTOS - Arrumar Title e meta de cada moto&#10;[A0015] MOTOS - Colocar a primeira imagem com a moto da mesma cor do thumb&#10;[A0017] DESIGN - Arrumar foto empresa para menor na main pagina&#10;[A0021] Retirar as imagens com o símbolo da Motorrad&#10;[A0018] Arrumar Navegaçao das motos&#10;&#10;- Crição de README&#10;&#10;&#10;" />
+    <MESSAGE value="- Modificação do restante das fotos BMW&#10;&#10;- Scroll para mais de 3 fotos para descrição de fotos&#10;&#10;" />
+    <MESSAGE value="Title template HEAD" />
+    <MESSAGE value="[BUG] Images of r1200gs and r1200gsa corrected" />
+    <MESSAGE value="[A0021] Substituir texto de chamada das motos 0 KM em MOTOS&#10;&#10;[A0022] Retirar página de BOUTIQUE e criar a página de EM BREVE&#10;&#10;[A0023] Mudar a figura da página SERVIÇOS&#10;&#10;[A0024] Inserir uma notícia com a foto que ele mandou" />
+    <MESSAGE value="[A0026] BUG: Problema para inserir uma imagem no corpo da noticia.&#10;&#10;Resolvido por POG.&#10;&#10;Entre o AJAX até o PHP, a string se suja com backslahes, sem motivo aparente. A solução foi retirar as backslashes com função PHP stripslashes ANTES de inserir o post no server.&#10;&#10;Também foi usado função PHP htmlspecialchars para converter caracteres especiais como double quotes para não interferir no código da página.&#10;&#10;Adicionou-se também pg_escape_string para segurança." />
+    <MESSAGE value="[0017] Teste insert e get Marca&#10;[0018]Teste insert e get Imagem&#10;[0019] Teste insert e get produto&#10;[0020] Ajuste no fechamento de conexao em CConexao.php&#10;[0021] Migraçao das classes que estavam em teste para os diretorios finais" />
+    <MESSAGE value="[A0026] Inserir foto de fachada na seçao EMPRESA e ajuste de CSS para TEXTAREA em CONTATO" />
+    <MESSAGE value="[A0020] Criar mecanismo de busca das noticias na main pagina&#10;&#10;- Correção TITLE das páginas;&#10;- Desacoplamento do INDEX.JS para outros arquivos&#10;&#10;" />
+    <MESSAGE value="[A0029] Otimizacao para FACEBOOK" />
+    <MESSAGE value="[A0029] Arrumar texto MOTOS&#10;[A0030] Retirar modelo PRATA da K1600 GT&#10;[A0031] Incluir nova cor na K1699 GTL&#10;[A0032] Trocar miniatura da R 1200 R&#10;[A0033] Retirar cor VERMELHO K 1300 S&#10;[A0034] Mudar cores da R 1200 GS&#10;[A0035] Arrumar foto com ruido da R 1200 GS&#10;[A0036] Adicionar nova moto F 800 GS adventure&#10;[A0037] Adicionar nova moto R 1200 RT adventure&#10;&#10;&#10;&#10;&#10;&#10;" />
+    <MESSAGE value="Ajuste do JS para a tela MOTOS 0 KM com F 800 GSA&#10;&#10;&#10;" />
+    <MESSAGE value="&#10;[A0036] Adicionar nova moto F 800 GS adventure&#10;[A0038] Traduçao da VISAO GERAL R 1200 RT e F 800 GSA" />
+    <MESSAGE value="- Texto EMPRESA&#10;- FOTO EMPRESA&#10;- BUG INSERIR NOTICIA&#10;- CORREÇAO NOTICIAS RECENTES - SEM IMAGEMCARREGA DO MESMO JEITO&#10;- CORREÇAO PÁGINA DE NOTICIA" />
+    <MESSAGE value="- Link de retorno motos seminovas descriçao" />
+    <MESSAGE value="- Decoraçoes em vermelho no texto da EMPRESA" />
+    <MESSAGE value="- Boutique Brands" />
+    <MESSAGE value="- Noticia META" />
+    <MESSAGE value="[A0041] Troca imagens RT&#10;[A0040] Mudar foto errada GT&#10;[A0038] Mudar fotos RR&#10;[A0037] Mudar fotos S 1300 R" />
+    <MESSAGE value="[A0042] Inserir Banners Carosel" />
+    <MESSAGE value="Começo da opçao excluir seminova" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.7914573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
