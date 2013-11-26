@@ -257,6 +257,19 @@ class CImagem {
         return $consulta;
     }
 
+    public function excluirFotoByIdDono($id,$tipo) {
+        $conexao1 = new CConexao();
+        $conexao = $conexao1->novaConexao();
+
+        $consulta = pg_query($conexao, "DELETE FROM img
+             WHERE id_produto={$id}
+             AND tipo={$tipo}");
+
+        $conexao1->closeConexao();
+
+        return $consulta;
+    }
+
     public function getImgNoticiaMesAno($data) {
 
         $conexao1 = new CConexao;
@@ -321,6 +334,20 @@ class CImagem {
                 and img.funcao_img = 1
                 order by data desc
                 limit $limit");
+
+        $conexao1->closeConexao();
+
+        return $incluir;
+    }
+
+    public function getImagensByID($id,$tipo){
+        $conexao1 = new CConexao;
+        $conexao = $conexao1->novaConexao();
+
+        $incluir = pg_query($conexao, "select *
+                from img
+                where id_produto={$id}
+                and tipo={$tipo}");
 
         $conexao1->closeConexao();
 

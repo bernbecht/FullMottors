@@ -95,3 +95,14 @@ span{
      width: 100px;
      height: 100px;
 }
+
+legend h1{
+    float:left;
+}
+
+legend .btn{
+    float: right;
+    margin-top: 10px;
+    height: 45px;
+}
+

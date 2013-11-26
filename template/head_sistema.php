@@ -21,15 +21,6 @@ if (!isset($_SESSION['usuario']))
         <script type="text/javascript" src="../js/transitions.js"></script>
         <script type="text/javascript" src="../js/jquery_form.js"></script>
         <script type="text/javascript" src="../js/nicEdit.js"></script>
-
-        <script type="text/javascript" src="../js/JqueryPlot/jquery.jqplot.min.js"></script>
-        <script type="text/javascript" src="../js/JqueryPlot/plugins/jqplot.barRenderer.min.js"></script>
-        <script type="text/javascript" src="../js/JqueryPlot/plugins/jqplot.categoryAxisRenderer.min.js"></script>
-        <script type="text/javascript" src="../js/JqueryPlot/plugins/jqplot.pointLabels.min.js"></script>
-        
-        <script type="text/javascript" src="../js/JqueryPlot/plugins/jqplot.dateAxisRenderer.min.js"></script>
-        <script type="text/javascript" src="../js/JqueryPlot/plugins/jqplot.canvasTextRenderer.min.js"></script>
-        <script type="text/javascript" src="../js/JqueryPlot/plugins/jqplot.canvasAxisTickRenderer.min.js"></script>
         
         
         <link rel="stylesheet" type="text/css" href="../css/jquery.jqplot.min.css" />

@@ -126,6 +126,18 @@ class CSemi {
         
         return $consulta;
     }
+
+    public function excluirSeminovaByID($id){
+        $conexao1 = new CConexao();
+        $conexao = $conexao1->novaConexao();
+
+        $consulta = pg_query($conexao, "DELETE FROM seminovas
+        WHERE id_seminovas = {$id}");
+
+        $conexao1->closeConexao();
+
+        return $consulta;
+    }
 }
 
 ?>

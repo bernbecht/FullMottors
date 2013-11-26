@@ -195,7 +195,7 @@ if (count($erro) != 0) {
         $imagem = new CImagem;
 
         //inclui a miniatura
-        $incluir = $imagem->incluirImgSemiNovas($conexao, $foto_m, $id_produto, 3, 1);
+        $incluir = $imagem->incluirImgSemiNovas($conexao, $foto_m, $id_produto, 2, 1);
         if (!$incluir) {
             $db_error[1] = pg_last_error($conexao);
         } else {
@@ -204,7 +204,7 @@ if (count($erro) != 0) {
             //inclui as fotos de descrição
             while ($i < 8) {
                 if ($foto[$i]["name"] != null) {
-                    $incluir = $imagem->incluirImgSemiNovas($conexao, $foto[$i], $id_produto, 3, 2);
+                    $incluir = $imagem->incluirImgSemiNovas($conexao, $foto[$i], $id_produto, 2, 2);
                     if (!$incluir) {
                         $db_error[2] = pg_last_error($conexao);
                     }

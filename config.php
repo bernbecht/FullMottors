@@ -7,7 +7,7 @@ define("APP_OPERACOES", APP_ROOT . '/operacoes/');
 define("APP_DAO", APP_ROOT . '/DAO/');
 define("APP_CLASSES", APP_ROOT . '/classes/');
 define("APP_IMG", APP_ROOT . '/img/');
-define("APP_SITEMA", APP_ROOT . '/sistema/');
+define("APP_SISTEMA", APP_ROOT . '/sistema/');
 define ("APP_TEMPLATE", APP_ROOT . "/template/");
 define ("APP_PAGINAS", APP_ROOT."/paginas/");
 /*

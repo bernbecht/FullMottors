@@ -170,9 +170,26 @@ function getMotoseMenuSistema(){
 
 }
 
+function excluirSemiNovaDB(){
+
+    var url = '../operacoes/Sistema/excluirSeminova.php';
+
+    var id = $('#id').val();
+
+    $('#excluir_seminova_btn').click(function(){
+        $.post(url,{
+            id:id
+        },function(data){
+            alert(data);
+
+        });
+    });
+}
+
 
 $(document).ready(function(){
     getMotoseMenuSistema();
     editaSeminova();
     deletaImagemdoBD();
+    excluirSemiNovaDB();
 });
