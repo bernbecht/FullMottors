@@ -23,7 +23,10 @@ $fetchImg = pg_fetch_object($consultaImg);
 <div class="container content">
 
     <div>
-        <legend><h1>Editar Notícia</h1></legend>
+        <legend>
+            <h1>Editar Notícia</h1>
+            <div class='clear'></div>
+        </legend>
 
         <div class="erro_incluir">
 

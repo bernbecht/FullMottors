@@ -6,7 +6,10 @@ require_once '../template/head_sistema.php';
 <div class="container content">
 
     <div>
-        <legend><h1>Adicionar Nova Notícia</h1></legend>
+        <legend>
+            <h1>Adicionar Nova Notícia</h1>
+            <div class='clear'></div>
+        </legend>
 
         <div class="erro_incluir">
 

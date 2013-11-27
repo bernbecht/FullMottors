@@ -3,288 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9303edd4-bc9c-4a1d-b653-83481f7ed223" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/CCategoriaDao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/CMarcaDao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/CProdutoDao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DAO/GenericDao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CCategoria.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CConexao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CEmail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CImagem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CMarca.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CNoticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CProduto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CSemi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CUsuario.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/CVisitas.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/class.phpmailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/class.pop3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/class.smtp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/building.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/carosel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/carosel_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/index_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/jquery.jqplot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/scaffolding.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/sistema.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/fmottorsDB-30-10-13.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FjallaOne-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/HelveticaNeueLTStd-Lt.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/alpinestar_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/arai_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back_motos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/back_motos2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-servicos-fundo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-servicos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bmw_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bmw_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bmw_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cantoneira.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/carosel_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cat4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_boutique.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_fachada.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_motos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/empresa_oficina.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/GS_sertao.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/f700gs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/f800gs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/f800gsa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/g650.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/r1200gs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/r1200gs_racing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/enduro/r1200gsa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home_loja.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/home_motos_link.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/load.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo_mini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo_pq.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mapa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mormaii_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gs/f800gs3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800gsa/f800gsa3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/f800r/f800r3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/G650GS1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/G650GS1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/g650gs/g650gs3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/gssertao/gssertao3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp41_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp42_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/hp4/hp43_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/K1300R3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/K1300R3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300r/k1300r2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/K1300S3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/k1300s1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1300s/k1300s1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/K1600GT3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/K1600GT3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gt/k1600gt2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/k1600gtl/k1600gtl3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gs/r1200gs4_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/R1200GSA3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/r1200gsa1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200gsa/r1200gsa1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200r/r1200r_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/r1200rt/r1200rt3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr1_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr2_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr3_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/motos-desc/s1000rr/s1000rr4_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/nicEditorIcons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/pw_maze_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/f800r.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/gs6502.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/k1300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roadster/r1200r.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/servicos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sport/K1300S.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sport/S1000RR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sport/hp4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/K1600GT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/f800gt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/k1600gtl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tour/r1200rt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tutto_bw_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tutto_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app_common_functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/boutique.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/cadastro_noticia_js.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/cadastro_produto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/cadastro_semi-nova.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/carosel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/common_var.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/contato.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/grafico.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/motos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/motos_seminovas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/nicEdit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noticia_teaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/noticias.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/produtos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/seminovas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/transitions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Boutique/getProdutoAjax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CImagem/excluir_foto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CNoticia/editar_noticia_op.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CNoticia/getImagensModalCadastroNoticiaAjax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CNoticia/incluir_noticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CProduto/editar_produto_op.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CProduto/incluir_produto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CSemi/editar_seminova_op.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/CSemi/incluir_seminova.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Contato/enviarEmail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Noticia/getNoticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/SemiNovas/getSemiNovasAjax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/conta_visitas.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/excluirSeminova.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/login_op.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/viewNoticiaOp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/viewProdutoOp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/boutique.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/boutique_temp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/contato.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/descricao_produto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/empresa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/f800gs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/f800gsa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/f800r.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/g650gs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/g650gs_sertao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/hp4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1300r.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1300s.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1600gt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/k1600gtl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200gs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200gsa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200r.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/r1200rt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos/s1000rr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos_novas.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos_semi_desc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/motos_seminovas.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/noticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/noticia_teaser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paginas/servicos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/cadastro_noticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/cadastro_produtos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/cadastro_seminova.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/editar_noticia.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/editar_produto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/editar_seminova.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/main_sistema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/view_noticias.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/view_produtos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sistema/view_seminova.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/carosel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/css_scripts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/footer_sistema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/head.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/head_sistema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/menu_lateral_boutique.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template/ultimas_noticias.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testaConexao.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistema/cadastro_noticia.php" afterPath="$PROJECT_DIR$/sistema/cadastro_noticia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistema/cadastro_seminova.php" afterPath="$PROJECT_DIR$/sistema/cadastro_seminova.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sistema/editar_noticia.php" afterPath="$PROJECT_DIR$/sistema/editar_noticia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" afterPath="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" />
     </list>
     <list id="1e0fba96-3ec7-4e64-aecb-f8b604ed70fe" name="Revert: Começo da opçao excluir seminova (3b7f52b)" comment="" />
     <ignored path="FullMottors.iws" />
@@ -412,7 +134,6 @@
     <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-dragable-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/FunctionsG.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/examples/jquery-ui/js/jquery.effects.blind.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
-    <file path="$PROJECT_DIR$/sistema/view_seminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/plugins/jqplot-trendline-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shThemeDefault.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/GeneralX.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448873" ignored="false" />
@@ -679,17 +400,16 @@
     <file path="$PROJECT_DIR$/js/JqueryPlot/excanvas.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-axisLabelRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/examples/ages.json" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
-    <file path="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/scripts/shAutoloader.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/docs/search/PropertiesA.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/excanvas.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/docs/files/jqplot-divTitleRenderer-js.html" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
-    <file path="$PROJECT_DIR$/operacoes/CSemi/incluir_seminova.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.cursor.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/examples/syntaxhighlighter/styles/shCore.min.css" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidGridRenderer.min.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidAxisRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
     <file path="$PROJECT_DIR$/js/JqueryPlot/plugins/jqplot.pyramidRenderer.js" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385509448890" ignored="false" />
+    <file path="/cadastro_noticia.php" changelist="9303edd4-bc9c-4a1d-b653-83481f7ed223" time="1385511405871" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -713,7 +433,38 @@
     <favorites_list name="FullMottors" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="cadastro_noticia.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistema/cadastro_noticia.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="12" selection-start="172" selection-end="197" vertical-scroll-proportion="-6.25">
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastro_seminova.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sistema/cadastro_seminova.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="29" selection-start="135" selection-end="161" vertical-scroll-proportion="0.38265306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editar_noticia.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sistema/editar_noticia.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="37" selection-start="636" selection-end="636" vertical-scroll-proportion="-9.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -742,10 +493,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/paginas/motos/r1200rt.php" />
-        <option value="$PROJECT_DIR$/paginas/boutique.php" />
-        <option value="$PROJECT_DIR$/template/carosel.php" />
-        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/css/index_1.css" />
         <option value="$PROJECT_DIR$/template/head_sistema.php" />
         <option value="$PROJECT_DIR$/classes/CSemi.php" />
@@ -755,9 +502,13 @@
         <option value="$PROJECT_DIR$/operacoes/Sistema/excluirSeminova.php" />
         <option value="$PROJECT_DIR$/sistema/view_seminova.php" />
         <option value="$PROJECT_DIR$/css/sistema.css" />
-        <option value="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" />
         <option value="$PROJECT_DIR$/classes/CImagem.php" />
         <option value="$PROJECT_DIR$/js/seminovas.js" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php" />
+        <option value="$PROJECT_DIR$/sistema/cadastro_noticia.php" />
+        <option value="$PROJECT_DIR$/sistema/cadastro_seminova.php" />
+        <option value="$PROJECT_DIR$/sistema/editar_noticia.php" />
       </list>
     </option>
   </component>
@@ -800,6 +551,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="FullMottors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullMottors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullMottors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullMottors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FullMottors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sistema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -856,11 +631,11 @@
       <recent name="$PROJECT_DIR$/paginas/motos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/operacoes/Sistema" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/motos-desc/r1200rt" />
       <recent name="$PROJECT_DIR$/img/motos-desc/k1600gt" />
-      <recent name="$PROJECT_DIR$/img/motos-desc/k1300s" />
     </key>
   </component>
   <component name="RunManager">
@@ -1046,20 +821,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="790" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31791046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31791046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24533716" sideWeight="0.67164177" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24533716" sideWeight="0.68208957" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24246772" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24246772" sideWeight="0.68208957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1159,9 +934,68 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/operacoes/CSemi/incluir_seminova.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operacoes/Sistema/viewSeminovaOp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="1" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.92346936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistema/view_seminova.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="57" selection-start="336" selection-end="336" vertical-scroll-proportion="0.49744898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.7914573">
+        <state line="16" column="2" selection-start="473" selection-end="473" vertical-scroll-proportion="0.5925926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/CSemi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.158163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistema/cadastro_noticia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="172" selection-end="197" vertical-scroll-proportion="-6.25">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#span#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistema/editar_seminova.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0331633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistema/editar_noticia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="37" selection-start="636" selection-end="636" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sistema/cadastro_seminova.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="135" selection-end="161" vertical-scroll-proportion="0.38265306">
           <folding />
         </state>
       </provider>

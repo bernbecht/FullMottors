@@ -45,8 +45,6 @@ if ($num_rows > 0) {
     echo '</tbody>
         </table>';
 } else {
-    print '<div class="titulo_categoria_boutique">
-            <h1>Motos em Estoque</h1>
-        </div>';
+    print '<h4>Não há motos cadastradas :/<//h4>';
 }
 ?>
