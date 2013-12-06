@@ -61,14 +61,14 @@ if (!isset($_SESSION['usuario']))
             <ul class="nav nav-pills">
 
 
-                <li class="dropdown" id="boutique">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boutique
-                        <b class="caret"></b></a>
-                    <ul id="pessoas_menu_dropdown" class="dropdown-menu">
-                        <li><a  href="cadastro_produtos.php">Incluir Produto</a></li>
-                        <li><a  href="view_produtos.php">Listar Produtos</a></li>
-                    </ul>
-                </li>
+<!--                <li class="dropdown" id="boutique">-->
+<!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Boutique-->
+<!--                        <b class="caret"></b></a>-->
+<!--                    <ul id="pessoas_menu_dropdown" class="dropdown-menu">-->
+<!--                        <li><a  href="cadastro_produtos.php">Incluir Produto</a></li>-->
+<!--                        <li><a  href="view_produtos.php">Listar Produtos</a></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
 
 
 

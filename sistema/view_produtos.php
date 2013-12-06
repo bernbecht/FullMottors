@@ -3,7 +3,7 @@ require_once '../template/head_sistema.php';
 ?>
 
 <div class="container content">
-    <legend><h1>Produtos da Boutique</h1></legend>
+    <legend><h1>Produtos da Boutique</h1> <div class="clear"</div></legend>
 
     <div class="coluna3 coluna-inicial">
         <div class="view_produtos-menu_lateral">                    

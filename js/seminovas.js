@@ -182,6 +182,14 @@ function excluirSemiNovaDB(){
         },function(data){
             alert(data);
 
+            if(data == 1){
+                window.location.replace("http://fmottors.com.br/new/sistema/view_seminova.php");
+            }
+            else{
+                $('.erro_incluir').children().remove();
+                $('<div class="alert alert-warning fade in"><button type="button" class="close" data-dismiss="alert">×</button>Não foi possível deletar essa moto.</div>').appendTo('.incluir_erro');
+            }
+
         });
     });
 }

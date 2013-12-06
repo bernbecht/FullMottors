@@ -27,7 +27,7 @@ $prazo = number_format($fetch->prazo, 2, ',', '');
 
 <div class="container content">
 
-    <legend><h1>Editar Produto</h1></legend>
+    <legend><h1>Editar Produto</h1> <div class="clear"</div></legend>
 
     <div class="erro_incluir">
         <div class="alert alert-warning fade in">

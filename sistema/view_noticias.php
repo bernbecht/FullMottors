@@ -3,7 +3,7 @@ require_once '../template/head_sistema.php';
 ?>
 
 <div class="container content">
-    <legend><h1>Lista de Notícias</h1></legend>
+    <legend><h1>Lista de Notícias</h1> <div class="clear"</div></legend>
 
     <div class="coluna3 coluna-inicial">
         <ul class="nav nav-tabs nav-stacked ">
