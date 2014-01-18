@@ -5,11 +5,11 @@
             <div class="slide1">
                 <div class="slide_text">
                     <div class="manchete">
-                        <h1><span>Promoção de </span>Natal</h1>
+                        <h1><span>Novidades na </span>Boutique</h1>
                     </div>
                     <div class="texto-carosel">
-                        <p>A cada R$250,00 em compras na nossa Boutique, você concorre à prêmios
-                        para turbinar a sua corrida. Não fique para trás e confira a nossa Boutique.</p>
+                        <p>Agora você encontra o capacete Hjc Rapha 10 Replica Jorge Lorenzo Motogp 2013 na nossa
+                            boutique.</p>
                     </div>
                     <div class="link_carosel_container">
                         <a href="<?php print $path_paginas."/boutique.php"?>" class=""><div class="link_carosel_texto">Em breve catálogo online</div></a>
