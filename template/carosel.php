@@ -9,7 +9,7 @@
                     </div>
                     <div class="texto-carosel">
                         <p>Agora você encontra o capacete Hjc Rapha 10 Replica Jorge Lorenzo Motogp 2013 na nossa
-                            boutique.</p>
+                            boutique. Equipe-se.</p>
                     </div>
                     <div class="link_carosel_container">
                         <a href="<?php print $path_paginas."/boutique.php"?>" class=""><div class="link_carosel_texto">Em breve catálogo online</div></a>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="texto-carosel">
                         <p>Definitivamente esta é a geração mais quente de roadsters desde a BMW K 1300 R.
-                            Uma combinação de pura diversão e adequabilidade excelente para o uso do
+                            Uma combinação de pura diversão e excelência para o uso do
                             dia a dia.</p>
                     </div>
                     <div class="link_carosel_container">
