@@ -32,3 +32,7 @@ This is the branch which the improvement of the CMS is being done. The tasks are
 ## Database:
 
   - Postgre SQL 9.3
+  
+## [Tasks](https://trello.com/b/mg2GXBRB/full-mottors-dev)
+
+
